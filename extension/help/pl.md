@@ -6,7 +6,7 @@ lang: pl
 
 # Bopomofo Reader - Podręcznik użytkownika
 
-> Wersja: v1.1.0
+> Wersja: v1.2.0
 
 ## Wprowadzenie
 
@@ -30,7 +30,7 @@ Bopomofo Reader to rozszerzenie przeglądarki dla osób uczących się chińskie
 
 ### Krok 1: Instalacja
 
-Zainstaluj z Chrome Web Store lub załaduj w trybie deweloperskim.
+Zainstaluj **Bopomofo Reader** z [Chrome Web Store](https://chromewebstore.google.com/detail/bopomofo-reader/jkibgddokcnhedkhmleaohojhlnemmkg) lub załaduj w trybie deweloperskim.
 
 ### Krok 2: Otwórz stronę
 

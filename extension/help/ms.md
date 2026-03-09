@@ -6,7 +6,7 @@ lang: ms
 
 # Bopomofo Reader - Panduan Pengguna
 
-> Versi: v1.1.0
+> Versi: v1.2.0
 
 ## Pengenalan
 
@@ -30,7 +30,7 @@ Bopomofo Reader ialah sambungan pelayar untuk pelajar bahasa Mandarin. Menggunak
 
 ### Langkah 1: Pasang
 
-Pasang dari Chrome Web Store atau muat dalam mod pemaju.
+Pasang **Bopomofo Reader** dari [Chrome Web Store](https://chromewebstore.google.com/detail/bopomofo-reader/jkibgddokcnhedkhmleaohojhlnemmkg) atau muat dalam mod pemaju.
 
 ### Langkah 2: Buka halaman
 

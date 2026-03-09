@@ -6,7 +6,7 @@ lang: hr
 
 # Bopomofo Reader - Korisnički vodič
 
-> Verzija: v1.1.0
+> Verzija: v1.2.0
 
 ## Uvod
 
@@ -30,7 +30,7 @@ Bopomofo Reader je proširenje preglednika dizajnirano za učenike kineskog jezi
 
 ### Korak 1: Instalirajte proširenje
 
-Instalirajte **Bopomofo Reader** iz [Chrome Web Storea](https://chromewebstore.google.com/) ili ga učitajte u razvojnom načinu.
+Instalirajte **Bopomofo Reader** iz [Chrome Web Storea](https://chromewebstore.google.com/detail/bopomofo-reader/jkibgddokcnhedkhmleaohojhlnemmkg) ili ga učitajte u razvojnom načinu.
 
 ### Korak 2: Otvorite web stranicu
 

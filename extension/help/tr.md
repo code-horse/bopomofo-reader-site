@@ -6,7 +6,7 @@ lang: tr
 
 # Bopomofo Reader - Kullanım Kılavuzu
 
-> Sürüm: v1.1.0
+> Sürüm: v1.2.0
 
 ## Giriş
 
@@ -30,7 +30,7 @@ Bopomofo Reader, Çince öğrenenler için tasarlanmış bir tarayıcı eklentis
 
 ### Adım 1: Eklentiyi Yükleyin
 
-**Bopomofo Reader**'ı [Chrome Web Mağazası](https://chromewebstore.google.com/)'ndan yükleyin veya geliştirici modunda yerel olarak yükleyin.
+**Bopomofo Reader**'ı [Chrome Web Mağazası](https://chromewebstore.google.com/detail/bopomofo-reader/jkibgddokcnhedkhmleaohojhlnemmkg)'ndan yükleyin veya geliştirici modunda yerel olarak yükleyin.
 
 ### Adım 2: Bir Web Sayfası Açın
 

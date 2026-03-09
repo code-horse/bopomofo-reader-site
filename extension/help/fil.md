@@ -6,7 +6,7 @@ lang: fil
 
 # Bopomofo Reader - Gabay ng Gumagamit
 
-> Bersyon: v1.1.0
+> Bersyon: v1.2.0
 
 ## Panimula
 
@@ -30,7 +30,7 @@ Ang Bopomofo Reader ay isang browser extension na dinisenyo para sa mga nag-aara
 
 ### Hakbang 1: I-install ang Extension
 
-I-install ang **Bopomofo Reader** mula sa [Chrome Web Store](https://chromewebstore.google.com/), o i-load ito nang lokal sa developer mode.
+I-install ang **Bopomofo Reader** mula sa [Chrome Web Store](https://chromewebstore.google.com/detail/bopomofo-reader/jkibgddokcnhedkhmleaohojhlnemmkg), o i-load ito nang lokal sa developer mode.
 
 ### Hakbang 2: Magbukas ng Anumang Web Page
 

@@ -6,7 +6,7 @@ lang: hi
 
 # Bopomofo Reader - उपयोगकर्ता गाइड
 
-> संस्करण: v1.1.0
+> संस्करण: v1.2.0
 
 ## परिचय
 
@@ -30,7 +30,7 @@ Bopomofo Reader चीनी भाषा सीखने वालों के
 
 ### चरण 1: इंस्टॉल करें
 
-Chrome वेब स्टोर से इंस्टॉल करें या डेवलपर मोड में लोड करें।
+**Bopomofo Reader** को [Chrome वेब स्टोर](https://chromewebstore.google.com/detail/bopomofo-reader/jkibgddokcnhedkhmleaohojhlnemmkg) से इंस्टॉल करें या डेवलपर मोड में लोड करें।
 
 ### चरण 2: पेज खोलें
 

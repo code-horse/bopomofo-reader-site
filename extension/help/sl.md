@@ -6,7 +6,7 @@ lang: sl
 
 # Bopomofo Reader - Uporabniški priročnik
 
-> Različica: v1.1.0
+> Različica: v1.2.0
 
 ## Uvod
 
@@ -30,7 +30,7 @@ Bopomofo Reader je razširitev za brskalnik, zasnovana za učence kitajščine. 
 
 ### Korak 1: Namestite razširitev
 
-Namestite **Bopomofo Reader** iz [Chrome Web Store](https://chromewebstore.google.com/) ali ga naložite lokalno v razvijalskem načinu.
+Namestite **Bopomofo Reader** iz [Chrome Web Store](https://chromewebstore.google.com/detail/bopomofo-reader/jkibgddokcnhedkhmleaohojhlnemmkg) ali ga naložite lokalno v razvijalskem načinu.
 
 ### Korak 2: Odprite poljubno spletno stran
 

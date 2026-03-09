@@ -6,7 +6,7 @@ lang: uk
 
 # Bopomofo Reader - Посібник користувача
 
-> Версія: v1.1.0
+> Версія: v1.2.0
 
 ## Вступ
 
@@ -30,7 +30,7 @@ Bopomofo Reader — це розширення браузера для тих, х
 
 ### Крок 1: Встановлення
 
-Встановіть з Chrome Web Store або завантажте в режимі розробника
+Встановіть **Bopomofo Reader** з [Chrome Web Store](https://chromewebstore.google.com/detail/bopomofo-reader/jkibgddokcnhedkhmleaohojhlnemmkg) або завантажте в режимі розробника
 
 ### Крок 2: Відкрийте сторінку
 

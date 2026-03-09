@@ -6,7 +6,7 @@ lang: el
 
 # Bopomofo Reader - Οδηγός χρήστη
 
-> Έκδοση: v1.1.0
+> Έκδοση: v1.2.0
 
 ## Εισαγωγή
 
@@ -30,7 +30,7 @@ lang: el
 
 ### Βήμα 1: Εγκατάσταση
 
-Εγκαταστήστε από το Chrome Web Store ή φορτώστε σε λειτουργία προγραμματιστή.
+Εγκαταστήστε **Bopomofo Reader** από το [Chrome Web Store](https://chromewebstore.google.com/detail/bopomofo-reader/jkibgddokcnhedkhmleaohojhlnemmkg) ή φορτώστε σε λειτουργία προγραμματιστή.
 
 ### Βήμα 2: Άνοιγμα σελίδας
 

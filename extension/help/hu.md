@@ -6,7 +6,7 @@ lang: hu
 
 # Bopomofo Reader - Felhasználói útmutató
 
-> Verzió: v1.1.0
+> Verzió: v1.2.0
 
 ## Bevezetés
 
@@ -30,7 +30,7 @@ A Bopomofo Reader egy böngészőbővítmény a kínai nyelvtanulóknak. Felerő
 
 ### 1. lépés: Telepítés
 
-Telepítse a Chrome Web Store-ból vagy töltse be fejlesztői módban.
+Telepítse a **Bopomofo Reader**-t a [Chrome Web Store-ból](https://chromewebstore.google.com/detail/bopomofo-reader/jkibgddokcnhedkhmleaohojhlnemmkg) vagy töltse be fejlesztői módban.
 
 ### 2. lépés: Oldal megnyitása
 

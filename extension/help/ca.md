@@ -6,7 +6,7 @@ lang: ca
 
 # Bopomofo Reader - Guia d'ús
 
-> Versió: v1.1.0
+> Versió: v1.2.0
 
 ## Introducció
 
@@ -30,7 +30,7 @@ Bopomofo Reader és una extensió de navegador per a estudiants de xinès. Utili
 
 ### Pas 1: Instal·lar
 
-Instal·leu des de la Chrome Web Store o carregueu-lo en mode desenvolupador.
+Instal·leu **Bopomofo Reader** des de la [Chrome Web Store](https://chromewebstore.google.com/detail/bopomofo-reader/jkibgddokcnhedkhmleaohojhlnemmkg) o carregueu-lo en mode desenvolupador.
 
 ### Pas 2: Obrir una pàgina
 

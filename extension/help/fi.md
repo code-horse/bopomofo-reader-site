@@ -6,7 +6,7 @@ lang: fi
 
 # Bopomofo Reader - Käyttöopas
 
-> Versio: v1.1.0
+> Versio: v1.2.0
 
 ## Johdanto
 
@@ -30,7 +30,7 @@ Bopomofo Reader on selainlaajennus kiinan oppijoille. Se käyttää paranneltua 
 
 ### Vaihe 1: Asenna
 
-Asenna Chrome Web Storesta tai lataa kehittäjätilassa.
+Asenna **Bopomofo Reader** [Chrome Web Storesta](https://chromewebstore.google.com/detail/bopomofo-reader/jkibgddokcnhedkhmleaohojhlnemmkg) tai lataa kehittäjätilassa.
 
 ### Vaihe 2: Avaa sivu
 

@@ -6,7 +6,7 @@ lang: nl
 
 # Bopomofo Reader - Gebruikershandleiding
 
-> Versie: v1.1.0
+> Versie: v1.2.0
 
 ## Introductie
 
@@ -30,7 +30,7 @@ Bopomofo Reader is een browserextensie voor Chinese taalleerders. Het gebruikt e
 
 ### Stap 1: Installeren
 
-Installeer vanuit de Chrome Web Store of laad in ontwikkelaarsmodus.
+Installeer **Bopomofo Reader** vanuit de [Chrome Web Store](https://chromewebstore.google.com/detail/bopomofo-reader/jkibgddokcnhedkhmleaohojhlnemmkg) of laad in ontwikkelaarsmodus.
 
 ### Stap 2: Pagina openen
 

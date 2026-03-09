@@ -6,7 +6,7 @@ lang: zh
 
 # 注音助读 - 使用说明
 
-> 版本：v1.1.0
+> 版本：v1.2.0
 
 ## 简介
 
@@ -30,7 +30,7 @@ lang: zh
 
 ### 第一步：安装扩展
 
-在[谷歌应用商店](https://chromewebstore.google.com/)安装「注音助读」，或通过开发者模式加载本地扩展。
+在[谷歌应用商店](https://chromewebstore.google.com/detail/bopomofo-reader/jkibgddokcnhedkhmleaohojhlnemmkg)安装「注音助读」，或通过开发者模式加载本地扩展。
 
 ### 第二步：打开任意网页
 

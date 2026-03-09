@@ -6,7 +6,7 @@ lang: cs
 
 # Bopomofo Reader - Uživatelská příručka
 
-> Verze: v1.1.0
+> Verze: v1.2.0
 
 ## Úvod
 
@@ -30,7 +30,7 @@ Bopomofo Reader je rozšíření prohlížeče pro studenty čínštiny. Použí
 
 ### Krok 1: Instalace
 
-Nainstalujte z Chrome Web Store nebo načtěte v režimu vývojáře.
+Nainstalujte **Bopomofo Reader** z [Chrome Web Store](https://chromewebstore.google.com/detail/bopomofo-reader/jkibgddokcnhedkhmleaohojhlnemmkg) nebo načtěte v režimu vývojáře.
 
 ### Krok 2: Otevřít stránku
 

@@ -6,7 +6,7 @@ lang: zh-TW
 
 # 注音助讀 - 使用說明
 
-> 版本：v1.1.0
+> 版本：v1.2.0
 
 ## 簡介
 
@@ -30,7 +30,7 @@ lang: zh-TW
 
 ### 第一步：安裝擴充功能
 
-在[Chrome 線上應用程式商店](https://chromewebstore.google.com/)安裝「注音助讀」，或透過開發人員模式載入本地擴充功能。
+在[Chrome 線上應用程式商店](https://chromewebstore.google.com/detail/bopomofo-reader/jkibgddokcnhedkhmleaohojhlnemmkg)安裝「注音助讀」，或透過開發人員模式載入本地擴充功能。
 
 ### 第二步：開啟任意網頁
 

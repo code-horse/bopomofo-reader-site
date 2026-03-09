@@ -6,7 +6,7 @@ lang: id
 
 # Bopomofo Reader - Panduan Pengguna
 
-> Versi: v1.1.0
+> Versi: v1.2.0
 
 ## Pengantar
 
@@ -30,7 +30,7 @@ Bopomofo Reader adalah ekstensi peramban untuk pembelajar bahasa Mandarin. Mengg
 
 ### Langkah 1: Pasang
 
-Pasang dari Chrome Web Store atau muat dalam mode pengembang.
+Pasang **Bopomofo Reader** dari [Chrome Web Store](https://chromewebstore.google.com/detail/bopomofo-reader/jkibgddokcnhedkhmleaohojhlnemmkg) atau muat dalam mode pengembang.
 
 ### Langkah 2: Buka halaman
 

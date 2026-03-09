@@ -6,7 +6,7 @@ lang: ro
 
 # Bopomofo Reader - Ghid pentru utilizatori
 
-> Versiune: v1.1.0
+> Versiune: v1.2.0
 
 ## Introducere
 
@@ -30,7 +30,7 @@ Bopomofo Reader este o extensie pentru browser destinată celor care învață c
 
 ### Pasul 1: Instalare
 
-Instalați din Chrome Web Store sau încărcați în modul dezvoltator
+Instalați **Bopomofo Reader** din [Chrome Web Store](https://chromewebstore.google.com/detail/bopomofo-reader/jkibgddokcnhedkhmleaohojhlnemmkg) sau încărcați în modul dezvoltator
 
 ### Pasul 2: Deschideți pagina
 

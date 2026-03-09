@@ -6,7 +6,7 @@ lang: no
 
 # Bopomofo Reader - Brukerveiledning
 
-> Versjon: v1.1.0
+> Versjon: v1.2.0
 
 ## Introduksjon
 
@@ -30,7 +30,7 @@ Bopomofo Reader er en nettleserutvidelse for kinesiske språklærere. Den bruker
 
 ### Steg 1: Installer
 
-Installer fra Chrome Web Store eller last inn i utviklermodus.
+Installer **Bopomofo Reader** fra [Chrome Web Store](https://chromewebstore.google.com/detail/bopomofo-reader/jkibgddokcnhedkhmleaohojhlnemmkg) eller last inn i utviklermodus.
 
 ### Steg 2: Åpne side
 
