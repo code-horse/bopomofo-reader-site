@@ -5,9 +5,9 @@ title: Privacy Policy — Bopomofo Reader Extension
 
 # Privacy Policy — Bopomofo Reader Extension
 
-**Last updated**: February 16, 2026
+**Last updated**: March 30, 2026
 
-**Effective date**: February 16, 2026
+**Effective date**: March 30, 2026
 
 ---
 
@@ -28,7 +28,6 @@ Bopomofo Reader Extension is designed with privacy as a core principle:
 - **No personal data collection** — We do not collect, store, or transmit any personal information to external servers.
 - **No analytics or tracking** — We do not use any analytics SDKs or tracking tools.
 - **No advertising** — The extension contains no advertisements or ad-related tracking.
-- **No third-party data sharing** — We do not share any data with third parties.
 - **No browsing history recording** — We do not record or transmit the URLs you visit.
 
 ### 3. Data Stored Locally in Your Browser
@@ -37,54 +36,69 @@ The Extension stores the following data **locally in your browser only** (via Ch
 
 | Data Type | Purpose | Storage |
 |-----------|---------|---------|
-| Extension settings | Preferences (enable/disable, bopomofo style, speech rate, etc.) | Browser local storage |
+| Extension settings | Preferences (enable/disable, bopomofo style, speech rate, translation engine, target language, etc.) | Browser local storage |
 | UI language preference | Remember your chosen interface language | Browser local storage |
 
 **Important**: All data listed above exists **only in your browser**. It is never uploaded to any server. If you uninstall the extension, this data will be permanently deleted.
 
-### 4. Permissions Explained
+### 4. Translation Feature & Third-Party Services
+
+The Extension includes an optional translation feature that sends selected text to third-party translation services for processing:
+
+| Service | Provider | Data Sent |
+|---------|----------|-----------|
+| Bing Translate | Microsoft Corporation | Selected text only |
+| Google Translate | Google LLC | Selected text only |
+
+**Important**:
+- Translation is triggered **only when you explicitly click the translate button** or use the translate keyboard shortcut / context menu. Text is never sent automatically.
+- Only the **selected text** is transmitted — no URLs, browsing history, personal data, or other page content is sent.
+- The text is sent directly to the translation provider's API. We do not relay, store, or log any translation requests or responses on our servers.
+- Please refer to [Microsoft's Privacy Statement](https://privacy.microsoft.com/en-us/privacystatement) and [Google's Privacy Policy](https://policies.google.com/privacy) for details on how these providers handle data.
+
+### 5. Permissions Explained
 
 The Extension requests the following browser permissions:
 
 | Permission | Purpose |
 |------------|---------|
-| `storage` | Store user settings (enable/disable state, bopomofo style, speech rate, etc.) |
+| `storage` | Store user settings (enable/disable state, bopomofo style, speech rate, translation preferences, etc.) |
 | `tts` | Use Chrome's built-in Text-to-Speech to read Chinese pronunciation |
 | `scripting` | Execute scripts in web pages to add bopomofo annotations |
-| `contextMenus` | Add right-click menu option to speak selected Chinese text |
-| `<all_urls>` | Add bopomofo annotations to Chinese characters on any webpage |
+| `contextMenus` | Add right-click menu options to speak and translate selected text |
+| `<all_urls>` | Add bopomofo annotations to Chinese characters on any webpage; proxy translation requests to third-party APIs from the background service worker |
 
-### 5. How Bopomofo Processing Works
+### 6. How Bopomofo Processing Works
 
 All bopomofo conversion is performed **entirely locally** within your browser:
 
 - The Extension uses the [bopomofo-pro](https://github.com/zh-lx/bopomofo-pro) JavaScript library bundled within the extension.
 - Chinese character recognition and bopomofo annotation happen on-device.
-- **No text is sent to any external server** for processing.
+- **No text is sent to any external server** for bopomofo processing.
 
-### 6. Text-to-Speech
+### 7. Text-to-Speech
 
 The Extension uses Chrome's built-in TTS (Text-to-Speech) API:
 
 - Speech synthesis is handled by your browser's built-in engine.
 - No audio data is recorded or transmitted.
 
-### 7. Children's Privacy
+### 8. Children's Privacy
 
 The Extension does not knowingly collect personal information from children under 13 years of age. Since we do not collect any personal information from any users, the Extension is safe for users of all ages.
 
-### 8. Data Deletion
+### 9. Data Deletion
 
 To remove all Extension data:
 
 - Uninstalling the extension will permanently remove all associated settings from your browser.
 - You can also clear extension data via Chrome Settings > Extensions > Bopomofo Reader > Details > Clear Data.
 
-### 9. Changes to This Privacy Policy
+### 10. Changes to This Privacy Policy
 
 We may update this Privacy Policy from time to time. Any changes will be reflected in the "Last updated" date at the top of this page.
 
-### 10. Contact Us
+### 11. Contact Us
 
 If you have any questions about this Privacy Policy, please contact us at:
 
