@@ -6,7 +6,7 @@ lang: hu
 
 # Bopomofo Reader - Felhasználói útmutató
 
-> Verzió: v1.2.0
+> Verzió: v1.3.0
 
 ## Bevezetés
 

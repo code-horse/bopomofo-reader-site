@@ -6,7 +6,7 @@ lang: fi
 
 # Bopomofo Reader - Käyttöopas
 
-> Versio: v1.2.0
+> Versio: v1.3.0
 
 ## Johdanto
 

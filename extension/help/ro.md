@@ -6,7 +6,7 @@ lang: ro
 
 # Bopomofo Reader - Ghid pentru utilizatori
 
-> Versiune: v1.2.0
+> Versiune: v1.3.0
 
 ## Introducere
 

@@ -6,7 +6,7 @@ lang: hr
 
 # Bopomofo Reader - Korisnički vodič
 
-> Verzija: v1.2.0
+> Verzija: v1.3.0
 
 ## Uvod
 

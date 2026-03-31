@@ -6,7 +6,7 @@ lang: cs
 
 # Bopomofo Reader - Uživatelská příručka
 
-> Verze: v1.2.0
+> Verze: v1.3.0
 
 ## Úvod
 

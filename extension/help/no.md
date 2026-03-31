@@ -6,7 +6,7 @@ lang: no
 
 # Bopomofo Reader - Brukerveiledning
 
-> Versjon: v1.2.0
+> Versjon: v1.3.0
 
 ## Introduksjon
 

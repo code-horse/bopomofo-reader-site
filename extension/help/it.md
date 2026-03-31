@@ -6,7 +6,7 @@ lang: it
 
 # Bopomofo Reader - Guida utente
 
-> Versione: v1.2.0
+> Versione: v1.3.0
 
 ## Introduzione
 

@@ -6,7 +6,7 @@ lang: sl
 
 # Bopomofo Reader - Uporabniški priročnik
 
-> Različica: v1.2.0
+> Različica: v1.3.0
 
 ## Uvod
 

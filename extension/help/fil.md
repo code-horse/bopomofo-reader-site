@@ -6,7 +6,7 @@ lang: fil
 
 # Bopomofo Reader - Gabay ng Gumagamit
 
-> Bersyon: v1.2.0
+> Bersyon: v1.3.0
 
 ## Panimula
 

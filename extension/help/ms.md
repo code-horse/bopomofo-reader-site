@@ -6,7 +6,7 @@ lang: ms
 
 # Bopomofo Reader - Panduan Pengguna
 
-> Versi: v1.2.0
+> Versi: v1.3.0
 
 ## Pengenalan
 

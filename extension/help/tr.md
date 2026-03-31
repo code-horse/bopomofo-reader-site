@@ -6,7 +6,7 @@ lang: tr
 
 # Bopomofo Reader - Kullanım Kılavuzu
 
-> Sürüm: v1.2.0
+> Sürüm: v1.3.0
 
 ## Giriş
 
