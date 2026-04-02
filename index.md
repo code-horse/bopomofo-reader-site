@@ -10,6 +10,7 @@ A Chinese language learning tool with Bopomofo (Zhuyin/注音符號) annotations
 ## Mobile App
 
 - [Privacy Policy](./privacy-policy)
+- [Terms of Service](./terms-of-service)
 - [Support](./support)
 
 ## Browser Extension
