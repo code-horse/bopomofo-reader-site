@@ -6,7 +6,7 @@ lang: en
 
 # Bopomofo Reader - User Guide
 
-> Version: v1.3.0
+> Version: v1.4.0
 
 ## Introduction
 
@@ -21,7 +21,8 @@ Bopomofo Reader is a browser extension designed for Chinese learners. Powered by
 - **Text-to-Speech** — Click the speaker button to hear standard Mandarin pronunciation
 - **Selection Speech with Karaoke Effect** — Select any Chinese text; a compact toolbar appears with speak and translate buttons; speech plays with real-time word-by-word or character-by-character highlighting (karaoke effect) synced to the audio
 - **Selection Translation** — Select any text, click the translate button in the toolbar to get instant translation via Bing or Google Translate, displayed in an inline bubble
-- **Hover Tooltips** — Hover over annotated characters to see Bopomofo and pronunciation buttons
+- **Hover Dictionary** — Hover over annotated characters to see Bopomofo, dictionary definitions from Taiwan Ministry of Education's Revised Dictionary (155K+ entries), and pronunciation buttons
+- **PDF Reader** — Built-in PDF reader that automatically adds Bopomofo annotations to Chinese text in PDF documents
 - **Multiple Bopomofo Styles** — Support for tone marks (hàn yǔ) and without tones (han yu)
 - **Keyboard Shortcuts** — Quick access to core features via customizable keyboard shortcuts
 - **Multilingual Interface** — Supports 38 interface languages
@@ -100,6 +101,43 @@ You can switch the translation engine and target language in the extension setti
 
 ---
 
+## PDF Reader
+
+Bopomofo Reader includes a built-in PDF reader that automatically adds Bopomofo annotations to Chinese text in PDF documents.
+
+### Opening PDFs
+
+- **Auto-intercept**: Any PDF you open in the browser is automatically redirected to the Bopomofo Reader PDF viewer
+- **Drag & drop**: Drop a local PDF file onto the viewer
+- **Paste URL**: Paste any PDF link directly into the viewer
+- **From Popup**: Click the extension icon, then click "Open PDF Reader"
+
+### PDF Features
+
+| Feature | Description |
+|---------|-------------|
+| **Per-character Bopomofo** | Precise Bopomofo overlay above each Chinese character, scaled with zoom |
+| **4 Bopomofo Modes** | Tones, no tones, hover-only, or hidden |
+| **Click Dictionary** | Click any Chinese text to see dictionary definitions (Taiwan MOE Revised Dictionary, 155K entries), and pronunciation |
+| **Selection Toolbar** | Select text, then use the toolbar to speak, translate, or copy |
+| **Bopomofo Search** | Search by Chinese text or Bopomofo |
+| **Sidebar** | Table of contents, page thumbnails, and navigation |
+| **3 Themes** | Dark, light, and sepia reading modes |
+| **Translation** | Select text and translate via Bing or Google Translate |
+
+### PDF Keyboard Shortcuts
+
+| Key | Action |
+|-----|--------|
+| ← / → | Previous / Next page |
+| + / - | Zoom in / out |
+| Ctrl+F / Cmd+F | Open search |
+| Escape | Close all floating panels |
+
+> **Note:** Password-protected and scanned (image-only) PDFs are not supported, as they lack a text layer for Bopomofo annotation.
+
+---
+
 ## Keyboard Shortcuts
 
 | Shortcut | Mac Shortcut | Action |
@@ -120,9 +158,10 @@ You can switch the translation engine and target language in the extension setti
 | **Whole Page Bopomofo** | When enabled, displays Bopomofo for all Chinese characters (may affect page layout) |
 | **Bopomofo Style** | Choose between tone marks or without tones display |
 | **Sentence Speech Rate** | Adjust the speed of sentence reading (single character speech is not affected) |
-| **Hover Tooltips** | Show Bopomofo tooltip on mouse hover |
+| **Hover Mode** | Choose hover behavior: Dictionary (show definitions from Taiwan MOE Revised Dictionary), Bopomofo only, or Off |
 | **Translation Engine** | Choose between Bing Translate and Google Translate |
 | **Target Language** | Set the translation target language (auto-detected from browser language) |
+| **PDF Detection** | Automatically detect and redirect PDF files to the built-in Bopomofo PDF reader |
 
 ---
 
@@ -151,4 +190,3 @@ A: Translation requires an internet connection. If Bing Translate fails, try swi
 - [Support & Feedback](../support)
 
 ---
-
