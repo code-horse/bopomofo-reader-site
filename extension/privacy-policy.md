@@ -124,4 +124,4 @@ If you have any questions about this Privacy Policy, please contact us at:
 
 ---
 
-*This privacy policy applies to the Bopomofo Reader browser extension (v1.4.0). For the Bopomofo Reader mobile app privacy policy, please see [App Privacy Policy](../privacy-policy).*
+*This privacy policy applies to the Bopomofo Reader browser extension (v1.4.1). For the Bopomofo Reader mobile app privacy policy, please see [App Privacy Policy](../privacy-policy).*

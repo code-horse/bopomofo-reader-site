@@ -6,7 +6,7 @@ lang: ca
 
 # Bopomofo Reader - Guia d'ús
 
-> Versió: v1.4.0
+> Versió: v1.4.1
 
 ## Introducció
 
@@ -102,7 +102,7 @@ Both engines support **108 target languages**.
 
 ## Built-in PDF Reader
 
-Bopomofo Reader v1.4.0 includes a powerful built-in PDF reader that automatically adds Bopomofo annotations to any PDF file.
+Bopomofo Reader v1.4.1 includes a powerful built-in PDF reader that automatically adds Bopomofo annotations to any PDF file.
 
 ### Opening PDFs
 
