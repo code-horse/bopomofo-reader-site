@@ -89,7 +89,7 @@ All bopomofo conversion is performed **entirely locally** within your browser:
 
 - The Extension uses the [pinyin-pro](https://github.com/zh-lx/pinyin-pro) JavaScript library bundled within the extension, enhanced with modern Chinese dictionary data and 200+ polyphonic word corrections, then converts pinyin to bopomofo locally.
 - A WebAssembly (WASM) module is used for traditional Chinese character conversion and additional bopomofo corrections — this module runs entirely locally.
-- The built-in hover dictionary data from Taiwan Ministry of Education's Revised Dictionary of Chinese (155K+ entries) provides hover dictionary definitions — the dictionary data is bundled within the extension and loaded locally.
+- The built-in CC-CEDICT English dictionary (110K+ entries with TOCFL level annotations) provides hover dictionary definitions — the dictionary data is bundled within the extension and loaded locally.
 - Chinese character recognition, segmentation (via `Intl.Segmenter`), and bopomofo annotation all happen on-device.
 - **No text is sent to any external server** for bopomofo processing or dictionary lookup.
 
@@ -124,4 +124,4 @@ If you have any questions about this Privacy Policy, please contact us at:
 
 ---
 
-*This privacy policy applies to the Bopomofo Reader browser extension (v1.4.1). For the Bopomofo Reader mobile app privacy policy, please see [App Privacy Policy](../privacy-policy).*
+*This privacy policy applies to the Bopomofo Reader browser extension (v1.4.3). For the Bopomofo Reader mobile app privacy policy, please see [App Privacy Policy](../privacy-policy).*

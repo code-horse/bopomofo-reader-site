@@ -6,7 +6,7 @@ lang: th
 
 # Bopomofo Reader - คู่มือการใช้งาน
 
-> เวอร์ชัน: v1.4.1
+> เวอร์ชัน: v1.4.3
 
 ## บทนำ
 
@@ -25,7 +25,7 @@ Bopomofo Reader เป็นส่วนขยายเบราว์เซอ�
 - **อินเทอร์เฟซหลายภาษา** — รองรับ 38 ภาษาอินเทอร์เฟซ
 - **Selection Speech with Karaoke Effect** — Select any Chinese text; a compact toolbar appears with speak and translate buttons; speech plays with real-time word-by-word highlighting (karaoke effect)
 - **Selection Translation** — Select any text, click the translate button to get instant translation via Bing or Google Translate, displayed in an inline bubble
-- **Hover Dictionary** — Hover over annotated characters to see Bopomofo, dictionary definitions from Taiwan MOE Revised Dictionary (155K+ entries), and pronunciation buttons
+- **Hover Dictionary** — Hover over annotated characters to see Bopomofo, dictionary definitions from CC-CEDICT English dictionary with TOCFL levels (155K+ entries), and pronunciation buttons
 - **Keyboard Shortcuts** — Quick access via Alt+Shift+B (toggle), Alt+Shift+S (speak), Alt+Shift+T (translate)
 
 ---
@@ -102,7 +102,7 @@ Both engines support **108 target languages**.
 
 ## Built-in PDF Reader
 
-Bopomofo Reader v1.4.1 includes a powerful built-in PDF reader that automatically adds Bopomofo annotations to any PDF file.
+Bopomofo Reader v1.4.3 includes a powerful built-in PDF reader that automatically adds Bopomofo annotations to any PDF file.
 
 ### Opening PDFs
 
@@ -115,9 +115,9 @@ Bopomofo Reader v1.4.1 includes a powerful built-in PDF reader that automaticall
 
 | Feature | Description |
 |---------|-------------|
-| **Per-character Bopomofo** | Accurate Bopomofo annotation above each Chinese character, scaled with zoom |
-| **4 Bopomofo Modes** | Tone marks, no tones, hover-only, or hidden |
-| **Click Dictionary** | Click any Chinese character to see dictionary definitions (Taiwan MOE Revised Dictionary, 155K entries) |
+| **Dictionary Lookup** | Accurate Bopomofo annotation above each Chinese character, scaled with zoom |
+| **Dictionary Mode** | Tone marks, no tones, hover-only, or hidden |
+| **Click Dictionary** | Click any Chinese character to see dictionary definitions (CC-CEDICT English dictionary, 110K entries, TOCFL levels) |
 | **Selection Toolbar** | Select text, then use the toolbar to read aloud, translate, or copy |
 | **Sidebar** | Table of contents, page thumbnails, and Bopomofo search |
 | **3 Themes** | Dark, Light, and Sepia reading modes |

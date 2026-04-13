@@ -6,7 +6,7 @@ lang: en
 
 # Bopomofo Reader - User Guide
 
-> Version: v1.4.1
+> Version: v1.4.3
 
 ## Introduction
 
@@ -116,11 +116,11 @@ Bopomofo Reader includes a built-in PDF reader that automatically adds Bopomofo 
 
 | Feature | Description |
 |---------|-------------|
-| **Per-character Bopomofo** | Precise Bopomofo overlay above each Chinese character, scaled with zoom |
-| **4 Bopomofo Modes** | Tones, no tones, hover-only, or hidden |
-| **Click Dictionary** | Click any Chinese text to see dictionary definitions (Taiwan MOE Revised Dictionary, 155K entries), and pronunciation |
+| **Dictionary Lookup** | Click any Chinese character for instant English definition, Bopomofo reading, and TOCFL level |
+| **Dictionary Mode** | Click any character to see English definitions, Bopomofo pronunciation, and TOCFL level badge |
+| **Click Dictionary** | Click any Chinese text to see dictionary definitions (CC-CEDICT English dictionary, 110K entries, TOCFL levels), and pronunciation |
 | **Selection Toolbar** | Select text, then use the toolbar to speak, translate, or copy |
-| **Bopomofo Search** | Search by Chinese text or Bopomofo |
+| **Text Search** | Search by Chinese text |
 | **Sidebar** | Table of contents, page thumbnails, and navigation |
 | **3 Themes** | Dark, light, and sepia reading modes |
 | **Translation** | Select text and translate via Bing or Google Translate |
@@ -158,7 +158,7 @@ Bopomofo Reader includes a built-in PDF reader that automatically adds Bopomofo 
 | **Whole Page Bopomofo** | When enabled, displays Bopomofo for all Chinese characters (may affect page layout) |
 | **Bopomofo Style** | Choose between tone marks or without tones display |
 | **Sentence Speech Rate** | Adjust the speed of sentence reading (single character speech is not affected) |
-| **Hover Mode** | Choose hover behavior: Dictionary (show definitions from Taiwan MOE Revised Dictionary), Bopomofo only, or Off |
+| **Hover Mode** | Choose hover behavior: Dictionary (show definitions from CC-CEDICT English dictionary with TOCFL levels), Bopomofo only, or Off |
 | **Translation Engine** | Choose between Bing Translate and Google Translate |
 | **Target Language** | Set the translation target language (auto-detected from browser language) |
 | **PDF Detection** | Automatically detect and redirect PDF files to the built-in Bopomofo PDF reader |
