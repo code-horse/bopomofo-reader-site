@@ -6,7 +6,7 @@ lang: vi
 
 # Bopomofo Reader - Hướng dẫn sử dụng
 
-> Phiên bản: v1.4.3
+> Phiên bản: v1.5.0
 
 ## Giới thiệu
 
@@ -102,7 +102,7 @@ Both engines support **108 target languages**.
 
 ## Built-in PDF Reader
 
-Bopomofo Reader v1.4.3 includes a powerful built-in PDF reader that automatically adds Bopomofo annotations to any PDF file.
+Bopomofo Reader v1.5.0 includes a powerful built-in PDF reader that automatically adds Bopomofo annotations to any PDF file.
 
 ### Opening PDFs
 
@@ -137,6 +137,19 @@ Bopomofo Reader v1.4.3 includes a powerful built-in PDF reader that automaticall
 | **Kiểu bopomofo** | Có dấu thanh hoặc không dấu |
 | **Tốc độ đọc câu** | Điều chỉnh tốc độ đọc |
 | **Chú giải khi di chuột** | Hiển thị chú giải khi di chuột |
+
+---
+
+## Open-source Dictionary Attribution
+
+Bopomofo Reader bundles offline pronunciation and dictionary resources from open-source or community projects:
+
+- **Bopomofo conversion**: pinyin-pro and @pinyin-pro/data/modern power local Mandarin pronunciation conversion and word-level corrections; Bopomofo Reader converts pinyin syllables to Zhuyin/Bopomofo locally and applies Taiwan-pronunciation polyphonic corrections.
+- **Chinese-English dictionary**: CC-CEDICT provides English definitions and base dictionary entries.
+- **Multilingual definitions**: CFDICT (French), HanDeDict (German), and Wiktionary-derived datasets from kaikki.org provide Japanese, Korean, Vietnamese, and Chinese definition data.
+- **Script conversion**: OpenCC-js and the bundled local conversion module are used for Simplified/Traditional Chinese conversion where needed.
+
+All dictionary lookups run locally in your browser. Upstream projects retain their own copyright and license terms; see the Privacy Policy for more details.
 
 ---
 

@@ -6,7 +6,7 @@ lang: sl
 
 # Bopomofo Reader - Uporabniški priročnik
 
-> Različica: v1.4.3
+> Različica: v1.5.0
 
 ## Uvod
 
@@ -104,7 +104,7 @@ Both engines support **108 target languages**.
 
 ## Built-in PDF Reader
 
-Bopomofo Reader v1.4.3 includes a powerful built-in PDF reader that automatically adds Bopomofo annotations to any PDF file.
+Bopomofo Reader v1.5.0 includes a powerful built-in PDF reader that automatically adds Bopomofo annotations to any PDF file.
 
 ### Opening PDFs
 
@@ -155,6 +155,19 @@ O: Prosimo, preverite nastavitve glasnosti sistema in zagotovite, da so namešč
 
 **V: Način celotne strani vpliva na postavitev?**  
 O: Bopomofo oznake zahtevajo dodaten prostor, kar lahko vpliva na prvotno postavitev strani. Če vpliva na branje, onemogočite način celotne strani in namesto tega uporabite opise ob premiku kazalca.
+
+---
+
+## Open-source Dictionary Attribution
+
+Bopomofo Reader bundles offline pronunciation and dictionary resources from open-source or community projects:
+
+- **Bopomofo conversion**: pinyin-pro and @pinyin-pro/data/modern power local Mandarin pronunciation conversion and word-level corrections; Bopomofo Reader converts pinyin syllables to Zhuyin/Bopomofo locally and applies Taiwan-pronunciation polyphonic corrections.
+- **Chinese-English dictionary**: CC-CEDICT provides English definitions and base dictionary entries.
+- **Multilingual definitions**: CFDICT (French), HanDeDict (German), and Wiktionary-derived datasets from kaikki.org provide Japanese, Korean, Vietnamese, and Chinese definition data.
+- **Script conversion**: OpenCC-js and the bundled local conversion module are used for Simplified/Traditional Chinese conversion where needed.
+
+All dictionary lookups run locally in your browser. Upstream projects retain their own copyright and license terms; see the Privacy Policy for more details.
 
 ---
 

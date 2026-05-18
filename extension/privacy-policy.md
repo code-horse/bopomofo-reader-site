@@ -5,9 +5,9 @@ title: Privacy Policy — Bopomofo Reader Extension
 
 # Privacy Policy — Bopomofo Reader Extension
 
-**Last updated**: April 7, 2026
+**Last updated**: May 18, 2026
 
-**Effective date**: March 30, 2026
+**Effective date**: May 18, 2026
 
 ---
 
@@ -15,7 +15,7 @@ title: Privacy Policy — Bopomofo Reader Extension
 
 ### 1. Introduction
 
-Welcome to Bopomofo Reader Extension ("we", "our", "us"). We are committed to protecting your privacy. This Privacy Policy explains how our Chrome browser extension ("Bopomofo Reader" or "the Extension") handles your information.
+Bopomofo Reader Extension ("Bopomofo Reader", "the Extension") is designed with privacy-first principles. This Privacy Policy explains what data is processed, where it is processed, and when data may leave your browser.
 
 **Developer**: code-horse  
 **Contact**: 2008-horse@163.com
@@ -36,7 +36,7 @@ The Extension stores the following data **locally in your browser only** (via Ch
 
 | Data Type | Purpose | Storage |
 |-----------|---------|---------|
-| Extension settings | Preferences (enable/disable, bopomofo style, hover mode, speech rate, translation engine, target language, PDF detection, etc.) | Browser local storage |
+| Extension settings | Preferences (enable/disable, bopomofo style, hover mode, definition language, speech rate, translation engine, target language, PDF detection, etc.) | Browser local storage |
 | UI language preference | Remember your chosen interface language | Browser local storage |
 | PDF banner preference | Remember whether you dismissed the PDF detection banner | Browser local storage |
 | Floating button position | Remember the position of the floating annotation button | Browser local storage |
@@ -74,10 +74,10 @@ The Extension requests the following browser permissions:
 
 | Permission | Purpose |
 |------------|---------|
-| `storage` | Store user settings (enable/disable state, bopomofo style, hover mode, speech rate, translation preferences, PDF detection preference, etc.) |
+| `storage` | Store user settings (enable/disable state, bopomofo style, hover mode, definition language, speech rate, translation preferences, PDF detection preference, etc.) |
 | `tts` | Use Chrome's built-in Text-to-Speech to read Chinese pronunciation |
 | `scripting` | Execute scripts in web pages to add bopomofo annotations |
-| `contextMenus` | Add right-click menu options to speak and translate selected text |
+| `contextMenus` | Add right-click menu options to speak and translate selected text, and open PDFs with Bopomofo Reader |
 | `notifications` | Show a notification when a PDF file is detected, allowing one-click opening in the Bopomofo Reader PDF viewer |
 | `declarativeNetRequest` | Redirect PDF URLs to the built-in Bopomofo Reader PDF viewer when PDF detection is enabled |
 | `declarativeNetRequestWithHostAccess` | Required alongside `declarativeNetRequest` to apply PDF redirect rules across all URLs |
@@ -85,15 +85,42 @@ The Extension requests the following browser permissions:
 
 ### 7. How Bopomofo Processing Works
 
-All bopomofo conversion is performed **entirely locally** within your browser:
+All bopomofo conversion and dictionary lookup are performed **entirely locally** within your browser:
 
-- The Extension uses the [pinyin-pro](https://github.com/zh-lx/pinyin-pro) JavaScript library bundled within the extension, enhanced with modern Chinese dictionary data and 200+ polyphonic word corrections, then converts pinyin to bopomofo locally.
+- The Extension uses the [pinyin-pro](https://github.com/zh-lx/pinyin-pro) JavaScript library bundled within the extension, enhanced with modern Chinese dictionary data and Taiwan-pronunciation polyphonic word corrections, then converts pinyin syllables to Zhuyin/Bopomofo locally.
 - A WebAssembly (WASM) module is used for traditional Chinese character conversion and additional bopomofo corrections — this module runs entirely locally.
-- The built-in CC-CEDICT English dictionary (110K+ entries with TOCFL level annotations) provides hover dictionary definitions — the dictionary data is bundled within the extension and loaded locally.
+- Built-in offline dictionaries provide multilingual hover definitions: English from CC-CEDICT, French from CFDICT, German from HanDeDict, and Japanese/Korean/Vietnamese/Chinese definitions from Wiktionary-derived datasets.
+- Traditional Chinese display and lookup normalization use local conversion when needed.
 - Chinese character recognition, segmentation (via `Intl.Segmenter`), and bopomofo annotation all happen on-device.
 - **No text is sent to any external server** for bopomofo processing or dictionary lookup.
 
-### 8. Text-to-Speech
+### 8. Third-Party Libraries and Open-source Dictionary Attribution
+
+| Library / Dataset | Purpose | Data Handling |
+|-------------------|---------|---------------|
+| pinyin-pro | Mandarin pronunciation conversion before local Bopomofo conversion | Runs entirely locally |
+| @pinyin-pro/data/modern | Modern Chinese word pronunciation data | Pre-built data bundled locally |
+| CC-CEDICT | Chinese-English dictionary definitions and base entries | Pre-built data bundled locally |
+| CFDICT | Chinese-French dictionary definitions | Pre-built data bundled locally |
+| HanDeDict | Chinese-German dictionary definitions | Pre-built data bundled locally |
+| Wiktionary-derived datasets via kaikki.org | Japanese, Korean, Vietnamese, and Chinese definition data | Pre-built data bundled locally |
+| OpenCC-js / bundled local conversion module | Simplified/Traditional Chinese conversion | Runs entirely locally |
+| PDF.js (Mozilla) | Render PDF documents | Runs entirely locally |
+
+#### Open-source Dictionary Attribution
+
+Bopomofo Reader bundles offline pronunciation and dictionary resources from open-source or community projects:
+
+- **Bopomofo conversion data**: pinyin-pro and @pinyin-pro/data/modern are used for local Mandarin pronunciation conversion and word-level pronunciation corrections; Bopomofo Reader converts pinyin syllables to Zhuyin/Bopomofo locally and applies Taiwan-pronunciation polyphonic corrections.
+- **Chinese-English dictionary data**: CC-CEDICT provides English definitions and base dictionary entries.
+- **Multilingual definition data**: CFDICT provides French definitions; HanDeDict provides German definitions; Wiktionary-derived datasets from kaikki.org provide Japanese, Korean, Vietnamese, and Chinese definitions.
+- **Script conversion**: OpenCC-js and the bundled local conversion module are used for Simplified/Traditional Chinese conversion when needed.
+
+All dictionary lookups run locally in your browser, and we do not operate a dictionary backend service.
+
+Upstream projects retain their own copyright and license terms. For authoritative licensing details, please refer to each project's official repository or website.
+
+### 9. Text-to-Speech
 
 The Extension uses Chrome's built-in TTS (Text-to-Speech) API:
 
@@ -101,22 +128,22 @@ The Extension uses Chrome's built-in TTS (Text-to-Speech) API:
 - No audio data is recorded or transmitted.
 - The extension includes tone sandhi and polyphonic character pronunciation optimization, all processed locally.
 
-### 9. Children's Privacy
+### 10. Children's Privacy
 
 The Extension does not knowingly collect personal information from children under 13 years of age. Since we do not collect any personal information from any users, the Extension is safe for users of all ages.
 
-### 10. Data Deletion
+### 11. Data Deletion
 
 To remove all Extension data:
 
 - Uninstalling the extension will permanently remove all associated settings from your browser.
 - You can also clear extension data via Chrome Settings > Extensions > Bopomofo Reader > Details > Clear Data.
 
-### 11. Changes to This Privacy Policy
+### 12. Changes to This Privacy Policy
 
 We may update this Privacy Policy from time to time. Any changes will be reflected in the "Last updated" date at the top of this page.
 
-### 12. Contact Us
+### 13. Contact Us
 
 If you have any questions about this Privacy Policy, please contact us at:
 
@@ -124,4 +151,4 @@ If you have any questions about this Privacy Policy, please contact us at:
 
 ---
 
-*This privacy policy applies to the Bopomofo Reader browser extension (v1.4.3). For the Bopomofo Reader mobile app privacy policy, please see [App Privacy Policy](../privacy-policy).*
+*This privacy policy applies to the Bopomofo Reader browser extension (v1.5.0). For the Bopomofo Reader mobile app privacy policy, please see [App Privacy Policy](../privacy-policy).*

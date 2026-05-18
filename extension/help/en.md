@@ -6,7 +6,7 @@ lang: en
 
 # Bopomofo Reader - User Guide
 
-> Version: v1.4.3
+> Version: v1.5.0
 
 ## Introduction
 
@@ -181,6 +181,19 @@ A: Bopomofo annotations require extra space, which may affect the original page 
 
 **Q: Translation not working?**  
 A: Translation requires an internet connection. If Bing Translate fails, try switching to Google Translate in the settings. Some network environments may block access to translation services.
+
+---
+
+## Open-source Dictionary Attribution
+
+Bopomofo Reader bundles offline pronunciation and dictionary resources from open-source or community projects:
+
+- **Bopomofo conversion**: pinyin-pro and @pinyin-pro/data/modern power local Mandarin pronunciation conversion and word-level corrections; Bopomofo Reader converts pinyin syllables to Zhuyin/Bopomofo locally and applies Taiwan-pronunciation polyphonic corrections.
+- **Chinese-English dictionary**: CC-CEDICT provides English definitions and base dictionary entries.
+- **Multilingual definitions**: CFDICT (French), HanDeDict (German), and Wiktionary-derived datasets from kaikki.org provide Japanese, Korean, Vietnamese, and Chinese definition data.
+- **Script conversion**: OpenCC-js and the bundled local conversion module are used for Simplified/Traditional Chinese conversion where needed.
+
+All dictionary lookups run locally in your browser. Upstream projects retain their own copyright and license terms; see the Privacy Policy for more details.
 
 ---
 

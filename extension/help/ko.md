@@ -6,7 +6,7 @@ lang: ko
 
 # Bopomofo Reader - 사용 가이드
 
-> 버전: v1.4.3
+> 버전: v1.5.0
 
 ## 소개
 
@@ -104,7 +104,7 @@ Both engines support **108 target languages**.
 
 ## Built-in PDF Reader
 
-Bopomofo Reader v1.4.3 includes a powerful built-in PDF reader that automatically adds Bopomofo annotations to any PDF file.
+Bopomofo Reader v1.5.0 includes a powerful built-in PDF reader that automatically adds Bopomofo annotations to any PDF file.
 
 ### Opening PDFs
 
@@ -152,6 +152,19 @@ A: 다음자의 병음에는 오류가 있을 수 있습니다. 지속적으로 
 
 **Q: 음성이 나오지 않는 경우?**  
 A: 시스템 볼륨 설정을 확인하고 중국어 음성 팩이 설치되어 있는지 확인해 주세요.
+
+---
+
+## Open-source Dictionary Attribution
+
+Bopomofo Reader bundles offline pronunciation and dictionary resources from open-source or community projects:
+
+- **Bopomofo conversion**: pinyin-pro and @pinyin-pro/data/modern power local Mandarin pronunciation conversion and word-level corrections; Bopomofo Reader converts pinyin syllables to Zhuyin/Bopomofo locally and applies Taiwan-pronunciation polyphonic corrections.
+- **Chinese-English dictionary**: CC-CEDICT provides English definitions and base dictionary entries.
+- **Multilingual definitions**: CFDICT (French), HanDeDict (German), and Wiktionary-derived datasets from kaikki.org provide Japanese, Korean, Vietnamese, and Chinese definition data.
+- **Script conversion**: OpenCC-js and the bundled local conversion module are used for Simplified/Traditional Chinese conversion where needed.
+
+All dictionary lookups run locally in your browser. Upstream projects retain their own copyright and license terms; see the Privacy Policy for more details.
 
 ---
 
