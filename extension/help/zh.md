@@ -161,7 +161,7 @@ Bopomofo Reader 内置 PDF 阅读器，可自动为 PDF 文档中的中文汉字
 | **悬浮模式** | 选择悬浮行为：词典模式（显示CC-CEDICT 英文词典释义及 TOCFL 等级）、仅注音、或关闭 |
 | **翻译引擎** | 选择 Bing 翻译或 Google 翻译 |
 | **目标语言** | 设置翻译的目标语言（根据浏览器语言自动检测） |
-| **PDF 检测** | 自动检测并重定向 PDF 文件到内置注音 PDF 阅读器 |
+| **PDF 检测** | 自动检测并重定向 PDF 文件到内置 Bopomofo Reader PDF viewer |
 
 ---
 

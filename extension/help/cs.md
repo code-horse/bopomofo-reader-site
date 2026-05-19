@@ -106,7 +106,7 @@ Bopomofo Reader v1.5.0 includes a powerful built-in PDF reader that automaticall
 
 ### Opening PDFs
 
-- **Automatic**: Any PDF opened in the browser is automatically redirected to the Bopomofo PDF reader
+- **Automatic**: Any PDF opened in the browser is automatically redirected to the Bopomofo Reader PDF viewer
 - **From Popup**: Click the extension icon and choose "Open PDF Reader"
 - **Drag & Drop**: Drag a local PDF file into the reader
 - **Paste URL**: Paste any PDF link directly into the viewer

@@ -161,7 +161,7 @@ Bopomofo Reader includes a built-in PDF reader that automatically adds Bopomofo 
 | **Hover Mode** | Choose hover behavior: Dictionary (show definitions from CC-CEDICT English dictionary with TOCFL levels), Bopomofo only, or Off |
 | **Translation Engine** | Choose between Bing Translate and Google Translate |
 | **Target Language** | Set the translation target language (auto-detected from browser language) |
-| **PDF Detection** | Automatically detect and redirect PDF files to the built-in Bopomofo PDF reader |
+| **PDF Detection** | Automatically detect and redirect PDF files to the built-in Bopomofo Reader PDF viewer |
 
 ---
 
