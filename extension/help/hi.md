@@ -1,173 +1,205 @@
 ---
 layout: bare
-title: Bopomofo Reader - उपयोगकर्ता गाइड
+title: Bopomofo Reader - उपयोगकर्ता मार्गदर्शिका
 lang: hi
 ---
 
-# Bopomofo Reader - उपयोगकर्ता गाइड
+# Bopomofo Reader - उपयोगकर्ता मार्गदर्शिका
 
-> संस्करण: v1.5.0
+> संस्करण: v1.5.1
 
 ## परिचय
 
-Bopomofo Reader चीनी भाषा सीखने वालों के लिए एक ब्राउज़र एक्सटेंशन है। यह आधुनिक चीनी शब्दकोश और 200+ बहु-उच्चारण शब्द सुधारों के साथ एक बेहतर पिनयिन इंजन का उपयोग करके वेब पेजों पर चीनी वर्णों में पिनयिन व्याख्या जोड़ता है।
+Bopomofo Reader चीनी भाषा सीखने वालों के लिए एक ब्राउज़र एक्सटेंशन है। उन्नत bopomofo इंजन (आधुनिक चीनी शब्दकोश और 200+ बहुस्वर वर्ण सुधार) के साथ, यह वेब पेजों पर चीनी अक्षरों में सटीक bopomofo उच्चारण एनोटेशन जोड़ता है।
 
 ---
 
-## मुख्य विशेषताएं
+## मुख्य विशेषताएँ
 
-- **पाठ चयन व्याख्या** — वेब पेजों पर चीनी पाठ चुनें ताकि पिनयिन और स्पीच बटन दिखाई दें
-- **पूरे पेज पिनयिन मोड** — एक क्लिक से पेज के सभी वर्णों में पिनयिन जोड़ें
-- **टेक्स्ट-टू-स्पीच** — मैंडरिन उच्चारण सुनने के लिए स्पीकर बटन पर क्लिक करें
-- **चयन पढ़ना** — पाठ चुनें और जोर से पढ़ने के लिए फ्लोटिंग बटन या राइट-क्लिक मेनू का उपयोग करें
-- **होवर टूलटिप** — पिनयिन देखने के लिए व्याख्या किए गए वर्णों पर होवर करें
-- **कई पिनयिन शैलियाँ** — टोन मार्क्स (hàn yǔ) और बिना टोन के (han yu)
-- **बहुभाषी इंटरफेस** — 38 इंटरफेस भाषाओं का समर्थन
-- **Selection Speech with Karaoke Effect** — Select any Chinese text; a compact toolbar appears with speak and translate buttons; speech plays with real-time word-by-word highlighting (karaoke effect)
-- **Selection Translation** — Select any text, click the translate button to get instant translation via Bing or Google Translate, displayed in an inline bubble
-- **Hover Dictionary** — Hover over annotated characters to see Bopomofo, dictionary definitions from CC-CEDICT English dictionary with TOCFL levels (155K+ entries), and pronunciation buttons
-- **Keyboard Shortcuts** — Quick access via Alt+Shift+B (toggle), Alt+Shift+S (speak), Alt+Shift+T (translate)
+- **टेक्स्ट चयन एनोटेशन** — वेब पेजों पर चीनी टेक्स्ट चुनें, bopomofo और स्पीच बटन स्वचालित दिखें
+- **पूर्ण पृष्ठ bopomofo मोड** — एक क्लिक में पृष्ठ के सभी चीनी अक्षरों में bopomofo जोड़ें
+- **टेक्स्ट-टू-स्पीच** — स्पीकर बटन पर क्लिक करके मानक मंदारिन उच्चारण सुनें
+- **चयन स्पीच और कैराओके प्रभाव** — कोई भी चीनी टेक्स्ट चुनें; बोलने और अनुवाद बटन के साथ कॉम्पैक्ट टूलबार दिखता है; स्पीच शब्द या अक्षरों को रीयल-टाइम हाइलाइट करती है (कैराओके प्रभाव)
+- **चयन अनुवाद** — टेक्स्ट चुनें, Bing या Google Translate से तत्काल अनुवाद inline बबल में
+- **होवर शब्दकोश** — एनोटेटेड अक्षरों पर होवर करें: bopomofo, CC-CEDICT अंग्रेज़ी शब्दकोश परिभाषाएँ (110,000 प्रविष्टियाँ, TOCFL स्तर) और उच्चारण बटन
+- **PDF रीडर** — PDF दस्तावेज़ों में चीनी टेक्स्ट में स्वचालित bopomofo एनोटेशन जोड़ने वाला अंतर्निहित PDF रीडर
+- **कई bopomofo शैलियाँ** — टोन चिह्न (hàn yǔ) या बिना टोन (han yu)
+- **कीबोर्ड शॉर्टकट** — अनुकूलन योग्य शॉर्टकट से मुख्य सुविधाओं की त्वरित पहुँच
+- **बहुभाषी इंटरफ़ेस** — 38 इंटरफ़ेस भाषाओं का समर्थन
 
 ---
 
 ## उपयोग कैसे करें
 
-### चरण 1: इंस्टॉल करें
+### चरण 1: एक्सटेंशन इंस्टॉल करें
 
-**Bopomofo Reader** को [Chrome वेब स्टोर](https://chromewebstore.google.com/detail/bopomofo-reader/jkibgddokcnhedkhmleaohojhlnemmkg) से इंस्टॉल करें या डेवलपर मोड में लोड करें।
+[Chrome Web Store](https://chromewebstore.google.com/detail/bopomofo-reader/jkibgddokcnhedkhmleaohojhlnemmkg) से **Bopomofo Reader** इंस्टॉल करें, या डेवलपर मोड में लोकल लोड करें।
 
-### चरण 2: पेज खोलें
+### चरण 2: कोई भी वेब पेज खोलें
 
-चीनी सामग्री वाला कोई भी पेज खोलें।
+चीनी सामग्री वाला कोई भी पेज देखें।
 
-### चरण 3: चयन करें या फ्लोटिंग बटन
+### चरण 3: टेक्स्ट चुनें या फ़्लोटिंग बटन उपयोग करें
 
-पाठ चुनें या पूरे पेज मोड के लिए फ्लोटिंग बटन पर क्लिक करें।
+एनोटेट करने के लिए चीनी टेक्स्ट चुनें, या पूर्ण पृष्ठ bopomofo मोड के लिए नीचे दाएँ फ़्लोटिंग बटन क्लिक करें।
 
-### चरण 4: पिनयिन देखें
+### चरण 4: bopomofo देखें
 
-टूलटिप के लिए होवर करें, उच्चारण के लिए स्पीकर पर क्लिक करें।
+अक्षरों पर होवर करें bopomofo टूलटिप देखें, स्पीकर आइकन पर क्लिक करके उच्चारण सुनें।
 
-### चरण 5: चयन पढ़ें
+### चरण 5: चयनित टेक्स्ट बोलें और अनुवाद करें
 
-पाठ चुनें, फ्लोटिंग 🔊 बटन पर क्लिक करें या राइट-क्लिक करके "चयन पढ़ें" चुनें।
+माउस से चीनी टेक्स्ट चुनें। दो बटनों के साथ कॉम्पैक्ट टूलबार दिखता है:
+- **🔊 बोलें** — चयनित टेक्स्ट कैराओके-स्टाइल हाइलाइट के साथ पढ़ता है
+- **🌐 अनुवाद** — टूलबार के नीचे inline अनुवाद बबल दिखाता है
 
----
+आप राइट-क्लिक करके « Bopomofo Reader > चयन बोलें » या « Bopomofo Reader > चयन अनुवाद » भी चुन सकते हैं।
 
-## Selection Speech & Karaoke
-
-Select any Chinese text and read it aloud with one click — perfect for learning sentence pronunciation.
-
-**Method 1: Selection Toolbar**
-Select Chinese text with your mouse. A compact toolbar appears near the selection with a 🔊 speak button and a 🌐 translate button. Click speak to play. Words highlight in real time (karaoke effect).
-
-**Method 2: Right-Click Menu**
-Select text, right-click and choose "Bopomofo Reader > Speak Selection".
-
-**Method 3: Keyboard Shortcut**
-Select text and press `Alt+Shift+S` (Mac: `Ctrl+Shift+S`).
+> **सुझाव:** ब्राउज़र टूलबार में एक्सटेंशन आइकन क्लिक करें सेटिंग पैनल खोलने और bopomofo शैली, स्पीच दर, अनुवाद इंजन आदि समायोजित करने के लिए।
 
 ---
 
-## Translation
+## चयन स्पीच और कैराओके
 
-Select any text on the page to get instant translations.
+चयन स्पीच सुविधा एक क्लिक में चीनी टेक्स्ट पढ़ने देती है — वाक्य उच्चारण सीखने और पढ़ने के अभ्यास के लिए आदर्श।
 
-**Method 1: Selection Toolbar**
-Select text, then click the 🌐 translate button. A translation bubble appears with the result and a copy button.
+**विधि 1: चयन टूलबार**  
+माउस से चीनी टेक्स्ट चुनें। 🔊 बोलें और 🌐 अनुवाद बटन के साथ कॉम्पैक्ट टूलबार दिखता है। बोलें क्लिक करें। शब्द या अक्षर रीयल-टाइम हाइलाइट (कैराओके प्रभाव)।
 
-**Method 2: Right-Click Menu**
-Select text, right-click and choose "Bopomofo Reader > Translate Selection".
+**विधि 2: राइट-क्लिक मेनू**  
+चीनी टेक्स्ट चुनें, राइट-क्लिक करें और « Bopomofo Reader > चयन बोलें » चुनें।
 
-**Method 3: Keyboard Shortcut**
-Select text and press `Alt+Shift+T` (Mac: `Ctrl+Shift+T`).
+**विधि 3: कीबोर्ड शॉर्टकट**  
+टेक्स्ट चुनें और `Alt+Shift+S` (Mac: `Ctrl+Shift+S`) दबाएँ।
 
-**Translation Engines:**
-- **Bing Translate** (default) — Powered by Microsoft Translator
-- **Google Translate** — Powered by Google
-
-Both engines support **108 target languages**.
+> **सुझाव:** कैराओके हाइलाइट ब्राउज़र TTS शब्द सीमा इवेंट समर्थन करने पर सर्वोत्तम काम करता है। अन्यथा एक्सटेंशन समय-आधारित फ़ॉलबैक उपयोग करता है।
 
 ---
 
-## Keyboard Shortcuts
+## अनुवाद
 
-| Shortcut | Mac Shortcut | Action |
-|----------|-------------|--------|
-| `Alt+Shift+B` | `Ctrl+Shift+B` | Toggle Bopomofo annotations on/off |
-| `Alt+Shift+S` | `Ctrl+Shift+S` | Speak selected text |
-| `Alt+Shift+T` | `Ctrl+Shift+T` | Translate selected text |
+पेज पर कोई भी टेक्स्ट चुनें और तत्काल अनुवाद के लिए अनुवाद सुविधा उपयोग करें।
 
-> **Tip:** Customize shortcuts in Chrome at `chrome://extensions/shortcuts`.
+**विधि 1: चयन टूलबार**  
+टेक्स्ट चुनें, 🌐 अनुवाद क्लिक करें। परिणाम और कॉपी बटन के साथ अनुवाद बबल दिखता है।
 
-## Built-in PDF Reader
+**विधि 2: राइट-क्लिक मेनू**  
+टेक्स्ट चुनें, राइट-क्लिक करें और « Bopomofo Reader > चयन अनुवाद » चुनें।
 
-Bopomofo Reader v1.5.0 includes a powerful built-in PDF reader that automatically adds Bopomofo annotations to any PDF file.
+**विधि 3: कीबोर्ड शॉर्टकट**  
+टेक्स्ट चुनें और `Alt+Shift+T` (Mac: `Ctrl+Shift+T`) दबाएँ।
 
-### Opening PDFs
+**अनुवाद इंजन:**
+- **Bing Translate** (डिफ़ॉल्ट) — Microsoft Translator द्वारा संचालित
+- **Google Translate** — Google द्वारा संचालित
 
-- **Automatic**: Any PDF opened in the browser is automatically redirected to the Bopomofo Reader PDF viewer
-- **From Popup**: Click the extension icon and choose "Open PDF Reader"
-- **Drag & Drop**: Drag a local PDF file into the reader
-- **Paste URL**: Paste any PDF link directly into the viewer
+दोनों इंजन **108 लक्ष्य भाषाओं** का समर्थन करते हैं।
 
-### PDF Features
+एक्सटेंशन सेटिंग में अनुवाद इंजन और लक्ष्य भाषा बदल सकते हैं। लक्ष्य भाषा ब्राउज़र भाषा से स्वचालित पहचानी जाती है।
 
-| Feature | Description |
-|---------|-------------|
-| **Dictionary Lookup** | Accurate Bopomofo annotation above each Chinese character, scaled with zoom |
-| **Dictionary Mode** | Tone marks, no tones, hover-only, or hidden |
-| **Click Dictionary** | Click any Chinese character to see dictionary definitions (CC-CEDICT English dictionary, 110K entries, TOCFL levels) |
-| **Selection Toolbar** | Select text, then use the toolbar to read aloud, translate, or copy |
-| **Sidebar** | Table of contents, page thumbnails, and Bopomofo search |
-| **3 Themes** | Dark, Light, and Sepia reading modes |
-| **Zoom Adaptive** | Bopomofo scales perfectly with zoom level, no overlap |
-| **Keyboard Shortcuts** | ←→ page navigation, +- zoom, Ctrl/Cmd+F search, Escape to dismiss popups |
-
-> **Tip:** The PDF reader works with both local files and online PDFs. All Bopomofo processing happens locally in your browser.
+> **सुझाव:** बंद करने के लिए टूलबार या बबल के बाहर क्लिक करें।
 
 ---
 
-## सेटिंग्स गाइड
+## PDF रीडर
+
+Bopomofo Reader में अंतर्निहित PDF रीडर है जो PDF दस्तावेज़ों में चीनी टेक्स्ट में स्वचालित bopomofo एनोटेशन जोड़ता है।
+
+### PDF खोलना
+
+- **ऑटो-रीडायरेक्ट**: ब्राउज़र में खुला कोई भी PDF स्वचालित Bopomofo Reader PDF व्यूअर पर जाता है
+- **ड्रैग और ड्रॉप**: लोकल PDF फ़ाइल व्यूअर पर ड्रॉप करें
+- **URL पेस्ट**: PDF लिंक सीधे व्यूअर में पेस्ट करें
+- **पॉपअप से**: एक्सटेंशन आइकन क्लिक करें, फिर « PDF रीडर खोलें »
+
+### PDF सुविधाएँ
+
+| सुविधा | विवरण |
+|--------|--------|
+| **शब्दकोश खोज** | तत्काल अंग्रेज़ी परिभाषा, bopomofo पढ़ना और TOCFL स्तर के लिए चीनी अक्षर क्लिक करें |
+| **शब्दकोश मोड** | अंग्रेज़ी परिभाषाएँ, bopomofo उच्चारण और TOCFL स्तर बैज के लिए अक्षर क्लिक करें |
+| **क्लिक शब्दकोश** | परिभाषाएँ (CC-CEDICT अंग्रेज़ी शब्दकोश, 110,000 प्रविष्टियाँ, TOCFL स्तर) और उच्चारण के लिए चीनी टेक्स्ट क्लिक करें |
+| **चयन टूलबार** | टेक्स्ट चुनें, बोलने, अनुवाद या कॉपी के लिए टूलबार उपयोग करें |
+| **टेक्स्ट खोज** | चीनी टेक्स्ट से खोजें |
+| **साइडबार** | विषय सूची, पेज थंबनेल और नेविगेशन |
+| **3 थीम** | डार्क, लाइट और सेपिया पढ़ने के मोड |
+| **अनुवाद** | टेक्स्ट चुनें और Bing या Google Translate से अनुवाद करें |
+
+### PDF कीबोर्ड शॉर्टकट
+
+| कुंजी | क्रिया |
+|-------|--------|
+| ← / → | पिछला / अगला पेज |
+| + / - | ज़ूम इन / आउट |
+| Ctrl+F / Cmd+F | खोज खोलें |
+| Escape | सभी फ़्लोटिंग पैनल बंद करें |
+
+> **नोट:** पासवर्ड-प्रोटेक्टेड और स्कैन (केवल छवि) PDF bopomofo एनोटेशन के लिए टेक्स्ट लेयर न होने से समर्थित नहीं।
+
+---
+
+## कीबोर्ड शॉर्टकट
+
+| शॉर्टकट | Mac शॉर्टकट | क्रिया |
+|---------|-------------|--------|
+| `Alt+Shift+B` | `Ctrl+Shift+B` | bopomofo एनोटेशन चालू/बंद |
+| `Alt+Shift+S` | `Ctrl+Shift+S` | चयनित टेक्स्ट बोलें |
+| `Alt+Shift+T` | `Ctrl+Shift+T` | चयनित टेक्स्ट अनुवाद करें |
+
+> **सुझाव:** Chrome में `chrome://extensions/shortcuts` पर शॉर्टकट अनुकूलित करें।
+
+---
+
+## सेटिंग गाइड
 
 | सेटिंग | विवरण |
-|---|---|
-| **पिनयिन सक्षम करें** | मुख्य स्विच |
-| **पूरे पेज पिनयिन** | सभी वर्णों के लिए पिनयिन दिखाएं |
-| **पिनयिन शैली** | टोन मार्क्स या बिना टोन के |
-| **वाक्य पढ़ने की गति** | वाक्य पढ़ने की गति समायोजित करें |
-| **होवर टूलटिप** | होवर पर टूलटिप दिखाएं |
+|--------|--------|
+| **Bopomofo सक्षम करें** | bopomofo एनोटेशन का मुख्य स्विच |
+| **पूर्ण पृष्ठ bopomofo** | सभी चीनी अक्षरों के लिए bopomofo दिखाता है (लेआउट प्रभावित हो सकता है) |
+| **bopomofo शैली** | टोन चिह्न या बिना टोन चुनें |
+| **वाक्य स्पीच दर** | चयन पढ़ने की गति समायोजित करें (एकल अक्षर उच्चारण प्रभावित नहीं) |
+| **होवर मोड** | होवर व्यवहार: शब्दकोश (TOCFL स्तर के साथ CC-CEDICT अंग्रेज़ी), केवल bopomofo या बंद |
+| **अनुवाद इंजन** | Bing Translate या Google Translate |
+| **लक्ष्य भाषा** | अनुवाद लक्ष्य भाषा (ब्राउज़र भाषा से स्वचालित) |
+| **PDF डिटेक्शन** | PDF को अंतर्निहित PDF रीडर पर स्वचालित रीडायरेक्ट |
 
 ---
 
-## Open-source Dictionary Attribution
-
-Bopomofo Reader bundles offline pronunciation and dictionary resources from open-source or community projects:
-
-- **Bopomofo conversion**: pinyin-pro and @pinyin-pro/data/modern power local Mandarin pronunciation conversion and word-level corrections; Bopomofo Reader converts pinyin syllables to Zhuyin/Bopomofo locally and applies Taiwan-pronunciation polyphonic corrections.
-- **Chinese-English dictionary**: CC-CEDICT provides English definitions and base dictionary entries.
-- **Multilingual definitions**: CFDICT (French), HanDeDict (German), and Wiktionary-derived datasets from kaikki.org provide Japanese, Korean, Vietnamese, and Chinese definition data.
-- **Script conversion**: OpenCC-js and the bundled local conversion module are used for Simplified/Traditional Chinese conversion where needed.
-
-All dictionary lookups run locally in your browser. Upstream projects retain their own copyright and license terms; see the Privacy Policy for more details.
-
----
-
-## सामान्य प्रश्न
+## अक्सर पूछे जाने वाले प्रश्न
 
 **प्र: कुछ पेजों पर क्यों काम नहीं करता?**  
-उ: एक्सटेंशन chrome:// या ब्राउज़र सेटिंग्स पेजों पर चल नहीं सकते।
+उ: सुरक्षा के कारण `chrome://`, ब्राउज़र सेटिंग या Chrome Web Store जैसे विशेष पेजों पर एक्सटेंशन नहीं चलता।
 
-**प्र: गलत पिनयिन?**  
-उ: बहु-उच्चारण वर्णों में त्रुटियाँ हो सकती हैं; हम लगातार सुधार कर रहे हैं।
+**प्र: bopomofo गलत हो तो?**  
+उ: बहुस्वर अक्षरों का bopomofo त्रुटि रख सकता है। हम निरंतर सुधार करते हैं। विशिष्ट मामले साझा करें।
 
-**प्र: आवाज़ नहीं आ रही?**  
-उ: वॉल्यूम जांचें और सुनिश्चित करें कि चीनी वॉयस पैक इंस्टॉल हैं।
+**प्र: टेक्स्ट-टू-स्पीच में आवाज़ नहीं?**  
+उ: वॉल्यूम सेटिंग जाँचें और चीनी वॉयस पैक इंस्टॉल सुनिश्चित करें। स्पीच समर्थन ब्राउज़र और OS में भिन्न है।
+
+**प्र: पूर्ण पृष्ठ मोड लेआउट प्रभावित करता है?**  
+उ: bopomofo एनोटेशन अतिरिक्त स्थान चाहते हैं। पूर्ण पृष्ठ मोड बंद करें और होवर टूलटिप उपयोग करें।
+
+**प्र: अनुवाद काम नहीं करता?**  
+उ: अनुवाद के लिए इंटरनेट चाहिए। Bing Translate विफल हो तो सेटिंग में Google Translate आज़माएँ। कुछ नेटवर्क अनुवाद सेवाएँ ब्लॉक कर सकते हैं।
 
 ---
+
+## ओपन-सोर्स शब्दकोश अट्रिब्यूशन
+
+Bopomofo Reader ओपन-सोर्स या समुदाय प्रोजेक्ट से ऑफ़लाइन उच्चारण और शब्दकोश संसाधन बंडल करता है:
+
+- **bopomofo रूपांतरण**: pinyin-pro और @pinyin-pro/data/modern स्थानीय मंदारिन उच्चारण रूपांतरण और शब्द-स्तर सुधार; Bopomofo Reader pinyin सिलेबल्स को स्थानीय रूप से Zhuyin/Bopomofo में बदलता है और Taiwan उच्चारण बहुस्वर सुधार लागू करता है।
+- **चीनी-अंग्रेज़ी शब्दकोश**: CC-CEDICT अंग्रेज़ी परिभाषाएँ और आधार शब्दकोश प्रविष्टियाँ प्रदान करता है।
+- **बहुभाषी परिभाषाएँ**: CFDICT (फ़्रेंच), HanDeDict (जर्मन) और kaikki.org Wiktionary डेटा जापानी, कोरियाई, वियतनामी और चीनी के लिए।
+- **स्क्रिप्ट रूपांतरण**: OpenCC-js और बंडल स्थानीय रूपांतरण मॉड्यूल सरलीकृत/पारंपरिक चीनी रूपांतरण के लिए।
+
+सभी शब्दकोश खोज ब्राउज़र में स्थानीय रूप से चलती है। Upstream प्रोजेक्ट अपने अधिकार और लाइसेंस रखते हैं; विवरण के लिए गोपनीयता नीति देखें।
+
+---
+
 ## संबंधित लिंक
 
 - [गोपनीयता नीति](../privacy-policy)
-- [सहायता](../support)
+- [सहायता और प्रतिक्रिया](../support)
 
 ---

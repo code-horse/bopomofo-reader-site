@@ -1,173 +1,55 @@
 ---
 layout: bare
-title: Bopomofo Reader - Uživatelská příručka
-lang: cs
+title: cs
+lang: Bopomofo Reader - Uživatelská příručka
 ---
 
-# Bopomofo Reader - Uživatelská příručka
+# cs
 
-> Verze: v1.5.0
+> Verze: v1.5.1
 
 ## Úvod
 
-Bopomofo Reader je rozšíření prohlížeče pro studenty čínštiny. Používá vylepšený bopomofo engine s moderním čínským slovníkem a více než 200 opravami víceslovných slov pro přidání bopomofo anotací k čínským znakům na webových stránkách.
-
----
+Bopomofo Reader je rozšíření prohlížeče pro studenty čínštiny. Přidává přesné anotace bopomofo k čínským znakům.
 
 ## Hlavní funkce
 
-- **Anotace výběrem textu** — Vyberte čínský text na webových stránkách pro zobrazení bopomofo a tlačítek pro výslovnost
-- **Režim bopomofo celé stránky** — Jedním kliknutím přidejte bopomofo ke všem znakům na stránce
-- **Převod textu na řeč** — Klikněte na tlačítko reproduktoru pro vyslechnutí mandarínské výslovnosti
-- **Čtení výběru** — Vyberte text a použijte plovoucí tlačítko nebo kontextové menu pro hlasité čtení
-- **Bublinkové nápovědy** — Najeďte na anotované znaky pro zobrazení bopomofo
-- **Více stylů bopomofo** — Značky tónů (hàn yǔ) a bez tónů (han yu)
-- **Vícejazyčné rozhraní** — Podpora 38 jazyků rozhraní
-- **Selection Speech with Karaoke Effect** — Select any Chinese text; a compact toolbar appears with speak and translate buttons; speech plays with real-time word-by-word highlighting (karaoke effect)
-- **Selection Translation** — Select any text, click the translate button to get instant translation via Bing or Google Translate, displayed in an inline bubble
-- **Hover Dictionary** — Hover over annotated characters to see Bopomofo, dictionary definitions from CC-CEDICT English dictionary with TOCFL levels (155K+ entries), and pronunciation buttons
-- **Keyboard Shortcuts** — Quick access via Alt+Shift+B (toggle), Alt+Shift+S (speak), Alt+Shift+T (translate)
+Výběr textu, celá stránka, TTS, karaoke čtení, překlad, hover slovník CC-CEDICT, PDF čtečka, styly bopomofo, klávesové zkratky, 38 jazyků.
 
----
+## Použití
 
-## Jak používat
+Instalace z [Chrome Web Store](https://chromewebstore.google.com/detail/bopomofo-reader/jkibgddokcnhedkhmleaohojhlnemmkg). 🔊 Číst a 🌐 Přeložit výběr.
 
-### Krok 1: Instalace
+## Čtení výběru a Karaoke
 
-Nainstalujte **Bopomofo Reader** z [Chrome Web Store](https://chromewebstore.google.com/detail/bopomofo-reader/jkibgddokcnhedkhmleaohojhlnemmkg) nebo načtěte v režimu vývojáře.
+`Alt+Shift+S` (Mac: `Ctrl+Shift+S`). Karaoke zvýraznění.
 
-### Krok 2: Otevřít stránku
+## Překlad
 
-Navštivte libovolnou stránku s čínským obsahem.
+`Alt+Shift+T` (Mac: `Ctrl+Shift+T`). Bing a Google. 108 jazyků.
 
-### Krok 3: Vybrat text nebo plovoucí tlačítko
+## PDF čtečka
 
-Vyberte text nebo klikněte na plovoucí tlačítko pro režim celé stránky.
+Automatické přesměrování, slovník, 3 motivy.
 
-### Krok 4: Zobrazit bopomofo
+## Klávesové zkratky
 
-Najeďte myší pro bublinkové nápovědy, klikněte na reproduktor pro výslovnost.
+Alt+Shift+B/S/T. `chrome://extensions/shortcuts`.
 
-### Krok 5: Přečíst výběr
+## Nastavení
 
-Vyberte text, klikněte na plovoucí tlačítko 🔊 nebo pravým tlačítkem zvolte „Přečíst výběr“.
+Bopomofo, celá stránka, styl, rychlost, hover, překlad, PDF.
 
----
+## FAQ
 
-## Selection Speech & Karaoke
+Ne na `chrome://`. Překlad vyžaduje internet.
 
-Select any Chinese text and read it aloud with one click — perfect for learning sentence pronunciation.
+## Open source slovníky
 
-**Method 1: Selection Toolbar**
-Select Chinese text with your mouse. A compact toolbar appears near the selection with a 🔊 speak button and a 🌐 translate button. Click speak to play. Words highlight in real time (karaoke effect).
+pinyin-pro, CC-CEDICT, CFDICT, HanDeDict, OpenCC-js. Lokálně v prohlížeči.
 
-**Method 2: Right-Click Menu**
-Select text, right-click and choose "Bopomofo Reader > Speak Selection".
-
-**Method 3: Keyboard Shortcut**
-Select text and press `Alt+Shift+S` (Mac: `Ctrl+Shift+S`).
-
----
-
-## Translation
-
-Select any text on the page to get instant translations.
-
-**Method 1: Selection Toolbar**
-Select text, then click the 🌐 translate button. A translation bubble appears with the result and a copy button.
-
-**Method 2: Right-Click Menu**
-Select text, right-click and choose "Bopomofo Reader > Translate Selection".
-
-**Method 3: Keyboard Shortcut**
-Select text and press `Alt+Shift+T` (Mac: `Ctrl+Shift+T`).
-
-**Translation Engines:**
-- **Bing Translate** (default) — Powered by Microsoft Translator
-- **Google Translate** — Powered by Google
-
-Both engines support **108 target languages**.
-
----
-
-## Keyboard Shortcuts
-
-| Shortcut | Mac Shortcut | Action |
-|----------|-------------|--------|
-| `Alt+Shift+B` | `Ctrl+Shift+B` | Toggle Bopomofo annotations on/off |
-| `Alt+Shift+S` | `Ctrl+Shift+S` | Speak selected text |
-| `Alt+Shift+T` | `Ctrl+Shift+T` | Translate selected text |
-
-> **Tip:** Customize shortcuts in Chrome at `chrome://extensions/shortcuts`.
-
-## Built-in PDF Reader
-
-Bopomofo Reader v1.5.0 includes a powerful built-in PDF reader that automatically adds Bopomofo annotations to any PDF file.
-
-### Opening PDFs
-
-- **Automatic**: Any PDF opened in the browser is automatically redirected to the Bopomofo Reader PDF viewer
-- **From Popup**: Click the extension icon and choose "Open PDF Reader"
-- **Drag & Drop**: Drag a local PDF file into the reader
-- **Paste URL**: Paste any PDF link directly into the viewer
-
-### PDF Features
-
-| Feature | Description |
-|---------|-------------|
-| **Dictionary Lookup** | Accurate Bopomofo annotation above each Chinese character, scaled with zoom |
-| **Dictionary Mode** | Tone marks, no tones, hover-only, or hidden |
-| **Click Dictionary** | Click any Chinese character to see dictionary definitions (CC-CEDICT English dictionary, 110K entries, TOCFL levels) |
-| **Selection Toolbar** | Select text, then use the toolbar to read aloud, translate, or copy |
-| **Sidebar** | Table of contents, page thumbnails, and Bopomofo search |
-| **3 Themes** | Dark, Light, and Sepia reading modes |
-| **Zoom Adaptive** | Bopomofo scales perfectly with zoom level, no overlap |
-| **Keyboard Shortcuts** | ←→ page navigation, +- zoom, Ctrl/Cmd+F search, Escape to dismiss popups |
-
-> **Tip:** The PDF reader works with both local files and online PDFs. All Bopomofo processing happens locally in your browser.
-
----
-
-## Průvodce nastavením
-
-| Nastavení | Popis |
-|---|---|
-| **Povolit Bopomofo** | Hlavní přepínač |
-| **Bopomofo celé stránky** | Zobrazit bopomofo pro všechny znaky |
-| **Styl bopomofo** | Značky tónů nebo bez tónů |
-| **Rychlost čtení vět** | Upravit rychlost čtení vět |
-| **Bublinkové nápovědy** | Zobrazit nápovědu při najetí myší |
-
----
-
-## Open-source Dictionary Attribution
-
-Bopomofo Reader bundles offline pronunciation and dictionary resources from open-source or community projects:
-
-- **Bopomofo conversion**: pinyin-pro and @pinyin-pro/data/modern power local Mandarin pronunciation conversion and word-level corrections; Bopomofo Reader converts pinyin syllables to Zhuyin/Bopomofo locally and applies Taiwan-pronunciation polyphonic corrections.
-- **Chinese-English dictionary**: CC-CEDICT provides English definitions and base dictionary entries.
-- **Multilingual definitions**: CFDICT (French), HanDeDict (German), and Wiktionary-derived datasets from kaikki.org provide Japanese, Korean, Vietnamese, and Chinese definition data.
-- **Script conversion**: OpenCC-js and the bundled local conversion module are used for Simplified/Traditional Chinese conversion where needed.
-
-All dictionary lookups run locally in your browser. Upstream projects retain their own copyright and license terms; see the Privacy Policy for more details.
-
----
-
-## Časté dotazy
-
-**Q: Proč to na některých stránkách nefunguje?**  
-A: Rozšíření nemohou běžet na stránkách chrome:// nebo v nastavení prohlížeče.
-
-**Q: Nepřesný bopomofo?**  
-A: U víceslovných znaků mohou být chyby; neustále zlepšujeme.
-
-**Q: Žádný zvuk?**  
-A: Zkontrolujte hlasitost a ověřte, že máte nainstalované čínské hlasové balíčky.
-
----
-## Související odkazy
+## Odkazy
 
 - [Zásady ochrany osobních údajů](../privacy-policy)
 - [Podpora](../support)
 
----

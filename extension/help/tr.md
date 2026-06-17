@@ -6,11 +6,11 @@ lang: tr
 
 # Bopomofo Reader - Kullanım Kılavuzu
 
-> Sürüm: v1.5.0
+> Sürüm: v1.5.1
 
 ## Giriş
 
-Bopomofo Reader, Çince öğrenenler için tasarlanmış bir tarayıcı eklentisidir. Gelişmiş bir bopomofo motoru (modern Çince sözlük ve 200'den fazla çok sesli karakter düzeltmesi ile) kullanarak web sayfalarındaki Çince karakterlere doğru bopomofo telaffuz açıklamaları ekler.
+Bopomofo Reader, Çince öğrenenler için tasarlanmış bir tarayıcı eklentisidir. Gelişmiş bopomofo motoru (modern Çince sözlük ve 200'den fazla çok sesli karakter düzeltmesi) ile web sayfalarındaki Çince karakterlere doğru bopomofo telaffuz açıklamaları ekler.
 
 ---
 
@@ -19,14 +19,13 @@ Bopomofo Reader, Çince öğrenenler için tasarlanmış bir tarayıcı eklentis
 - **Metin Seçimi ile Açıklama** — Web sayfalarında Çince metin seçerek otomatik olarak bopomofo ve konuşma düğmelerini görüntüleyin
 - **Tam Sayfa Bopomofo Modu** — Tek tıkla sayfadaki tüm Çince karakterlere bopomofo ekleyin
 - **Metinden Konuşmaya** — Standart Mandarin telaffuzunu duymak için hoparlör düğmesine tıklayın
-- **Seçimi Oku** — Herhangi bir Çince metni seçin ve yüzen düğme veya sağ tıklama menüsü ile sesli okuyun
-- **Fare ile Üzerine Gelme İpuçları** — Açıklamalı karakterlerin üzerine gelerek bopomofo'i görün
-- **Birden Fazla Bopomofo Stili** — Ton işaretleri (hàn yǔ) ve tonsuz (han yu)
-- **Çok Dilli Arayüz** — 38 arayüz dilini destekler
-- **Selection Speech with Karaoke Effect** — Select any Chinese text; a compact toolbar appears with speak and translate buttons; speech plays with real-time word-by-word highlighting (karaoke effect)
-- **Selection Translation** — Select any text, click the translate button to get instant translation via Bing or Google Translate, displayed in an inline bubble
-- **Hover Dictionary** — Hover over annotated characters to see Bopomofo, dictionary definitions from CC-CEDICT English dictionary with TOCFL levels (155K+ entries), and pronunciation buttons
-- **Keyboard Shortcuts** — Quick access via Alt+Shift+B (toggle), Alt+Shift+S (speak), Alt+Shift+T (translate)
+- **Seçim Konuşması ve Karaoke Efekti** — Herhangi bir Çince metni seçin; konuşma ve çeviri düğmeleriyle kompakt araç çubuğu görünür; konuşma kelime veya karakterleri gerçek zamanlı vurgular (karaoke efekti)
+- **Seçim Çevirisi** — Herhangi bir metni seçin, Bing veya Google Translate ile anında çeviri alın, inline baloncukta gösterilir
+- **Üzerine Gelme Sözlüğü** — Açıklamalı karakterlerin üzerine gelerek bopomofo, CC-CEDICT İngilizce sözlük tanımları (110.000 giriş, TOCFL seviyeleri) ve telaffuz düğmelerini görün
+- **PDF Okuyucu** — PDF belgelerindeki Çince metne otomatik bopomofo açıklamaları ekleyen yerleşik PDF okuyucu
+- **Birden Fazla Bopomofo Stili** — Ton işaretleri (hàn yǔ) veya tonsuz (han yu)
+- **Klavye Kısayolları** — Özelleştirilebilir kısayollarla temel özelliklere hızlı erişim
+- **Çok Dilli Arayüz** — 38 arayüz dili desteği
 
 ---
 
@@ -42,127 +41,159 @@ Bopomofo Reader, Çince öğrenenler için tasarlanmış bir tarayıcı eklentis
 
 ### Adım 3: Metin Seçin veya Yüzen Düğmeyi Kullanın
 
-Açıklama eklemek istediğiniz Çince metni seçin veya tam sayfa bopomofo modunu etkinleştirmek için sağ alttaki yüzen düğmeye tıklayın.
+Açıklamak istediğiniz Çince metni seçin veya tam sayfa bopomofo modunu etkinleştirmek için sağ alttaki yüzen düğmeye tıklayın.
 
-### Adım 4: Bopomofo'i Görüntüleyin
+### Adım 4: Bopomofo'yu Görün
 
-Bopomofo ipuçlarını görmek için karakterlerin üzerine gelin, telaffuzu duymak için hoparlör simgesine tıklayın.
+Karakterlerin üzerine gelerek bopomofo ipuçlarını görün, telaffuz için hoparlör simgesine tıklayın.
 
-### Adım 5: Seçili Metni Okuyun
+### Adım 5: Seçili Metni Okuyun ve Çevirin
 
-Fare ile Çince metin seçin, okumak için yüzen 🔊 düğmesine tıklayın; veya sağ tıklayıp "Seçimi oku"yu seçin.
+Fareyle herhangi bir Çince metin seçin. İki düğmeli kompakt araç çubuğu görünür:
+- **🔊 Konuş** — Seçili metni karaoke tarzı vurgulamayla okur
+- **🌐 Çevir** — Araç çubuğunun altında inline çeviri baloncuğu gösterir
 
----
+Sağ tıklayıp « Bopomofo Reader > Seçimi Konuş » veya « Bopomofo Reader > Seçimi Çevir » de seçebilirsiniz.
 
-## Selection Speech & Karaoke
-
-Select any Chinese text and read it aloud with one click — perfect for learning sentence pronunciation.
-
-**Method 1: Selection Toolbar**
-Select Chinese text with your mouse. A compact toolbar appears near the selection with a 🔊 speak button and a 🌐 translate button. Click speak to play. Words highlight in real time (karaoke effect).
-
-**Method 2: Right-Click Menu**
-Select text, right-click and choose "Bopomofo Reader > Speak Selection".
-
-**Method 3: Keyboard Shortcut**
-Select text and press `Alt+Shift+S` (Mac: `Ctrl+Shift+S`).
+> **İpucu:** Tarayıcı araç çubuğundaki eklenti simgesine tıklayarak ayarlar panelini açın ve bopomofo stili, konuşma hızı, çeviri motoru vb. ayarlayın.
 
 ---
 
-## Translation
+## Seçim Konuşması ve Karaoke
 
-Select any text on the page to get instant translations.
+Seçim konuşma özelliği herhangi bir Çince metni tek tıkla okumanıza olanak tanır — cümle telaffuzu öğrenmek ve okuma pratiği için ideal.
 
-**Method 1: Selection Toolbar**
-Select text, then click the 🌐 translate button. A translation bubble appears with the result and a copy button.
+**Yöntem 1: Seçim Araç Çubuğu**  
+Fareyle Çince metin seçin. 🔊 Konuş ve 🌐 Çevir düğmeleriyle kompakt araç çubuğu görünür. Oynatmak için Konuş'a tıklayın. Kelimeler veya karakterler gerçek zamanlı vurgulanır (karaoke efekti).
 
-**Method 2: Right-Click Menu**
-Select text, right-click and choose "Bopomofo Reader > Translate Selection".
+**Yöntem 2: Sağ Tıklama Menüsü**  
+Çince metin seçin, sağ tıklayın ve « Bopomofo Reader > Seçimi Konuş » seçin.
 
-**Method 3: Keyboard Shortcut**
-Select text and press `Alt+Shift+T` (Mac: `Ctrl+Shift+T`).
+**Yöntem 3: Klavye Kısayolu**  
+Metin seçin ve `Alt+Shift+S` (Mac: `Ctrl+Shift+S`) basın.
 
-**Translation Engines:**
-- **Bing Translate** (default) — Powered by Microsoft Translator
-- **Google Translate** — Powered by Google
-
-Both engines support **108 target languages**.
+> **İpucu:** Karaoke efekti tarayıcınız TTS kelime sınırı olaylarını desteklediğinde en iyi çalışır. Desteklenmiyorsa eklenti zaman tabanlı yedek kullanır.
 
 ---
 
-## Keyboard Shortcuts
+## Çeviri
 
-| Shortcut | Mac Shortcut | Action |
-|----------|-------------|--------|
-| `Alt+Shift+B` | `Ctrl+Shift+B` | Toggle Bopomofo annotations on/off |
-| `Alt+Shift+S` | `Ctrl+Shift+S` | Speak selected text |
-| `Alt+Shift+T` | `Ctrl+Shift+T` | Translate selected text |
+Sayfadaki herhangi bir metni seçin ve anında çeviriler için çeviri özelliğini kullanın.
 
-> **Tip:** Customize shortcuts in Chrome at `chrome://extensions/shortcuts`.
+**Yöntem 1: Seçim Araç Çubuğu**  
+Metin seçin, 🌐 Çevir'e tıklayın. Sonuç ve kopyalama düğmesiyle çeviri baloncuğu görünür.
 
-## Built-in PDF Reader
+**Yöntem 2: Sağ Tıklama Menüsü**  
+Metin seçin, sağ tıklayın ve « Bopomofo Reader > Seçimi Çevir » seçin.
 
-Bopomofo Reader v1.5.0 includes a powerful built-in PDF reader that automatically adds Bopomofo annotations to any PDF file.
+**Yöntem 3: Klavye Kısayolu**  
+Metin seçin ve `Alt+Shift+T` (Mac: `Ctrl+Shift+T`) basın.
 
-### Opening PDFs
+**Çeviri Motorları:**
+- **Bing Translate** (varsayılan) — Microsoft Translator destekli
+- **Google Translate** — Google destekli
 
-- **Automatic**: Any PDF opened in the browser is automatically redirected to the Bopomofo Reader PDF viewer
-- **From Popup**: Click the extension icon and choose "Open PDF Reader"
-- **Drag & Drop**: Drag a local PDF file into the reader
-- **Paste URL**: Paste any PDF link directly into the viewer
+Her iki motor **108 hedef dil** destekler.
 
-### PDF Features
+Eklenti ayarlarında çeviri motoru ve hedef dili değiştirebilirsiniz. Hedef dil tarayıcı dilinden otomatik algılanır.
 
-| Feature | Description |
-|---------|-------------|
-| **Dictionary Lookup** | Accurate Bopomofo annotation above each Chinese character, scaled with zoom |
-| **Dictionary Mode** | Tone marks, no tones, hover-only, or hidden |
-| **Click Dictionary** | Click any Chinese character to see dictionary definitions (CC-CEDICT English dictionary, 110K entries, TOCFL levels) |
-| **Selection Toolbar** | Select text, then use the toolbar to read aloud, translate, or copy |
-| **Sidebar** | Table of contents, page thumbnails, and Bopomofo search |
-| **3 Themes** | Dark, Light, and Sepia reading modes |
-| **Zoom Adaptive** | Bopomofo scales perfectly with zoom level, no overlap |
-| **Keyboard Shortcuts** | ←→ page navigation, +- zoom, Ctrl/Cmd+F search, Escape to dismiss popups |
-
-> **Tip:** The PDF reader works with both local files and online PDFs. All Bopomofo processing happens locally in your browser.
+> **İpucu:** Kapatmak için araç çubuğu veya baloncuğun dışına tıklayın.
 
 ---
 
-## Ayarlar Rehberi
+## PDF Okuyucu
+
+Bopomofo Reader, PDF belgelerindeki Çince metne otomatik bopomofo açıklamaları ekleyen yerleşik PDF okuyucu içerir.
+
+### PDF Açma
+
+- **Otomatik yönlendirme**: Tarayıcıda açılan her PDF otomatik olarak Bopomofo Reader PDF görüntüleyicisine yönlendirilir
+- **Sürükle ve bırak**: Yerel PDF dosyasını görüntüleyiciye bırakın
+- **URL yapıştır**: PDF bağlantısını doğrudan görüntüleyiciye yapıştırın
+- **Popup'tan**: Eklenti simgesine tıklayın, sonra « PDF Okuyucuyu Aç »
+
+### PDF Özellikleri
+
+| Özellik | Açıklama |
+|---------|----------|
+| **Sözlük Araması** | Anında İngilizce tanım, bopomofo okuma ve TOCFL seviyesi için Çince karaktere tıklayın |
+| **Sözlük Modu** | İngilizce tanımlar, bopomofo telaffuz ve TOCFL seviye rozeti için karaktere tıklayın |
+| **Tıklama Sözlüğü** | Tanımlar (CC-CEDICT İngilizce sözlük, 110.000 giriş, TOCFL seviyeleri) ve telaffuz için Çince metne tıklayın |
+| **Seçim Araç Çubuğu** | Metin seçin, okuma, çeviri veya kopyalama için araç çubuğunu kullanın |
+| **Metin Arama** | Çince metinle arama |
+| **Kenar Çubuğu** | İçindekiler, sayfa küçük resimleri ve gezinme |
+| **3 Tema** | Koyu, açık ve sepia okuma modları |
+| **Çeviri** | Metin seçin ve Bing veya Google Translate ile çevirin |
+
+### PDF Klavye Kısayolları
+
+| Tuş | Eylem |
+|-----|-------|
+| ← / → | Önceki / Sonraki sayfa |
+| + / - | Yakınlaştır / Uzaklaştır |
+| Ctrl+F / Cmd+F | Aramayı aç |
+| Escape | Tüm yüzen panelleri kapat |
+
+> **Not:** Parola korumalı ve taranmış (yalnızca görüntü) PDF'ler, bopomofo açıklaması için metin katmanı olmadığından desteklenmez.
+
+---
+
+## Klavye Kısayolları
+
+| Kısayol | Mac Kısayolu | Eylem |
+|---------|--------------|-------|
+| `Alt+Shift+B` | `Ctrl+Shift+B` | Bopomofo açıklamalarını aç/kapat |
+| `Alt+Shift+S` | `Ctrl+Shift+S` | Seçili metni konuş |
+| `Alt+Shift+T` | `Ctrl+Shift+T` | Seçili metni çevir |
+
+> **İpucu:** Chrome'da `chrome://extensions/shortcuts` adresinde kısayolları özelleştirebilirsiniz.
+
+---
+
+## Ayarlar Kılavuzu
 
 | Ayar | Açıklama |
 |------|----------|
-| **Bopomofo'i Etkinleştir** | Bopomofo açıklama özelliği için ana anahtar |
-| **Tam Sayfa Bopomofo** | Tüm karakterler için bopomofo gösterir (sayfa düzenini etkileyebilir) |
-| **Bopomofo Stili** | Ton işaretleri veya tonsuz arasında seçim yapın |
-| **Cümle Okuma Hızı** | Cümle okuma hızını ayarlayın (tek karakter telaffuzu etkilenmez) |
-| **Üzerine Gelme İpuçları** | Fare ile üzerine gelince bopomofo ipucu gösterin |
+| **Bopomofo'yu Etkinleştir** | Bopomofo açıklama özelliğinin ana anahtarı |
+| **Tam Sayfa Bopomofo** | Tüm Çince karakterler için bopomofo gösterir (düzeni etkileyebilir) |
+| **Bopomofo Stili** | Ton işaretleri veya tonsuz arasında seçim |
+| **Cümle Konuşma Hızı** | Seçim okuma hızını ayarlayın (tek karakter telaffuzu etkilenmez) |
+| **Üzerine Gelme Modu** | Üzerine gelme davranışı: Sözlük (TOCFL seviyeleriyle CC-CEDICT İngilizce), yalnızca bopomofo veya kapalı |
+| **Çeviri Motoru** | Bing Translate veya Google Translate |
+| **Hedef Dil** | Çeviri hedef dili (tarayıcı dilinden otomatik algılanır) |
+| **PDF Algılama** | PDF'leri otomatik olarak yerleşik PDF okuyucuya yönlendir |
 
 ---
 
 ## Sık Sorulan Sorular
 
 **S: Neden bazı sayfalarda çalışmıyor?**  
-C: Güvenlik nedeniyle, tarayıcı eklentileri `chrome://` veya tarayıcı ayarları gibi özel sayfalarda çalışamaz.
+C: Güvenlik nedeniyle eklentiler `chrome://`, tarayıcı ayarları veya Chrome Web Mağazası gibi özel sayfalarda çalışamaz.
 
 **S: Bopomofo yanlışsa ne yapmalı?**  
-C: Birden fazla telaffuza sahip karakterlerin bopomofo'i hata içerebilir. Sürekli geliştiriyoruz. Lütfen belirli vakaları bildirin.
+C: Çok sesli karakterlerin bopomofo'su hata içerebilir. Sürekli geliştiriyoruz. Belirli vakaları bildirin.
 
-**S: Ses yok mu?**  
-C: Sistem ses ayarlarını kontrol edin ve Çince ses paketlerinin yüklü olduğundan emin olun.
+**S: Metinden konuşmada ses yok?**  
+C: Sistem ses ayarlarını kontrol edin ve Çince ses paketlerinin yüklü olduğundan emin olun. Ses desteği tarayıcı ve işletim sistemine göre değişir.
+
+**S: Tam sayfa modu düzeni etkiler?**  
+C: Bopomofo açıklamaları ekstra alan gerektirir. Tam sayfa modunu kapatın ve üzerine gelme ipuçlarını kullanın.
+
+**S: Çeviri çalışmıyor?**  
+C: Çeviri internet bağlantısı gerektirir. Bing Translate başarısız olursa ayarlarda Google Translate deneyin. Bazı ağlar çeviri hizmetlerini engelleyebilir.
 
 ---
 
-## Open-source Dictionary Attribution
+## Açık Kaynak Sözlük Atıfı
 
-Bopomofo Reader bundles offline pronunciation and dictionary resources from open-source or community projects:
+Bopomofo Reader, açık kaynak veya topluluk projelerinden offline telaffuz ve sözlük kaynakları içerir:
 
-- **Bopomofo conversion**: pinyin-pro and @pinyin-pro/data/modern power local Mandarin pronunciation conversion and word-level corrections; Bopomofo Reader converts pinyin syllables to Zhuyin/Bopomofo locally and applies Taiwan-pronunciation polyphonic corrections.
-- **Chinese-English dictionary**: CC-CEDICT provides English definitions and base dictionary entries.
-- **Multilingual definitions**: CFDICT (French), HanDeDict (German), and Wiktionary-derived datasets from kaikki.org provide Japanese, Korean, Vietnamese, and Chinese definition data.
-- **Script conversion**: OpenCC-js and the bundled local conversion module are used for Simplified/Traditional Chinese conversion where needed.
+- **Bopomofo dönüşümü**: pinyin-pro ve @pinyin-pro/data/modern yerel Mandarin telaffuz dönüşümü ve kelime düzeyinde düzeltmeler sağlar; Bopomofo Reader pinyin hecelerini yerel olarak Zhuyin/Bopomofo'ya dönüştürür ve Taiwan telaffuz çok sesli düzeltmeleri uygular.
+- **Çince-İngilizce sözlük**: CC-CEDICT İngilizce tanımlar ve temel sözlük girişleri sağlar.
+- **Çok dilli tanımlar**: CFDICT (Fransızca), HanDeDict (Almanca) ve kaikki.org Wiktionary verileri Japonca, Korece, Vietnamca ve Çince tanımlar sağlar.
+- **Yazı dönüşümü**: OpenCC-js ve paketlenmiş yerel dönüşüm modülü gerektiğinde Basitleştirilmiş/Geleneksel Çince dönüşümü için kullanılır.
 
-All dictionary lookups run locally in your browser. Upstream projects retain their own copyright and license terms; see the Privacy Policy for more details.
+Tüm sözlük aramaları tarayıcınızda yerel olarak çalışır. Upstream projeler kendi haklarını ve lisanslarını korur; ayrıntılar için Gizlilik Politikasına bakın.
 
 ---
 

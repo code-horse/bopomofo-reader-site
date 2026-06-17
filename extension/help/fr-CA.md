@@ -1,7 +1,7 @@
 ---
 layout: bare
 title: Bopomofo Reader - Guide d'utilisation
-lang: fr
+lang: fr-CA
 ---
 
 # Bopomofo Reader - Guide d'utilisation

@@ -6,169 +6,200 @@ lang: nl
 
 # Bopomofo Reader - Gebruikershandleiding
 
-> Versie: v1.5.0
+> Versie: v1.5.1
 
 ## Introductie
 
-Bopomofo Reader is een browserextensie voor Chinese taalleerders. Het gebruikt een verbeterde bopomofo-engine met modern Chinees woordenboek en 200+ polyfone woordcorrecties om bopomofo-annotaties toe te voegen aan Chinese karakters op webpagina's.
+Bopomofo Reader is een browserextensie voor Chinese taalleerders. Met een verbeterde bopomofo-engine (met modern Chinees woordenboek en 200+ polyfone woordcorrecties) voegt het nauwkeurig bopomofo-uitspraakannotaties toe aan Chinese karakters op webpagina's, waardoor het leren van Chinese uitspraak gemakkelijker wordt.
 
 ---
 
 ## Belangrijkste functies
 
-- **Tekstselectie-annotatie** — Selecteer Chinese tekst op webpagina's om bopomofo en spraakknoppen te tonen
-- **Hele pagina bopomofo-modus** — Eén klik om bopomofo toe te voegen aan alle karakters op de pagina
+- **Tekstselectie-annotatie** — Selecteer Chinese tekst op webpagina's om automatisch bopomofo en spraakknoppen te tonen
+- **Hele pagina bopomofo-modus** — Voeg met één klik bopomofo toe aan alle Chinese karakters op de pagina
 - **Tekst-naar-spraak** — Klik op de speakerknop om Mandarijnse uitspraak te horen
-- **Selectie voorlezen** — Selecteer tekst, gebruik de zwevende knop of het rechtermuisknopmenu om voor te lezen
-- **Hover-tooltips** — Beweeg de muis over geannoteerde karakters om bopomofo te zien
-- **Meerdere bopomofo-stijlen** — Toontekens (hàn yǔ) en zonder tonen (han yu)
+- **Selectie voorlezen met karaoke-effect** — Selecteer Chinese tekst; een compacte werkbalk met voorlezen en vertalen knoppen verschijnt; spraak speelt met realtime woord- of karaktermarkering (karaoke-effect)
+- **Selectievertaling** — Selecteer tekst, klik op vertalen voor directe vertaling via Bing of Google Translate, weergegeven in een inline bubbel
+- **Hover-woordenboek** — Beweeg over geannoteerde karakters voor bopomofo, CC-CEDICT Engels woordenboekdefinities (110.000 items, TOCFL-niveaus) en uitspraakknoppen
+- **PDF-lezer** — Ingebouwde PDF-lezer die automatisch bopomofo-annotaties toevoegt aan Chinese tekst in PDF-documenten
+- **Meerdere bopomofo-stijlen** — Met toontekens (hàn yǔ) of zonder tonen (han yu)
+- **Sneltoetsen** — Snelle toegang tot kernfuncties via aanpasbare sneltoetsen
 - **Meertalige interface** — Ondersteunt 38 interfacetalen
-- **Selection Speech with Karaoke Effect** — Select any Chinese text; a compact toolbar appears with speak and translate buttons; speech plays with real-time word-by-word highlighting (karaoke effect)
-- **Selection Translation** — Select any text, click the translate button to get instant translation via Bing or Google Translate, displayed in an inline bubble
-- **Hover Dictionary** — Hover over annotated characters to see Bopomofo, dictionary definitions from CC-CEDICT English dictionary with TOCFL levels (155K+ entries), and pronunciation buttons
-- **Keyboard Shortcuts** — Quick access via Alt+Shift+B (toggle), Alt+Shift+S (speak), Alt+Shift+T (translate)
 
 ---
 
 ## Gebruiksaanwijzing
 
-### Stap 1: Installeren
+### Stap 1: Extensie installeren
 
-Installeer **Bopomofo Reader** vanuit de [Chrome Web Store](https://chromewebstore.google.com/detail/bopomofo-reader/jkibgddokcnhedkhmleaohojhlnemmkg) of laad in ontwikkelaarsmodus.
+Installeer **Bopomofo Reader** vanuit de [Chrome Web Store](https://chromewebstore.google.com/detail/bopomofo-reader/jkibgddokcnhedkhmleaohojhlnemmkg), of laad in ontwikkelaarsmodus.
 
-### Stap 2: Pagina openen
+### Stap 2: Webpagina openen
 
-Bezoek een willekeurige pagina met Chinese inhoud.
+Bezoek een pagina met Chinese inhoud.
 
-### Stap 3: Selecteren of zwevende knop
+### Stap 3: Tekst selecteren of zwevende knop gebruiken
 
-Selecteer de tekst die je wilt annoteren of klik op de zwevende knop voor de hele-pagina-modus.
+Selecteer Chinese tekst om te annoteren, of klik op de zwevende knop rechtsonder voor de hele pagina bopomofo-modus.
 
 ### Stap 4: Bopomofo bekijken
 
-Beweeg de muis voor tooltips, klik op de speaker voor uitspraak.
+Beweeg over karakters voor bopomofo-tooltips, klik op het speakerpictogram voor uitspraak.
 
-### Stap 5: Selectie voorlezen
+### Stap 5: Geselecteerde tekst voorlezen en vertalen
 
-Selecteer tekst, klik op de zwevende 🔊-knop of rechtsklik "Selectie voorlezen".
+Selecteer Chinese tekst met de muis. Een compacte werkbalk verschijnt met twee knoppen:
+- **🔊 Voorlezen** — Leest geselecteerde tekst met karaoke-markering
+- **🌐 Vertalen** — Toont een inline vertaalbubbel onder de werkbalk
 
----
+U kunt ook rechtsklikken en « Bopomofo Reader > Selectie voorlezen » of « Bopomofo Reader > Selectie vertalen » kiezen.
 
-## Selection Speech & Karaoke
-
-Select any Chinese text and read it aloud with one click — perfect for learning sentence pronunciation.
-
-**Method 1: Selection Toolbar**
-Select Chinese text with your mouse. A compact toolbar appears near the selection with a 🔊 speak button and a 🌐 translate button. Click speak to play. Words highlight in real time (karaoke effect).
-
-**Method 2: Right-Click Menu**
-Select text, right-click and choose "Bopomofo Reader > Speak Selection".
-
-**Method 3: Keyboard Shortcut**
-Select text and press `Alt+Shift+S` (Mac: `Ctrl+Shift+S`).
+> **Tip:** Klik op het extensiepictogram in de browserwerkbalk om het instellingenpaneel te openen en bopomofo-stijl, spreeksnelheid, vertaalservice, enz. aan te passen.
 
 ---
 
-## Translation
+## Selectie voorlezen & Karaoke
 
-Select any text on the page to get instant translations.
+Met selectie voorlezen kunt u Chinese tekst met één klik voorlezen — ideaal voor het leren van uitspraak en leespraktijk.
 
-**Method 1: Selection Toolbar**
-Select text, then click the 🌐 translate button. A translation bubble appears with the result and a copy button.
+**Methode 1: Selectie-werkbalk**  
+Selecteer Chinese tekst met de muis. Een compacte werkbalk met 🔊 Voorlezen en 🌐 Vertalen knoppen verschijnt. Klik op Voorlezen. Woorden of karakters worden realtime gemarkeerd (karaoke-effect).
 
-**Method 2: Right-Click Menu**
-Select text, right-click and choose "Bopomofo Reader > Translate Selection".
+**Methode 2: Contextmenu**  
+Selecteer Chinese tekst, rechtsklik en kies « Bopomofo Reader > Selectie voorlezen ».
 
-**Method 3: Keyboard Shortcut**
-Select text and press `Alt+Shift+T` (Mac: `Ctrl+Shift+T`).
+**Methode 3: Sneltoets**  
+Selecteer tekst en druk `Alt+Shift+S` (Mac: `Ctrl+Shift+S`).
 
-**Translation Engines:**
-- **Bing Translate** (default) — Powered by Microsoft Translator
+> **Tip:** Het karaoke-effect werkt het beste wanneer uw browser TTS-woordgrens-events ondersteunt. Anders gebruikt de extensie een tijdgebaseerde fallback.
+
+---
+
+## Vertaling
+
+Selecteer tekst op de pagina en gebruik de vertaalfunctie voor directe vertalingen.
+
+**Methode 1: Selectie-werkbalk**  
+Selecteer tekst, klik op 🌐 Vertalen. Een vertaalbubbel verschijnt met resultaat en kopieerknop.
+
+**Methode 2: Contextmenu**  
+Selecteer tekst, rechtsklik en kies « Bopomofo Reader > Selectie vertalen ».
+
+**Methode 3: Sneltoets**  
+Selecteer tekst en druk `Alt+Shift+T` (Mac: `Ctrl+Shift+T`).
+
+**Vertaaldiensten:**
+- **Bing Translate** (standaard) — Powered by Microsoft Translator
 - **Google Translate** — Powered by Google
 
-Both engines support **108 target languages**.
+Beide diensten ondersteunen **108 doeltalen**.
+
+U kunt vertaaldienst en doeltaal wijzigen in de extensie-instellingen. Doeltaal wordt automatisch gedetecteerd uit de browser-taal.
+
+> **Tip:** Klik buiten de werkbalk of bubbel om te sluiten.
 
 ---
 
-## Keyboard Shortcuts
+## PDF-lezer
 
-| Shortcut | Mac Shortcut | Action |
-|----------|-------------|--------|
-| `Alt+Shift+B` | `Ctrl+Shift+B` | Toggle Bopomofo annotations on/off |
-| `Alt+Shift+S` | `Ctrl+Shift+S` | Speak selected text |
-| `Alt+Shift+T` | `Ctrl+Shift+T` | Translate selected text |
+Bopomofo Reader bevat een ingebouwde PDF-lezer die automatisch bopomofo-annotaties toevoegt aan Chinese tekst in PDF-documenten.
 
-> **Tip:** Customize shortcuts in Chrome at `chrome://extensions/shortcuts`.
+### PDF's openen
 
-## Built-in PDF Reader
+- **Auto-redirect**: Elke PDF in de browser wordt automatisch doorgestuurd naar de Bopomofo Reader PDF-viewer
+- **Slepen en neerzetten**: Lokale PDF op de viewer neerzetten
+- **URL plakken**: PDF-link direct in de viewer plakken
+- **Van popup**: Klik op extensiepictogram, dan « PDF-lezer openen »
 
-Bopomofo Reader v1.5.0 includes a powerful built-in PDF reader that automatically adds Bopomofo annotations to any PDF file.
+### PDF-functies
 
-### Opening PDFs
+| Functie | Beschrijving |
+|---------|--------------|
+| **Woordenboekopzoeking** | Klik op een Chinees karakter voor directe Engelse definitie, bopomofo-lezing en TOCFL-niveau |
+| **Woordenboekmodus** | Klik op een karakter voor Engelse definities, bopomofo-uitspraak en TOCFL-niveau-badge |
+| **Klik-woordenboek** | Klik op Chinese tekst voor woordenboekdefinities (CC-CEDICT Engels, 110.000 items, TOCFL-niveaus) en uitspraak |
+| **Selectie-werkbalk** | Selecteer tekst, gebruik werkbalk om voor te lezen, vertalen of kopiëren |
+| **Tekstzoeken** | Zoeken op Chinese tekst |
+| **Zijbalk** | Inhoudsopgave, paginaminaturen en navigatie |
+| **3 thema's** | Donker, licht en sepia-leesmodi |
+| **Vertaling** | Selecteer tekst en vertaal via Bing of Google Translate |
 
-- **Automatic**: Any PDF opened in the browser is automatically redirected to the Bopomofo Reader PDF viewer
-- **From Popup**: Click the extension icon and choose "Open PDF Reader"
-- **Drag & Drop**: Drag a local PDF file into the reader
-- **Paste URL**: Paste any PDF link directly into the viewer
+### PDF-sneltoetsen
 
-### PDF Features
+| Sleutel | Actie |
+|---------|-------|
+| ← / → | Vorige / volgende pagina |
+| + / - | In-/uitzoomen |
+| Ctrl+F / Cmd+F | Zoeken openen |
+| Escape | Alle zwevende panelen sluiten |
 
-| Feature | Description |
-|---------|-------------|
-| **Dictionary Lookup** | Accurate Bopomofo annotation above each Chinese character, scaled with zoom |
-| **Dictionary Mode** | Tone marks, no tones, hover-only, or hidden |
-| **Click Dictionary** | Click any Chinese character to see dictionary definitions (CC-CEDICT English dictionary, 110K entries, TOCFL levels) |
-| **Selection Toolbar** | Select text, then use the toolbar to read aloud, translate, or copy |
-| **Sidebar** | Table of contents, page thumbnails, and Bopomofo search |
-| **3 Themes** | Dark, Light, and Sepia reading modes |
-| **Zoom Adaptive** | Bopomofo scales perfectly with zoom level, no overlap |
-| **Keyboard Shortcuts** | ←→ page navigation, +- zoom, Ctrl/Cmd+F search, Escape to dismiss popups |
+> **Opmerking:** Wachtwoordbeveiligde en gescannde (alleen afbeelding) PDF's worden niet ondersteund vanwege ontbrekende tekstlaag voor bopomofo-annotatie.
 
-> **Tip:** The PDF reader works with both local files and online PDFs. All Bopomofo processing happens locally in your browser.
+---
+
+## Sneltoetsen
+
+| Sneltoets | Mac-sneltoets | Actie |
+|-----------|---------------|-------|
+| `Alt+Shift+B` | `Ctrl+Shift+B` | Bopomofo-annotaties aan/uit |
+| `Alt+Shift+S` | `Ctrl+Shift+S` | Geselecteerde tekst voorlezen |
+| `Alt+Shift+T` | `Ctrl+Shift+T` | Geselecteerde tekst vertalen |
+
+> **Tip:** Pas sneltoetsen aan in Chrome op `chrome://extensions/shortcuts`.
 
 ---
 
 ## Instellingengids
 
 | Instelling | Beschrijving |
-|---|---|
-| **Bopomofo inschakelen** | Hoofdschakelaar |
-| **Hele pagina bopomofo** | Toon bopomofo voor alle karakters |
-| **Bopomofo-stijl** | Toontekens of zonder tonen |
-| **Zinsleesnelheid** | Pas de snelheid van het voorlezen van zinnen aan |
-| **Hover-tooltips** | Toon tooltip bij muisbeweging |
+|------------|--------------|
+| **Bopomofo inschakelen** | Hoofdschakelaar voor bopomofo-annotatie |
+| **Hele pagina bopomofo** | Toont bopomofo voor alle Chinese karakters (kan layout beïnvloeden) |
+| **Bopomofo-stijl** | Keuze tussen toontekens of zonder tonen |
+| **Zin-voorleessnelheid** | Snelheid van selectie-voorlezen aanpassen (enkel karakter niet beïnvloed) |
+| **Hover-modus** | Hover-gedrag: Woordenboek (CC-CEDICT Engels met TOCFL-niveaus), alleen bopomofo of uit |
+| **Vertaaldienst** | Bing Translate of Google Translate |
+| **Doeltaal** | Doeltaal voor vertaling (automatisch uit browser-taal) |
+| **PDF-detectie** | PDF's automatisch doorsturen naar ingebouwde PDF-lezer |
 
 ---
 
-## FAQ
+## Veelgestelde vragen
 
 **V: Waarom werkt het niet op sommige pagina's?**  
-A: Extensies kunnen niet draaien op chrome:// of browserinstellingenpagina's.
+A: Vanwege beveiliging kunnen extensies niet op speciale pagina's zoals `chrome://`, browserinstellingen of Chrome Web Store draaien.
 
-**V: Onnauwkeurige bopomofo?**  
-A: Polyfone karakters kunnen fouten bevatten, wij verbeteren continu.
+**V: Wat als bopomofo onjuist is?**  
+A: Bopomofo voor polyfone karakters kan fouten bevatten. We verbeteren continu. Deel specifieke gevallen om ons te helpen.
 
-**V: Geen geluid?**  
-A: Controleer het volume, zorg dat Chinese stemmen zijn geïnstalleerd.
+**V: Geen geluid bij tekst-naar-spraak?**  
+A: Controleer volume-instellingen en zorg dat Chinese spraakpakketten geïnstalleerd zijn. Spraakondersteuning varieert per browser en OS.
+
+**V: Hele pagina-modus beïnvloedt layout?**  
+A: Bopomofo-annotaties vereisen extra ruimte. Schakel hele pagina-modus uit en gebruik hover-tooltips.
+
+**V: Vertaling werkt niet?**  
+A: Vertaling vereist internet. Als Bing Translate faalt, probeer Google Translate in instellingen. Sommige netwerken blokkeren vertaaldiensten.
 
 ---
 
-## Open-source Dictionary Attribution
+## Open-source woordenboekattributie
 
-Bopomofo Reader bundles offline pronunciation and dictionary resources from open-source or community projects:
+Bopomofo Reader bundelt offline uitspraak- en woordenboekbronnen uit open-source of community-projecten:
 
-- **Bopomofo conversion**: pinyin-pro and @pinyin-pro/data/modern power local Mandarin pronunciation conversion and word-level corrections; Bopomofo Reader converts pinyin syllables to Zhuyin/Bopomofo locally and applies Taiwan-pronunciation polyphonic corrections.
-- **Chinese-English dictionary**: CC-CEDICT provides English definitions and base dictionary entries.
-- **Multilingual definitions**: CFDICT (French), HanDeDict (German), and Wiktionary-derived datasets from kaikki.org provide Japanese, Korean, Vietnamese, and Chinese definition data.
-- **Script conversion**: OpenCC-js and the bundled local conversion module are used for Simplified/Traditional Chinese conversion where needed.
+- **Bopomofo-conversie**: pinyin-pro en @pinyin-pro/data/modern voor lokale Mandarijn-uitspraakconversie en woordcorrecties; Bopomofo Reader converteert pinyin-lokalen lokaal naar Zhuyin/Bopomofo en past Taiwan-uitspraak polyfone correcties toe.
+- **Chinees-Engels woordenboek**: CC-CEDICT levert Engelse definities en basiswoordenboekitems.
+- **Meertalige definities**: CFDICT (Frans), HanDeDict (Duits) en Wiktionary-data van kaikki.org voor Japans, Koreaans, Vietnamees en Chinees.
+- **Scriptconversie**: OpenCC-js en het gebundelde lokale conversiemodule voor vereenvoudigd/traditioneel Chinees indien nodig.
 
-All dictionary lookups run locally in your browser. Upstream projects retain their own copyright and license terms; see the Privacy Policy for more details.
+Alle woordenboekopzoekingen lopen lokaal in uw browser. Upstream-projecten behouden eigen copyright en licenties; zie Privacybeleid voor details.
 
 ---
 
 ## Gerelateerde links
 
 - [Privacybeleid](../privacy-policy)
-- [Ondersteuning](../support)
+- [Ondersteuning en feedback](../support)
 
 ---

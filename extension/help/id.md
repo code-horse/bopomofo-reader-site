@@ -1,174 +1,205 @@
 ---
 layout: bare
-title: Bopomofo Reader - Panduan Pengguna
+title: Bopomofo Reader - Panduan pengguna
 lang: id
 ---
 
-# Bopomofo Reader - Panduan Pengguna
+# Bopomofo Reader - Panduan pengguna
 
-> Versi: v1.5.0
+> Versi: v1.5.1
 
 ## Pengantar
 
-Bopomofo Reader adalah ekstensi peramban untuk pembelajar bahasa Mandarin. Menggunakan mesin bopomofo yang ditingkatkan dengan kamus Mandarin modern dan 200+ koreksi kata polifonik untuk menambahkan anotasi bopomofo pada karakter Tionghoa di halaman web.
+Bopomofo Reader adalah ekstensi browser untuk pembelajar bahasa Mandarin. Dengan mesin bopomofo yang ditingkatkan (kamus Mandarin modern dan 200+ koreksi karakter polifonik), menambahkan anotasi pronunciasi bopomofo secara akurat ke karakter Mandarin di halaman web.
 
 ---
 
-## Fitur Utama
+## Fitur utama
 
-- **Anotasi Pemilihan Teks** — Pilih teks Mandarin di halaman web untuk menampilkan bopomofo dan tombol ucapan
-- **Mode Bopomofo Seluruh Halaman** — Satu klik untuk menambahkan bopomofo ke semua karakter di halaman
-- **Ucapan Teks** — Klik tombol speaker untuk mendengar pengucapan Mandarin
-- **Ucapan Pemilihan** — Pilih teks, gunakan tombol mengambang atau menu klik kanan untuk membacakan dengan suara
-- **Tooltip Hover** — Arahkan kursor ke karakter yang telah diberi anotasi untuk melihat bopomofo
-- **Berbagai Gaya Bopomofo** — Tanda nada (hàn yǔ) dan tanpa nada (han yu)
-- **Antarmuka Multibahasa** — Mendukung 38 bahasa antarmuka
-- **Selection Speech with Karaoke Effect** — Select any Chinese text; a compact toolbar appears with speak and translate buttons; speech plays with real-time word-by-word highlighting (karaoke effect)
-- **Selection Translation** — Select any text, click the translate button to get instant translation via Bing or Google Translate, displayed in an inline bubble
-- **Hover Dictionary** — Hover over annotated characters to see Bopomofo, dictionary definitions from CC-CEDICT English dictionary with TOCFL levels (155K+ entries), and pronunciation buttons
-- **Keyboard Shortcuts** — Quick access via Alt+Shift+B (toggle), Alt+Shift+S (speak), Alt+Shift+T (translate)
+- **Anotasi pilihan teks** — Pilih teks Mandarin di halaman web untuk menampilkan bopomofo dan tombol suara secara otomatis
+- **Mode bopomofo seluruh halaman** — Tambahkan anotasi bopomofo ke semua karakter Mandarin dengan satu klik
+- **Teks ke ucapan** — Klik tombol speaker untuk mendengar pronunciasi Mandarin standar
+- **Ucapan pilihan dengan efek karaoke** — Pilih teks Mandarin; toolbar ringkas dengan tombol bicara dan terjemah muncul; ucapan menyorot kata atau karakter secara real-time (efek karaoke)
+- **Terjemahan pilihan** — Pilih teks, klik terjemah untuk terjemahan instan via Bing atau Google Translate, ditampilkan dalam gelembung inline
+- **Kamus hover** — Arahkan ke karakter beranotasi untuk melihat bopomofo, definisi kamus CC-CEDICT Inggris (110.000 entri, level TOCFL) dan tombol pronunciasi
+- **Pembaca PDF** — Pembaca PDF bawaan yang otomatis menambahkan anotasi bopomofo ke teks Mandarin dalam PDF
+- **Beberapa gaya bopomofo** — Dengan tanda ton (hàn yǔ) atau tanpa ton (han yu)
+- **Pintasan keyboard** — Akses cepat ke fitur inti melalui pintasan yang dapat disesuaikan
+- **Antarmuka multibahasa** — Mendukung 38 bahasa antarmuka
 
 ---
 
-## Cara Penggunaan
+## Cara menggunakan
 
-### Langkah 1: Pasang
+### Langkah 1: Instal ekstensi
 
-Pasang **Bopomofo Reader** dari [Chrome Web Store](https://chromewebstore.google.com/detail/bopomofo-reader/jkibgddokcnhedkhmleaohojhlnemmkg) atau muat dalam mode pengembang.
+Instal **Bopomofo Reader** dari [Chrome Web Store](https://chromewebstore.google.com/detail/bopomofo-reader/jkibgddokcnhedkhmleaohojhlnemmkg), atau muat secara lokal dalam mode pengembang.
 
-### Langkah 2: Buka halaman
+### Langkah 2: Buka halaman web
 
-Kunjungi halaman apa pun dengan konten Mandarin.
+Kunjungi halaman dengan konten Mandarin.
 
-### Langkah 3: Pilih teks atau tombol mengambang
+### Langkah 3: Pilih teks atau gunakan tombol mengambang
 
-Pilih teks yang ingin diberi anotasi atau klik tombol mengambang untuk mode seluruh halaman.
+Pilih teks Mandarin untuk dianotasi, atau klik tombol mengambang di kanan bawah untuk mode bopomofo seluruh halaman.
 
 ### Langkah 4: Lihat bopomofo
 
-Arahkan kursor untuk tooltip, klik speaker untuk pengucapan.
+Arahkan ke karakter untuk tooltip bopomofo, klik ikon speaker untuk pronunciasi.
 
-### Langkah 5: Baca pemilihan
+### Langkah 5: Bicarakan dan terjemahkan teks pilihan
 
-Pilih teks, klik tombol mengambang 🔊 atau klik kanan "Bacakan Pemilihan".
+Pilih teks Mandarin dengan mouse. Toolbar ringkas muncul dengan dua tombol:
+- **🔊 Bicara** — Membaca teks pilihan dengan sorotan gaya karaoke
+- **🌐 Terjemah** — Menampilkan gelembung terjemahan inline di bawah toolbar
 
----
+Anda juga bisa klik kanan dan pilih « Bopomofo Reader > Bicarakan pilihan » atau « Bopomofo Reader > Terjemahkan pilihan ».
 
-## Selection Speech & Karaoke
-
-Select any Chinese text and read it aloud with one click — perfect for learning sentence pronunciation.
-
-**Method 1: Selection Toolbar**
-Select Chinese text with your mouse. A compact toolbar appears near the selection with a 🔊 speak button and a 🌐 translate button. Click speak to play. Words highlight in real time (karaoke effect).
-
-**Method 2: Right-Click Menu**
-Select text, right-click and choose "Bopomofo Reader > Speak Selection".
-
-**Method 3: Keyboard Shortcut**
-Select text and press `Alt+Shift+S` (Mac: `Ctrl+Shift+S`).
+> **Tips:** Klik ikon ekstensi di toolbar browser untuk membuka panel pengaturan dan menyesuaikan gaya bopomofo, kecepatan bicara, mesin terjemahan, dll.
 
 ---
 
-## Translation
+## Ucapan pilihan & Karaoke
 
-Select any text on the page to get instant translations.
+Fitur ucapan pilihan memungkinkan membaca teks Mandarin dengan satu klik — ideal untuk belajar pronunciasi kalimat dan latihan membaca.
 
-**Method 1: Selection Toolbar**
-Select text, then click the 🌐 translate button. A translation bubble appears with the result and a copy button.
+**Metode 1: Toolbar pilihan**  
+Pilih teks Mandarin dengan mouse. Toolbar ringkas dengan 🔊 Bicara dan 🌐 Terjemah muncul. Klik Bicara untuk memutar. Kata atau karakter disorot real-time (efek karaoke).
 
-**Method 2: Right-Click Menu**
-Select text, right-click and choose "Bopomofo Reader > Translate Selection".
+**Metode 2: Menu klik kanan**  
+Pilih teks Mandarin, klik kanan dan pilih « Bopomofo Reader > Bicarakan pilihan ».
 
-**Method 3: Keyboard Shortcut**
-Select text and press `Alt+Shift+T` (Mac: `Ctrl+Shift+T`).
+**Metode 3: Pintasan keyboard**  
+Pilih teks dan tekan `Alt+Shift+S` (Mac: `Ctrl+Shift+S`).
 
-**Translation Engines:**
+> **Tips:** Efek karaoke bekerja paling baik saat browser mendukung event batas kata TTS. Jika tidak, ekstensi menggunakan fallback berbasis waktu.
+
+---
+
+## Terjemahan
+
+Pilih teks di halaman dan gunakan fitur terjemahan untuk terjemahan instan.
+
+**Metode 1: Toolbar pilihan**  
+Pilih teks, klik 🌐 Terjemah. Gelembung terjemahan muncul dengan hasil dan tombol salin.
+
+**Metode 2: Menu klik kanan**  
+Pilih teks, klik kanan dan pilih « Bopomofo Reader > Terjemahkan pilihan ».
+
+**Metode 3: Pintasan keyboard**  
+Pilih teks dan tekan `Alt+Shift+T` (Mac: `Ctrl+Shift+T`).
+
+**Mesin terjemahan:**
 - **Bing Translate** (default) — Powered by Microsoft Translator
 - **Google Translate** — Powered by Google
 
-Both engines support **108 target languages**.
+Kedua mesin mendukung **108 bahasa target**.
+
+Anda dapat mengganti mesin terjemahan dan bahasa target di pengaturan ekstensi. Bahasa target terdeteksi otomatis dari bahasa browser.
+
+> **Tips:** Klik di luar toolbar atau gelembung untuk menutup.
 
 ---
 
-## Keyboard Shortcuts
+## Pembaca PDF
 
-| Shortcut | Mac Shortcut | Action |
-|----------|-------------|--------|
-| `Alt+Shift+B` | `Ctrl+Shift+B` | Toggle Bopomofo annotations on/off |
-| `Alt+Shift+S` | `Ctrl+Shift+S` | Speak selected text |
-| `Alt+Shift+T` | `Ctrl+Shift+T` | Translate selected text |
+Bopomofo Reader menyertakan pembaca PDF bawaan yang otomatis menambahkan anotasi bopomofo ke teks Mandarin dalam PDF.
 
-> **Tip:** Customize shortcuts in Chrome at `chrome://extensions/shortcuts`.
+### Membuka PDF
 
-## Built-in PDF Reader
+- **Redirect otomatis**: PDF yang dibuka di browser otomatis diarahkan ke penampil PDF Bopomofo Reader
+- **Seret dan lepas**: Letakkan file PDF lokal ke penampil
+- **Tempel URL**: Tempel tautan PDF langsung ke penampil
+- **Dari popup**: Klik ikon ekstensi, lalu « Buka pembaca PDF »
 
-Bopomofo Reader v1.5.0 includes a powerful built-in PDF reader that automatically adds Bopomofo annotations to any PDF file.
+### Fitur PDF
 
-### Opening PDFs
+| Fitur | Deskripsi |
+|-------|-----------|
+| **Pencarian kamus** | Klik karakter Mandarin untuk definisi Inggris instan, bacaan bopomofo dan level TOCFL |
+| **Mode kamus** | Klik karakter untuk definisi Inggris, pronunciasi bopomofo dan badge level TOCFL |
+| **Kamus klik** | Klik teks Mandarin untuk definisi (kamus CC-CEDICT Inggris, 110.000 entri, level TOCFL) dan pronunciasi |
+| **Toolbar pilihan** | Pilih teks, gunakan toolbar untuk bicara, terjemah atau salin |
+| **Pencarian teks** | Cari berdasarkan teks Mandarin |
+| **Sidebar** | Daftar isi, thumbnail halaman dan navigasi |
+| **3 tema** | Mode baca gelap, terang dan sepia |
+| **Terjemahan** | Pilih teks dan terjemahkan via Bing atau Google Translate |
 
-- **Automatic**: Any PDF opened in the browser is automatically redirected to the Bopomofo Reader PDF viewer
-- **From Popup**: Click the extension icon and choose "Open PDF Reader"
-- **Drag & Drop**: Drag a local PDF file into the reader
-- **Paste URL**: Paste any PDF link directly into the viewer
+### Pintasan PDF
 
-### PDF Features
+| Kunci | Aksi |
+|-------|------|
+| ← / → | Halaman sebelumnya / berikutnya |
+| + / - | Perbesar / perkecil |
+| Ctrl+F / Cmd+F | Buka pencarian |
+| Escape | Tutup semua panel mengambang |
 
-| Feature | Description |
-|---------|-------------|
-| **Dictionary Lookup** | Accurate Bopomofo annotation above each Chinese character, scaled with zoom |
-| **Dictionary Mode** | Tone marks, no tones, hover-only, or hidden |
-| **Click Dictionary** | Click any Chinese character to see dictionary definitions (CC-CEDICT English dictionary, 110K entries, TOCFL levels) |
-| **Selection Toolbar** | Select text, then use the toolbar to read aloud, translate, or copy |
-| **Sidebar** | Table of contents, page thumbnails, and Bopomofo search |
-| **3 Themes** | Dark, Light, and Sepia reading modes |
-| **Zoom Adaptive** | Bopomofo scales perfectly with zoom level, no overlap |
-| **Keyboard Shortcuts** | ←→ page navigation, +- zoom, Ctrl/Cmd+F search, Escape to dismiss popups |
-
-> **Tip:** The PDF reader works with both local files and online PDFs. All Bopomofo processing happens locally in your browser.
+> **Catatan:** PDF berpassword dan PDF scan (hanya gambar) tidak didukung karena tidak memiliki lapisan teks untuk anotasi bopomofo.
 
 ---
 
-## Panduan Pengaturan
+## Pintasan keyboard
+
+| Pintasan | Pintasan Mac | Aksi |
+|----------|--------------|------|
+| `Alt+Shift+B` | `Ctrl+Shift+B` | Aktif/nonaktif anotasi bopomofo |
+| `Alt+Shift+S` | `Ctrl+Shift+S` | Bicarakan teks pilihan |
+| `Alt+Shift+T` | `Ctrl+Shift+T` | Terjemahkan teks pilihan |
+
+> **Tips:** Sesuaikan pintasan di Chrome di `chrome://extensions/shortcuts`.
+
+---
+
+## Panduan pengaturan
 
 | Pengaturan | Deskripsi |
-|---|---|
-| **Aktifkan Bopomofo** | Saklar utama |
-| **Bopomofo Seluruh Halaman** | Tampilkan bopomofo untuk semua karakter |
-| **Gaya Bopomofo** | Tanda nada atau tanpa nada |
-| **Kecepatan Ucapan Kalimat** | Sesuaikan kecepatan membaca kalimat |
-| **Tooltip Hover** | Tampilkan tooltip saat hover |
+|------------|-----------|
+| **Aktifkan Bopomofo** | Saklar utama untuk anotasi bopomofo |
+| **Bopomofo seluruh halaman** | Menampilkan bopomofo untuk semua karakter Mandarin (dapat mempengaruhi tata letak) |
+| **Gaya bopomofo** | Pilih dengan tanda ton atau tanpa ton |
+| **Kecepatan bicara kalimat** | Atur kecepatan baca pilihan (pronunciasi karakter tunggal tidak terpengaruh) |
+| **Mode hover** | Perilaku hover: Kamus (CC-CEDICT Inggris dengan level TOCFL), hanya bopomofo atau mati |
+| **Mesin terjemahan** | Bing Translate atau Google Translate |
+| **Bahasa target** | Bahasa target terjemahan (terdeteksi otomatis dari browser) |
+| **Deteksi PDF** | Otomatis arahkan PDF ke pembaca PDF bawaan |
 
 ---
 
 ## FAQ
 
-**T: Mengapa tidak bekerja di beberapa halaman?**  
-J: Ekstensi tidak dapat berjalan di halaman chrome:// atau halaman pengaturan peramban.
+**T: Mengapa tidak berfungsi di beberapa halaman?**  
+J: Demi keamanan, ekstensi tidak berjalan di halaman spesial seperti `chrome://`, pengaturan browser atau Chrome Web Store.
 
-**T: Bopomofo tidak akurat?**  
-J: Karakter polifonik mungkin memiliki kesalahan, kami terus meningkatkan.
+**T: Bagaimana jika bopomofo tidak akurat?**  
+J: Bopomofo untuk karakter polifonik mungkin memiliki kesalahan. Kami terus memperbaiki. Bagikan kasus spesifik untuk membantu kami.
 
-**T: Tidak ada suara?**  
-J: Periksa volume, pastikan paket suara Mandarin sudah terpasang.
+**T: Tidak ada suara dari teks ke ucapan?**  
+J: Periksa pengaturan volume dan pastikan paket suara Mandarin terinstal. Dukungan suara bervariasi per browser dan OS.
 
----
+**T: Mode seluruh halaman mempengaruhi tata letak?**  
+J: Anotasi bopomofo memerlukan ruang tambahan. Nonaktifkan mode seluruh halaman dan gunakan tooltip hover.
 
-## Open-source Dictionary Attribution
-
-Bopomofo Reader bundles offline pronunciation and dictionary resources from open-source or community projects:
-
-- **Bopomofo conversion**: pinyin-pro and @pinyin-pro/data/modern power local Mandarin pronunciation conversion and word-level corrections; Bopomofo Reader converts pinyin syllables to Zhuyin/Bopomofo locally and applies Taiwan-pronunciation polyphonic corrections.
-- **Chinese-English dictionary**: CC-CEDICT provides English definitions and base dictionary entries.
-- **Multilingual definitions**: CFDICT (French), HanDeDict (German), and Wiktionary-derived datasets from kaikki.org provide Japanese, Korean, Vietnamese, and Chinese definition data.
-- **Script conversion**: OpenCC-js and the bundled local conversion module are used for Simplified/Traditional Chinese conversion where needed.
-
-All dictionary lookups run locally in your browser. Upstream projects retain their own copyright and license terms; see the Privacy Policy for more details.
+**T: Terjemahan tidak berfungsi?**  
+J: Terjemahan memerlukan koneksi internet. Jika Bing Translate gagal, coba Google Translate di pengaturan. Beberapa jaringan mungkin memblokir layanan terjemahan.
 
 ---
 
-## Tautan Terkait
+## Atribusi kamus sumber terbuka
+
+Bopomofo Reader menyertakan sumber daya pronunciasi dan kamus offline dari proyek sumber terbuka atau komunitas:
+
+- **Konversi bopomofo**: pinyin-pro dan @pinyin-pro/data/modern menyediakan konversi pronunciasi Mandarin lokal dan koreksi tingkat kata; Bopomofo Reader mengonversi silabel pinyin ke Zhuyin/Bopomofo secara lokal dan menerapkan koreksi polifonik pronunciasi Taiwan.
+- **Kamus Mandarin-Inggris**: CC-CEDICT menyediakan definisi Inggris dan entri kamus dasar.
+- **Definisi multibahasa**: CFDICT (Prancis), HanDeDict (Jerman) dan data Wiktionary dari kaikki.org untuk Jepang, Korea, Vietnam dan Mandarin.
+- **Konversi skrip**: OpenCC-js dan modul konversi lokal bawaan digunakan untuk konversi Mandarin Sederhana/Tradisional bila diperlukan.
+
+Semua pencarian kamus berjalan secara lokal di browser. Proyek upstream mempertahankan hak dan lisensi mereka; lihat Kebijakan Privasi untuk detail.
+
+---
+
+## Tautan terkait
 
 - [Kebijakan Privasi](../privacy-policy)
-- [Dukungan](../support)
+- [Dukungan & umpan balik](../support)
 
 ---

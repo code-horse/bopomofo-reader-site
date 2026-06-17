@@ -1,7 +1,7 @@
 ---
 layout: bare
 title: Bopomofo Reader Extension - User Guide
-lang: en
+lang: en-GB
 ---
 
 # Bopomofo Reader - User Guide

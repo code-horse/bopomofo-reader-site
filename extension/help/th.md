@@ -6,163 +6,194 @@ lang: th
 
 # Bopomofo Reader - คู่มือการใช้งาน
 
-> เวอร์ชัน: v1.5.0
+> เวอร์ชัน: v1.5.1
 
 ## บทนำ
 
-Bopomofo Reader เป็นส่วนขยายเบราว์เซอร์ที่ออกแบบมาสำหรับผู้เรียนภาษาจีน ใช้เอนจินพินอินขั้นสูง (พร้อมพจนานุกรมจีนสมัยใหม่และการแก้ไขตัวอักษรหลายเสียงมากกว่า 200 รายการ) เพื่อเพิ่มคำอ่านพินอินที่แม่นยำให้กับตัวอักษรจีนบนหน้าเว็บ
+Bopomofo Reader เป็นส่วนขยายเบราว์เซอร์สำหรับผู้เรียนภาษาจีน ด้วยเอนจิ้น bopomofo ที่ปรับปรุงแล้ว (พร้อมพจนานุกรมภาษาจีนสมัยใหม่และการแก้ไขตัวอักษรหลายเสียงกว่า 200 รายการ) เพิ่มคำอธิบายการออกเสียง bopomofo ให้ตัวอักษรจีนบนหน้าเว็บอย่างแม่นยำ
 
 ---
 
 ## คุณสมบัติหลัก
 
-- **คำอธิบายข้อความที่เลือก** — เลือกข้อความจีนบนหน้าเว็บเพื่อแสดงพินอินและปุ่มออกเสียงโดยอัตโนมัติ
-- **โหมดพินอินทั้งหน้า** — คลิกเดียวเพื่อเพิ่มพินอินให้ตัวอักษรจีนทั้งหมดในหน้า
-- **แปลงข้อความเป็นเสียง** — คลิกปุ่มลำโพงเพื่อฟังการออกเสียงมาตรฐานจีนกลาง
-- **อ่านข้อความที่เลือก** — เลือกข้อความจีนใดก็ได้ แล้วใช้ปุ่มลอยหรือเมนูคลิกขวาเพื่ออ่านออกเสียง
-- **คำแนะนำเมื่อชี้เมาส์** — วางเมาส์เหนือตัวอักษรที่มีคำอธิบายเพื่อดูพินอิน
-- **หลายรูปแบบพินอิน** — เครื่องหมายวรรณยุกต์ (hàn yǔ) และไม่มีวรรณยุกต์ (han yu)
+- **คำอธิบายการเลือกข้อความ** — เลือกข้อความภาษาจีนบนหน้าเว็บเพื่อแสดง bopomofo และปุ่มเสียงโดยอัตโนมัติ
+- **โหมด bopomofo ทั้งหน้า** — เพิ่มคำอธิบาย bopomofo ให้ตัวอักษรจีนทั้งหมดบนหน้าด้วยคลิกเดียว
+- **แปลงข้อความเป็นเสียง** — คลิกปุ่มลำโพงเพื่อฟังการออกเสียงภาษาจีนกลางมาตรฐาน
+- **อ่านส่วนที่เลือกพร้อมเอฟเฟกต์คาราโอเกะ** — เลือกข้อความภาษาจีน แถบเครื่องมือขนาดเล็กพร้อมปุ่มอ่านและแปลจะปรากฏ เสียงเน้นคำหรือตัวอักษรแบบเรียลไทม์ (เอฟเฟกต์คาราโอเกะ)
+- **แปลส่วนที่เลือก** — เลือกข้อความ คลิกแปลเพื่อแปลทันทีผ่าน Bing หรือ Google Translate แสดงในบับเบิล inline
+- **พจนานุกรมเมื่อชี้** — ชี้ที่ตัวอักษรที่มีคำอธิบายเพื่อดู bopomofo คำจำกัดความจากพจนานุกรม CC-CEDICT อังกฤษ (110,000 รายการ ระดับ TOCFL) และปุ่มออกเสียง
+- **ตัวอ่าน PDF** — ตัวอ่าน PDF ในตัวที่เพิ่มคำอธิบาย bopomofo ให้ข้อความภาษาจีนใน PDF โดยอัตโนมัติ
+- **สไตล์ bopomofo หลายแบบ** — มีเครื่องหมายวรรณยุกต์ (hàn yǔ) หรือไม่มี (han yu)
+- **ปุ่มลัด** — เข้าถึงฟีเจอร์หลักอย่างรวดเร็วผ่านปุ่มลัดที่ปรับแต่งได้
 - **อินเทอร์เฟซหลายภาษา** — รองรับ 38 ภาษาอินเทอร์เฟซ
-- **Selection Speech with Karaoke Effect** — Select any Chinese text; a compact toolbar appears with speak and translate buttons; speech plays with real-time word-by-word highlighting (karaoke effect)
-- **Selection Translation** — Select any text, click the translate button to get instant translation via Bing or Google Translate, displayed in an inline bubble
-- **Hover Dictionary** — Hover over annotated characters to see Bopomofo, dictionary definitions from CC-CEDICT English dictionary with TOCFL levels (155K+ entries), and pronunciation buttons
-- **Keyboard Shortcuts** — Quick access via Alt+Shift+B (toggle), Alt+Shift+S (speak), Alt+Shift+T (translate)
 
 ---
 
 ## วิธีใช้
 
-### ขั้นตอนที่ 1: ติดตั้งส่วนขยาย
+### ขั้นตอน 1: ติดตั้งส่วนขยาย
 
 ติดตั้ง **Bopomofo Reader** จาก [Chrome Web Store](https://chromewebstore.google.com/detail/bopomofo-reader/jkibgddokcnhedkhmleaohojhlnemmkg) หรือโหลดในโหมดนักพัฒนา
 
-### ขั้นตอนที่ 2: เปิดหน้าเว็บ
+### ขั้นตอน 2: เปิดหน้าเว็บ
 
-เข้าชมหน้าเว็บใดก็ได้ที่มีเนื้อหาภาษาจีน
+เข้าชมหน้าเว็บที่มีเนื้อหาภาษาจีน
 
-### ขั้นตอนที่ 3: เลือกข้อความหรือใช้ปุ่มลอย
+### ขั้นตอน 3: เลือกข้อความหรือใช้ปุ่มลอย
 
-เลือกข้อความจีนที่ต้องการใส่คำอธิบาย หรือคลิกปุ่มลอยที่มุมขวาล่างเพื่อเปิดโหมดพินอินทั้งหน้า
+เลือกข้อความภาษาจีนที่ต้องการอธิบาย หรือคลิกปุ่มลอยมุมล่างขวาเพื่อเปิดโหมด bopomofo ทั้งหน้า
 
-### ขั้นตอนที่ 4: ดูพินอิน
+### ขั้นตอน 4: ดู bopomofo
 
-วางเมาส์เหนือตัวอักษรเพื่อดูคำแนะนำพินอิน คลิกไอคอนลำโพงเพื่อฟังการออกเสียง
+ชี้ที่ตัวอักษรเพื่อดู tooltip bopomofo คลิกไอคอนลำโพงเพื่อฟังการออกเสียง
 
-### ขั้นตอนที่ 5: อ่านข้อความที่เลือก
+### ขั้นตอน 5: อ่านและแปลข้อความที่เลือก
 
-เลือกข้อความจีนด้วยเมาส์ คลิกปุ่มลอย 🔊 เพื่ออ่าน หรือคลิกขวาแล้วเลือก "อ่านข้อความที่เลือก"
+เลือกข้อความภาษาจีนด้วยเมาส์ แถบเครื่องมือขนาดเล็กจะปรากฏพร้อมสองปุ่ม:
+- **🔊 อ่าน** — อ่านข้อความที่เลือกพร้อมไฮไลต์แบบคาราโอเกะ
+- **🌐 แปล** — แสดงบับเบิลแปล inline ใต้แถบเครื่องมือ
 
----
+หรือคลิกขวาและเลือก « Bopomofo Reader > อ่านส่วนที่เลือก » หรือ « Bopomofo Reader > แปลส่วนที่เลือก »
 
-## Selection Speech & Karaoke
-
-Select any Chinese text and read it aloud with one click — perfect for learning sentence pronunciation.
-
-**Method 1: Selection Toolbar**
-Select Chinese text with your mouse. A compact toolbar appears near the selection with a 🔊 speak button and a 🌐 translate button. Click speak to play. Words highlight in real time (karaoke effect).
-
-**Method 2: Right-Click Menu**
-Select text, right-click and choose "Bopomofo Reader > Speak Selection".
-
-**Method 3: Keyboard Shortcut**
-Select text and press `Alt+Shift+S` (Mac: `Ctrl+Shift+S`).
+> **เคล็ดลับ:** คลิกไอคอนส่วนขยายบนแถบเบราว์เซอร์เพื่อเปิดการตั้งค่าและปรับสไตล์ bopomofo ความเร็วการอ่าน เครื่องมือแปล ฯลฯ
 
 ---
 
-## Translation
+## อ่านส่วนที่เลือก & คาราโอเกะ
 
-Select any text on the page to get instant translations.
+ฟีเจอร์อ่านส่วนที่เลือกช่วยอ่านข้อความภาษาจีนด้วยคลิกเดียว — เหมาะสำหรับเรียนการออกเสียงและฝึกอ่าน
 
-**Method 1: Selection Toolbar**
-Select text, then click the 🌐 translate button. A translation bubble appears with the result and a copy button.
+**วิธี 1: แถบเครื่องมือเลือก**  
+เลือกข้อความภาษาจีนด้วยเมาส์ แถบเครื่องมือขนาดเล็กพร้อม 🔊 อ่าน และ 🌐 แปล จะปรากฏ คลิกอ่านเพื่อเล่น คำหรือตัวอักษรจะไฮไลต์แบบเรียลไทม์ (เอฟเฟกต์คาราโอเกะ)
 
-**Method 2: Right-Click Menu**
-Select text, right-click and choose "Bopomofo Reader > Translate Selection".
+**วิธี 2: เมนูคลิกขวา**  
+เลือกข้อความภาษาจีน คลิกขวาและเลือก « Bopomofo Reader > อ่านส่วนที่เลือก »
 
-**Method 3: Keyboard Shortcut**
-Select text and press `Alt+Shift+T` (Mac: `Ctrl+Shift+T`).
+**วิธี 3: ปุ่มลัด**  
+เลือกข้อความและกด `Alt+Shift+S` (Mac: `Ctrl+Shift+S`)
 
-**Translation Engines:**
-- **Bing Translate** (default) — Powered by Microsoft Translator
+> **เคล็ดลับ:** เอฟเฟกต์คาราโอเกะทำงานได้ดีที่สุดเมื่อเบราว์เซอร์รองรับ TTS word boundary events หากไม่รองรับ ส่วนขยายจะใช้วิธีสำรองตามเวลา
+
+---
+
+## การแปล
+
+เลือกข้อความบนหน้าและใช้ฟีเจอร์แปลเพื่อรับการแปลทันที
+
+**วิธี 1: แถบเครื่องมือเลือก**  
+เลือกข้อความ คลิก 🌐 แปล บับเบิลแปลจะปรากฏพร้อมผลลัพธ์และปุ่มคัดลอก
+
+**วิธี 2: เมนูคลิกขวา**  
+เลือกข้อความ คลิกขวาและเลือก « Bopomofo Reader > แปลส่วนที่เลือก »
+
+**วิธี 3: ปุ่มลัด**  
+เลือกข้อความและกด `Alt+Shift+T` (Mac: `Ctrl+Shift+T`)
+
+**เครื่องมือแปล:**
+- **Bing Translate** (ค่าเริ่มต้น) — Powered by Microsoft Translator
 - **Google Translate** — Powered by Google
 
-Both engines support **108 target languages**.
+ทั้งสองรองรับ **108 ภาษาเป้าหมาย**
+
+สามารถเปลี่ยนเครื่องมือแปลและภาษาเป้าหมายในการตั้งค่าส่วนขยาย ภาษาเป้าหมายจะถูกตรวจจับอัตโนมัติจากภาษาเบราว์เซอร์
+
+> **เคล็ดลับ:** คลิกนอกแถบเครื่องมือหรือบับเบิลเพื่อปิด
 
 ---
 
-## Keyboard Shortcuts
+## ตัวอ่าน PDF
 
-| Shortcut | Mac Shortcut | Action |
-|----------|-------------|--------|
-| `Alt+Shift+B` | `Ctrl+Shift+B` | Toggle Bopomofo annotations on/off |
-| `Alt+Shift+S` | `Ctrl+Shift+S` | Speak selected text |
-| `Alt+Shift+T` | `Ctrl+Shift+T` | Translate selected text |
+Bopomofo Reader มีตัวอ่าน PDF ในตัวที่เพิ่มคำอธิบาย bopomofo ให้ข้อความภาษาจีนใน PDF โดยอัตโนมัติ
 
-> **Tip:** Customize shortcuts in Chrome at `chrome://extensions/shortcuts`.
+### เปิด PDF
 
-## Built-in PDF Reader
+- **เปลี่ยนเส้นทางอัตโนมัติ**: PDF ที่เปิดในเบราว์เซอร์จะถูกเปลี่ยนเส้นทางไปยังตัวดู PDF Bopomofo Reader โดยอัตโนมัติ
+- **ลากและวาง**: วางไฟล์ PDF ท้องถิ่นบนตัวดู
+- **วาง URL**: วางลิงก์ PDF ลงในตัวดูโดยตรง
+- **จาก popup**: คลิกไอคอนส่วนขยาย แล้ว « เปิดตัวอ่าน PDF »
 
-Bopomofo Reader v1.5.0 includes a powerful built-in PDF reader that automatically adds Bopomofo annotations to any PDF file.
+### ฟีเจอร์ PDF
 
-### Opening PDFs
+| ฟีเจอร์ | คำอธิบาย |
+|---------|----------|
+| **ค้นหาพจนานุกรม** | คลิกตัวอักษรจีนเพื่อคำจำกัดความภาษาอังกฤษทันที การอ่าน bopomofo และระดับ TOCFL |
+| **โหมดพจนานุกรม** | คลิกตัวอักษรเพื่อดูคำจำกัดความภาษาอังกฤษ การออกเสียง bopomofo และ badge TOCFL |
+| **พจนานุกรมเมื่อคลิก** | คลิกข้อความภาษาจีนเพื่อดูคำจำกัดความ (พจนานุกรม CC-CEDICT อังกฤษ 110,000 รายการ ระดับ TOCFL) และการออกเสียง |
+| **แถบเครื่องมือเลือก** | เลือกข้อความ ใช้แถบเพื่ออ่าน แปล หรือคัดลอก |
+| **ค้นหาข้อความ** | ค้นหาด้วยข้อความภาษาจีน |
+| **แถบด้านข้าง** | สารบัญ ภาพขนาดย่อหน้า และการนำทาง |
+| **3 ธีม** | โหมดอ่านมืด สว่าง และ sepia |
+| **แปล** | เลือกข้อความและแปลผ่าน Bing หรือ Google Translate |
 
-- **Automatic**: Any PDF opened in the browser is automatically redirected to the Bopomofo Reader PDF viewer
-- **From Popup**: Click the extension icon and choose "Open PDF Reader"
-- **Drag & Drop**: Drag a local PDF file into the reader
-- **Paste URL**: Paste any PDF link directly into the viewer
+### ปุ่มลัด PDF
 
-### PDF Features
+| ปุ่ม | การทำงาน |
+|------|----------|
+| ← / → | หน้าก่อน / หน้าถัดไป |
+| + / - | ซูมเข้า / ซูมออก |
+| Ctrl+F / Cmd+F | เปิดค้นหา |
+| Escape | ปิดแผงลอยทั้งหมด |
 
-| Feature | Description |
-|---------|-------------|
-| **Dictionary Lookup** | Accurate Bopomofo annotation above each Chinese character, scaled with zoom |
-| **Dictionary Mode** | Tone marks, no tones, hover-only, or hidden |
-| **Click Dictionary** | Click any Chinese character to see dictionary definitions (CC-CEDICT English dictionary, 110K entries, TOCFL levels) |
-| **Selection Toolbar** | Select text, then use the toolbar to read aloud, translate, or copy |
-| **Sidebar** | Table of contents, page thumbnails, and Bopomofo search |
-| **3 Themes** | Dark, Light, and Sepia reading modes |
-| **Zoom Adaptive** | Bopomofo scales perfectly with zoom level, no overlap |
-| **Keyboard Shortcuts** | ←→ page navigation, +- zoom, Ctrl/Cmd+F search, Escape to dismiss popups |
+> **หมายเหตุ:** PDF ที่มีรหัสผ่านและ PDF สแกน (เฉพาะภาพ) ไม่รองรับเพราะไม่มีเลเยอร์ข้อความสำหรับคำอธิบาย bopomofo
 
-> **Tip:** The PDF reader works with both local files and online PDFs. All Bopomofo processing happens locally in your browser.
+---
+
+## ปุ่มลัด
+
+| ปุ่มลัด | ปุ่มลัด Mac | การทำงาน |
+|---------|-------------|----------|
+| `Alt+Shift+B` | `Ctrl+Shift+B` | เปิด/ปิดคำอธิบาย bopomofo |
+| `Alt+Shift+S` | `Ctrl+Shift+S` | อ่านข้อความที่เลือก |
+| `Alt+Shift+T` | `Ctrl+Shift+T` | แปลข้อความที่เลือก |
+
+> **เคล็ดลับ:** ปรับแต่งปุ่มลัดใน Chrome ที่ `chrome://extensions/shortcuts`
 
 ---
 
 ## คู่มือการตั้งค่า
 
 | การตั้งค่า | คำอธิบาย |
-|------------|----------|
-| **เปิดใช้พินอิน** | สวิตช์หลักสำหรับการใส่คำอธิบายพินอิน |
-| **พินอินทั้งหน้า** | แสดงพินอินสำหรับตัวอักษรทั้งหมด (อาจมีผลต่อเค้าโครงหน้า) |
-| **รูปแบบพินอิน** | เลือกเครื่องหมายวรรณยุกต์หรือไม่มีวรรณยุกต์ |
-| **ความเร็วการอ่านประโยค** | ปรับความเร็วการอ่านประโยค (การออกเสียงตัวอักษรเดี่ยวไม่ได้รับผลกระทบ) |
-| **คำแนะนำเมื่อชี้เมาส์** | แสดงคำแนะนำพินอินเมื่อวางเมาส์ |
+|-----------|----------|
+| **เปิดใช้ Bopomofo** | สวิตช์หลักสำหรับคำอธิบาย bopomofo |
+| **Bopomofo ทั้งหน้า** | แสดง bopomofo สำหรับตัวอักษรจีนทั้งหมด (อาจส่งผลต่อเลย์เอาต์) |
+| **สไตล์ bopomofo** | เลือกมีเครื่องหมายวรรณยุกต์หรือไม่มี |
+| **ความเร็วอ่านประโยค** | ปรับความเร็วอ่านส่วนที่เลือก (การออกเสียงตัวอักษรเดี่ยวไม่ได้รับผล) |
+| **โหมด hover** | พฤติกรรมเมื่อชี้: พจนานุกรม (CC-CEDICT อังกฤษพร้อมระดับ TOCFL) เฉพาะ bopomofo หรือปิด |
+| **เครื่องมือแปล** | Bing Translate หรือ Google Translate |
+| **ภาษาเป้าหมาย** | ภาษาเป้าหมายการแปล (ตรวจจับอัตโนมัติจากเบราว์เซอร์) |
+| **ตรวจจับ PDF** | เปลี่ยนเส้นทาง PDF ไปยังตัวอ่าน PDF ในตัวโดยอัตโนมัติ |
 
 ---
 
 ## คำถามที่พบบ่อย
 
-**ถาม: ทำไมไม่ทำงานในบางหน้า?**  
-ตอบ: ด้วยเหตุผลด้านความปลอดภัย ส่วนขยายไม่สามารถทำงานบนหน้าพิเศษ เช่น `chrome://` หรือการตั้งค่าเบราว์เซอร์
+**ถาม: ทำไมไม่ทำงานบางหน้า?**  
+ตอบ: เพื่อความปลอดภัย ส่วนขยายไม่ทำงานบนหน้าพิเศษเช่น `chrome://` การตั้งค่าเบราว์เซอร์ หรือ Chrome Web Store
 
-**ถาม: พินอินไม่ถูกต้อง?**  
-ตอบ: ตัวอักษรที่มีหลายเสียงอาจมีข้อผิดพลาด เราปรับปรุงอย่างต่อเนื่อง กรุณาแจ้งกรณีเฉพาะ
+**ถาม: bopomofo ไม่ถูกต้อง?**  
+ตอบ: bopomofo ของตัวอักษรหลายเสียงอาจมีข้อผิดพลาด เราปรับปรุงอย่างต่อเนื่อง แชร์กรณีเฉพาะเพื่อช่วยเรา
 
-**ถาม: ไม่มีเสียง?**  
-ตอบ: ตรวจสอบการตั้งค่าระดับเสียงและตรวจสอบว่าได้ติดตั้งชุดเสียงภาษาจีนแล้ว
+**ถาม: ไม่มีเสียงเมื่ออ่าน?**  
+ตอบ: ตรวจสอบการตั้งค่าระดับเสียงและติดตั้งแพ็กเสียงภาษาจีน การรองรับเสียงแตกต่างกันตามเบราว์เซอร์และ OS
+
+**ถาม: โหมดทั้งหน้าส่งผลต่อเลย์เอาต์?**  
+ตอบ: คำอธิบาย bopomofo ต้องการพื้นที่เพิ่ม ปิดโหมดทั้งหน้าและใช้ tooltip เมื่อชี้
+
+**ถาม: แปลไม่ทำงาน?**  
+ตอบ: การแปลต้องการอินเทอร์เน็ต หาก Bing Translate ล้มเหลว ลอง Google Translate ในตั้งค่า บางเครือข่ายอาจบล็อกบริการแปล
 
 ---
 
-## Open-source Dictionary Attribution
+## การระบุแหล่งพจนานุกรมโอเพนซอร์ส
 
-Bopomofo Reader bundles offline pronunciation and dictionary resources from open-source or community projects:
+Bopomofo Reader รวมทรัพยากรการออกเสียงและพจนานุกรมออฟไลน์จากโปรเจกต์โอเพนซอร์สหรือชุมชน:
 
-- **Bopomofo conversion**: pinyin-pro and @pinyin-pro/data/modern power local Mandarin pronunciation conversion and word-level corrections; Bopomofo Reader converts pinyin syllables to Zhuyin/Bopomofo locally and applies Taiwan-pronunciation polyphonic corrections.
-- **Chinese-English dictionary**: CC-CEDICT provides English definitions and base dictionary entries.
-- **Multilingual definitions**: CFDICT (French), HanDeDict (German), and Wiktionary-derived datasets from kaikki.org provide Japanese, Korean, Vietnamese, and Chinese definition data.
-- **Script conversion**: OpenCC-js and the bundled local conversion module are used for Simplified/Traditional Chinese conversion where needed.
+- **การแปลง bopomofo**: pinyin-pro และ @pinyin-pro/data/modern ให้การแปลงการออกเสียงภาษาจีนกลางในเครื่องและการแก้ไขระดับคำ Bopomofo Reader แปลงพยางค์ pinyin เป็น Zhuyin/Bopomofo ในเครื่องและใช้การแก้ไขหลายเสียงการออกเสียงไต้หวัน
+- **พจนานุกรมจีน-อังกฤษ**: CC-CEDICT ให้คำจำกัดความภาษาอังกฤษและรายการพจนานุกรมพื้นฐาน
+- **คำจำกัดความหลายภาษา**: CFDICT (ฝรั่งเศส) HanDeDict (เยอรมัน) และข้อมูล Wiktionary จาก kaikki.org สำหรับญี่ปุ่น เกาหลี เวียดนาม และจีน
+- **การแปลงสคริปต์**: OpenCC-js และโมดูลแปลงในเครื่องที่รวมอยู่ใช้สำหรับแปลงจีนตัวย่อ/ตัวเต็มเมื่อจำเป็น
 
-All dictionary lookups run locally in your browser. Upstream projects retain their own copyright and license terms; see the Privacy Policy for more details.
+การค้นหาพจนานุกรมทั้งหมดทำงานในเครื่องในเบราว์เซอร์ โปรเจกต์ upstream ยังคงสิทธิ์และใบอนุญาตของตน ดูนโยบายความเป็นส่วนตัวสำหรับรายละเอียด
 
 ---
 

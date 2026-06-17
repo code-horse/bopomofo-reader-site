@@ -1,173 +1,54 @@
 ---
 layout: bare
-title: Bopomofo Reader - Οδηγός χρήστη
+title: Bopomofo Reader - Οδηγός χρήσης
 lang: el
 ---
 
-# Bopomofo Reader - Οδηγός χρήστη
+# Bopomofo Reader - Οδηγός χρήσης
 
-> Έκδοση: v1.5.0
+> Έκδοση: v1.5.1
 
 ## Εισαγωγή
 
-Το Bopomofo Reader είναι μια επέκταση προγράμματος περιήγησης για μαθητές κινεζικής. Χρησιμοποιεί βελτιωμένη μηχανή bopomofo με σύγχρονο κινεζικό λεξικό και πάνω από 200 διορθώσεις πολυφωνικών λέξεων για να προσθέσει σχολιασμούς bopomofo σε κινεζικούς χαρακτήρες σε ιστοσελίδες.
-
----
+Το Bopomofo Reader είναι επέκταση browser για μαθητές κινεζικών. Προσθέτει ακριβείς bopomofo σημειώσεις.
 
 ## Κύριες λειτουργίες
 
-- **Σχολιασμός επιλογής κειμένου** — Επιλέξτε κινεζικό κείμενο σε ιστοσελίδες για εμφάνιση bopomofo και κουμπιών ομιλίας
-- **Λειτουργία bopomofo ολόκληρης σελίδας** — Ένα κλικ για να προσθέσετε bopomofo σε όλους τους χαρακτήρες στη σελίδα
-- **Μετατροπή κειμένου σε ομιλία** — Κάντε κλικ στο κουμπί ηχείου για ακούστε την τυπική προφορά μανδαρινικών
-- **Ομιλία επιλογής** — Επιλέξτε κείμενο και χρησιμοποιήστε το κομβόλιο ή το μενού δεξιού κλικ για ανάγνωση δυνατά
-- **Αναδυόμενα συμβουλής** — Περάστε το ποντίκι πάνω από σχολιασμένους χαρακτήρες για να δείτε το bopomofo
-- **Πολλαπλά στυλ bopomofo** — Σήματα τόνου (hàn yǔ) και χωρίς τόνους (han yu)
-- **Πολύγλωσσο περιβάλλον** — Υποστηρίζει 38 γλώσσες διεπαφής
-- **Selection Speech with Karaoke Effect** — Select any Chinese text; a compact toolbar appears with speak and translate buttons; speech plays with real-time word-by-word highlighting (karaoke effect)
-- **Selection Translation** — Select any text, click the translate button to get instant translation via Bing or Google Translate, displayed in an inline bubble
-- **Hover Dictionary** — Hover over annotated characters to see Bopomofo, dictionary definitions from CC-CEDICT English dictionary with TOCFL levels (155K+ entries), and pronunciation buttons
-- **Keyboard Shortcuts** — Quick access via Alt+Shift+B (toggle), Alt+Shift+S (speak), Alt+Shift+T (translate)
+Επιλογή κειμένου, πλήρης σελίδα, TTS, karaoke, μετάφραση, CC-CEDICT, PDF, στυλ bopomofo, συντομεύσεις, 38 γλώσσες.
 
----
+## Χρήση
 
-## Πώς να χρησιμοποιήσετε
+[Chrome Web Store](https://chromewebstore.google.com/detail/bopomofo-reader/jkibgddokcnhedkhmleaohojhlnemmkg). 🔊 Ομιλία και 🌐 Μετάφραση.
 
-### Βήμα 1: Εγκατάσταση
+## Ομιλία επιλογής & Karaoke
 
-Εγκαταστήστε **Bopomofo Reader** από το [Chrome Web Store](https://chromewebstore.google.com/detail/bopomofo-reader/jkibgddokcnhedkhmleaohojhlnemmkg) ή φορτώστε σε λειτουργία προγραμματιστή.
+`Alt+Shift+S` (Mac: `Ctrl+Shift+S`).
 
-### Βήμα 2: Άνοιγμα σελίδας
+## Μετάφραση
 
-Επισκεφθείτε οποιαδήποτε σελίδα με κινεζικό περιεχόμενο.
+`Alt+Shift+T` (Mac: `Ctrl+Shift+T`). Bing και Google.
 
-### Βήμα 3: Επιλογή κειμένου ή κομβόλιο
+## Αναγνώστης PDF
 
-Επιλέξτε κείμενο ή κάντε κλικ στο κομβόλιο για λειτουργία ολόκληρης σελίδας.
+Αυτόματη ανακατεύθυνση, λεξικό, 3 θέματα.
 
-### Βήμα 4: Προβολή bopomofo
+## Συντομεύσεις
 
-Περάστε το ποντίκι για συμβουλές, κάντε κλικ στο ηχείο για προφορά.
+Alt+Shift+B/S/T.
 
-### Βήμα 5: Ανάγνωση επιλογής
+## Ρυθμίσεις
 
-Επιλέξτε κείμενο, κάντε κλικ στο κομβόλιο 🔊 ή δεξί κλικ «Ανάγνωση επιλογής».
+Bopomofo, πλήρης σελίδα, στυλ, ταχύτητα, hover, μετάφραση, PDF.
 
----
+## FAQ
 
-## Selection Speech & Karaoke
+Δεν λειτουργεί σε `chrome://`. Απαιτείται internet.
 
-Select any Chinese text and read it aloud with one click — perfect for learning sentence pronunciation.
+## Απόδοση λεξικών
 
-**Method 1: Selection Toolbar**
-Select Chinese text with your mouse. A compact toolbar appears near the selection with a 🔊 speak button and a 🌐 translate button. Click speak to play. Words highlight in real time (karaoke effect).
+pinyin-pro, CC-CEDICT, OpenCC-js.
 
-**Method 2: Right-Click Menu**
-Select text, right-click and choose "Bopomofo Reader > Speak Selection".
-
-**Method 3: Keyboard Shortcut**
-Select text and press `Alt+Shift+S` (Mac: `Ctrl+Shift+S`).
-
----
-
-## Translation
-
-Select any text on the page to get instant translations.
-
-**Method 1: Selection Toolbar**
-Select text, then click the 🌐 translate button. A translation bubble appears with the result and a copy button.
-
-**Method 2: Right-Click Menu**
-Select text, right-click and choose "Bopomofo Reader > Translate Selection".
-
-**Method 3: Keyboard Shortcut**
-Select text and press `Alt+Shift+T` (Mac: `Ctrl+Shift+T`).
-
-**Translation Engines:**
-- **Bing Translate** (default) — Powered by Microsoft Translator
-- **Google Translate** — Powered by Google
-
-Both engines support **108 target languages**.
-
----
-
-## Keyboard Shortcuts
-
-| Shortcut | Mac Shortcut | Action |
-|----------|-------------|--------|
-| `Alt+Shift+B` | `Ctrl+Shift+B` | Toggle Bopomofo annotations on/off |
-| `Alt+Shift+S` | `Ctrl+Shift+S` | Speak selected text |
-| `Alt+Shift+T` | `Ctrl+Shift+T` | Translate selected text |
-
-> **Tip:** Customize shortcuts in Chrome at `chrome://extensions/shortcuts`.
-
-## Built-in PDF Reader
-
-Bopomofo Reader v1.5.0 includes a powerful built-in PDF reader that automatically adds Bopomofo annotations to any PDF file.
-
-### Opening PDFs
-
-- **Automatic**: Any PDF opened in the browser is automatically redirected to the Bopomofo Reader PDF viewer
-- **From Popup**: Click the extension icon and choose "Open PDF Reader"
-- **Drag & Drop**: Drag a local PDF file into the reader
-- **Paste URL**: Paste any PDF link directly into the viewer
-
-### PDF Features
-
-| Feature | Description |
-|---------|-------------|
-| **Dictionary Lookup** | Accurate Bopomofo annotation above each Chinese character, scaled with zoom |
-| **Dictionary Mode** | Tone marks, no tones, hover-only, or hidden |
-| **Click Dictionary** | Click any Chinese character to see dictionary definitions (CC-CEDICT English dictionary, 110K entries, TOCFL levels) |
-| **Selection Toolbar** | Select text, then use the toolbar to read aloud, translate, or copy |
-| **Sidebar** | Table of contents, page thumbnails, and Bopomofo search |
-| **3 Themes** | Dark, Light, and Sepia reading modes |
-| **Zoom Adaptive** | Bopomofo scales perfectly with zoom level, no overlap |
-| **Keyboard Shortcuts** | ←→ page navigation, +- zoom, Ctrl/Cmd+F search, Escape to dismiss popups |
-
-> **Tip:** The PDF reader works with both local files and online PDFs. All Bopomofo processing happens locally in your browser.
-
----
-
-## Οδηγός ρυθμίσεων
-
-| Ρύθμιση | Περιγραφή |
-|---|---|
-| **Ενεργοποίηση Bopomofo** | Κύριος διακόπτης |
-| **Bopomofo ολόκληρης σελίδας** | Εμφάνιση bopomofo για όλους τους χαρακτήρες |
-| **Στυλ bopomofo** | Σήματα τόνου ή χωρίς τόνους |
-| **Ταχύτητα ανάγνωσης προτάσεων** | Ρύθμιση ταχύτητας ανάγνωσης προτάσεων |
-| **Αναδυόμενες συμβουλές** | Εμφάνιση συμβουλής κατά το πέρασμα του ποντικιού |
-
----
-
-## Open-source Dictionary Attribution
-
-Bopomofo Reader bundles offline pronunciation and dictionary resources from open-source or community projects:
-
-- **Bopomofo conversion**: pinyin-pro and @pinyin-pro/data/modern power local Mandarin pronunciation conversion and word-level corrections; Bopomofo Reader converts pinyin syllables to Zhuyin/Bopomofo locally and applies Taiwan-pronunciation polyphonic corrections.
-- **Chinese-English dictionary**: CC-CEDICT provides English definitions and base dictionary entries.
-- **Multilingual definitions**: CFDICT (French), HanDeDict (German), and Wiktionary-derived datasets from kaikki.org provide Japanese, Korean, Vietnamese, and Chinese definition data.
-- **Script conversion**: OpenCC-js and the bundled local conversion module are used for Simplified/Traditional Chinese conversion where needed.
-
-All dictionary lookups run locally in your browser. Upstream projects retain their own copyright and license terms; see the Privacy Policy for more details.
-
----
-
-## Συχνές ερωτήσεις
-
-**Ε: Γιατί δεν λειτουργεί σε μερικές σελίδες;**  
-Α: Οι επεκτάσεις δεν μπορούν να τρέχουν σε σελίδες chrome:// ή ρυθμίσεων προγράμματος περιήγησης.
-
-**Ε: Ανακριβές bopomofo;**  
-Α: Οι πολυφωνικοί χαρακτήρες μπορεί να έχουν σφάλματα· βελτιωθούμε συνεχώς.
-
-**Ε: Χωρίς ήχο;**  
-Α: Ελέγξτε την ένταση και βεβαιωθείτε ότι είναι εγκατεστημένα τα κινεζικά πακέτα φωνής.
-
----
-## Σχετικοί σύνδεσμοι
+## Σύνδεσμοι
 
 - [Πολιτική απορρήτου](../privacy-policy)
 - [Υποστήριξη](../support)
-
----

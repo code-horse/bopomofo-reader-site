@@ -1,173 +1,163 @@
 ---
 layout: bare
-title: Bopomofo Reader - Brugermanual
+title: Bopomofo Reader - Brugervejledning
 lang: da
 ---
 
-# Bopomofo Reader - Brugermanual
+# Bopomofo Reader - Brugervejledning
 
-> Version: v1.5.0
+> Version: v1.5.1
 
 ## Introduktion
 
-Bopomofo Reader er en browserudvidelse til kinesiske elever. Den bruger en forbedret bopomofo-motor med moderne kinesisk ordbog og 200+ rettelser af flerstavelsesord til at tilføje bopomofo-annoteringer til kinesiske tegn på websider.
+Bopomofo Reader er en browserudvidelse til dem, der lærer kinesisk. Med en forbedret bopomofo-motor (moderne kinesisk ordbog og 200+ polyfoniske rettelser) tilføjer den nøjagtige bopomofo-udtaleannoteringer til kinesiske tegn på websider.
 
 ---
 
 ## Hovedfunktioner
 
-- **Tekstvalg-annotering** — Vælg kinesisk tekst på websider for at vise bopomofo og lydknapper
-- **Hele side bopomofo-tilstand** — Et klik for at tilføje bopomofo til alle tegn på siden
-- **Tekst-til-tale** — Klik på højttalerknappen for at høre mandarin-udtale
-- **Valgt talelyd** — Vælg tekst og brug den flydende knap eller højrekliksmenuen til at læse højt
-- **Hover-værktøjstip** — Hold musen over annoterede tegn for at se bopomofo
-- **Flere bopomofo-stile** — Tonemærker (hàn yǔ) og uden toner (han yu)
-- **Flersproget grænseflade** — Understøtter 38 grænsefladesprog
-- **Selection Speech with Karaoke Effect** — Select any Chinese text; a compact toolbar appears with speak and translate buttons; speech plays with real-time word-by-word highlighting (karaoke effect)
-- **Selection Translation** — Select any text, click the translate button to get instant translation via Bing or Google Translate, displayed in an inline bubble
-- **Hover Dictionary** — Hover over annotated characters to see Bopomofo, dictionary definitions from CC-CEDICT English dictionary with TOCFL levels (155K+ entries), and pronunciation buttons
-- **Keyboard Shortcuts** — Quick access via Alt+Shift+B (toggle), Alt+Shift+S (speak), Alt+Shift+T (translate)
+- **Tekstmarkering** — Markér kinesisk tekst på websider for automatisk bopomofo og taleknapper
+- **Bopomofo på hele siden** — Tilføj bopomofo til alle kinesiske tegn med ét klik
+- **Tekst til tale** — Klik på højttalerknappen for standard mandarinudtale
+- **Markeringstale med karaoke-effekt** — Markér kinesisk tekst; kompakt værktøjslinje med tale og oversæt; ord eller tegn fremhæves i realtid (karaoke)
+- **Markeringsoversættelse** — Markér tekst, klik oversæt for øjeblikkelig oversættelse via Bing eller Google Translate i inline boble
+- **Hover-ordbog** — Hold musen over annoterede tegn for bopomofo, CC-CEDICT engelsk ordbog (110.000 poster, TOCFL-niveauer) og udtaleknapper
+- **PDF-læser** — Indbygget PDF-læser med automatisk bopomofo til kinesisk tekst i PDF
+- **Flere bopomofo-stilarter** — Med tone (hàn yǔ) eller uden (han yu)
+- **Tastaturgenveje** — Hurtig adgang via tilpassede genveje
+- **Flersproget grænseflade** — 38 grænsefladesprog
 
 ---
 
 ## Sådan bruges det
 
-### Trin 1: Installer
+### Trin 1: Installer udvidelsen
 
-Installer **Bopomofo Reader** fra [Chrome Web Store](https://chromewebstore.google.com/detail/bopomofo-reader/jkibgddokcnhedkhmleaohojhlnemmkg) eller indlæs i udviklertilstand.
+Installer **Bopomofo Reader** fra [Chrome Web Store](https://chromewebstore.google.com/detail/bopomofo-reader/jkibgddokcnhedkhmleaohojhlnemmkg), eller load lokalt i udviklertilstand.
 
-### Trin 2: Åbn side
+### Trin 2: Åbn en webside
 
-Besøg en hvilken som helst side med kinesisk indhold.
+Besøg en side med kinesisk indhold.
 
-### Trin 3: Vælg tekst eller flydende knap
+### Trin 3: Markér tekst eller brug flydende knap
 
-Vælg tekst eller klik på den flydende knap for hele side-tilstand.
+Markér kinesisk tekst eller klik flydende knap nederst til højre for bopomofo på hele siden.
 
 ### Trin 4: Se bopomofo
 
-Hold musen over for værktøjstip, klik på højttaleren for udtale.
+Hold musen over tegn for bopomofo-værktips, klik højttalerikon for udtale.
 
-### Trin 5: Læs valg
+### Trin 5: Læs og oversæt markeret tekst
 
-Vælg tekst, klik på den flydende 🔊-knap eller højreklik "Læs valg".
+Markér kinesisk tekst med musen. Kompakt værktøjslinje med to knapper:
+- **🔊 Læs** — Læser markeret tekst med karaoke-fremhævning
+- **🌐 Oversæt** — Viser inline oversættelsesboble under værktøjslinjen
 
----
+Højreklik også « Bopomofo Reader > Læs markering » eller « Bopomofo Reader > Oversæt markering ».
 
-## Selection Speech & Karaoke
-
-Select any Chinese text and read it aloud with one click — perfect for learning sentence pronunciation.
-
-**Method 1: Selection Toolbar**
-Select Chinese text with your mouse. A compact toolbar appears near the selection with a 🔊 speak button and a 🌐 translate button. Click speak to play. Words highlight in real time (karaoke effect).
-
-**Method 2: Right-Click Menu**
-Select text, right-click and choose "Bopomofo Reader > Speak Selection".
-
-**Method 3: Keyboard Shortcut**
-Select text and press `Alt+Shift+S` (Mac: `Ctrl+Shift+S`).
+> **Tip:** Klik udvidelsesikonet i browserens værktøjslinje for indstillinger.
 
 ---
 
-## Translation
+## Markeringstale & Karaoke
 
-Select any text on the page to get instant translations.
+Markér kinesisk tekst og læs med ét klik.
 
-**Method 1: Selection Toolbar**
-Select text, then click the 🌐 translate button. A translation bubble appears with the result and a copy button.
+**Metode 1: Værktøjslinje** — Markér tekst, klik 🔊 Læs. Karaoke-fremhævning i realtid.
+**Metode 2: Kontekstmenu** — « Bopomofo Reader > Læs markering »
+**Metode 3:** `Alt+Shift+S` (Mac: `Ctrl+Shift+S`)
 
-**Method 2: Right-Click Menu**
-Select text, right-click and choose "Bopomofo Reader > Translate Selection".
-
-**Method 3: Keyboard Shortcut**
-Select text and press `Alt+Shift+T` (Mac: `Ctrl+Shift+T`).
-
-**Translation Engines:**
-- **Bing Translate** (default) — Powered by Microsoft Translator
-- **Google Translate** — Powered by Google
-
-Both engines support **108 target languages**.
+> **Tip:** Karaoke virker bedst med TTS ordgrænse-events.
 
 ---
 
-## Keyboard Shortcuts
+## Oversættelse
 
-| Shortcut | Mac Shortcut | Action |
-|----------|-------------|--------|
-| `Alt+Shift+B` | `Ctrl+Shift+B` | Toggle Bopomofo annotations on/off |
-| `Alt+Shift+S` | `Ctrl+Shift+S` | Speak selected text |
-| `Alt+Shift+T` | `Ctrl+Shift+T` | Translate selected text |
+**Metode 1:** Markér tekst, klik 🌐 Oversæt.
+**Metode 2:** « Bopomofo Reader > Oversæt markering »
+**Metode 3:** `Alt+Shift+T` (Mac: `Ctrl+Shift+T`)
 
-> **Tip:** Customize shortcuts in Chrome at `chrome://extensions/shortcuts`.
+- **Bing Translate** (standard) — Microsoft Translator
+- **Google Translate** — Google
 
-## Built-in PDF Reader
+108 målsprog. Skift i indstillinger.
 
-Bopomofo Reader v1.5.0 includes a powerful built-in PDF reader that automatically adds Bopomofo annotations to any PDF file.
+---
 
-### Opening PDFs
+## PDF-læser
 
-- **Automatic**: Any PDF opened in the browser is automatically redirected to the Bopomofo Reader PDF viewer
-- **From Popup**: Click the extension icon and choose "Open PDF Reader"
-- **Drag & Drop**: Drag a local PDF file into the reader
-- **Paste URL**: Paste any PDF link directly into the viewer
+Indbygget PDF-læser med automatisk bopomofo.
 
-### PDF Features
+**Åbning:** Auto-redirect, træk & slip, indsæt URL, fra popup « Åbn PDF-læser »
 
-| Feature | Description |
-|---------|-------------|
-| **Dictionary Lookup** | Accurate Bopomofo annotation above each Chinese character, scaled with zoom |
-| **Dictionary Mode** | Tone marks, no tones, hover-only, or hidden |
-| **Click Dictionary** | Click any Chinese character to see dictionary definitions (CC-CEDICT English dictionary, 110K entries, TOCFL levels) |
-| **Selection Toolbar** | Select text, then use the toolbar to read aloud, translate, or copy |
-| **Sidebar** | Table of contents, page thumbnails, and Bopomofo search |
-| **3 Themes** | Dark, Light, and Sepia reading modes |
-| **Zoom Adaptive** | Bopomofo scales perfectly with zoom level, no overlap |
-| **Keyboard Shortcuts** | ←→ page navigation, +- zoom, Ctrl/Cmd+F search, Escape to dismiss popups |
+| Funktion | Beskrivelse |
+|----------|-------------|
+| **Ordbogsopslag** | Klik tegn for engelsk definition, bopomofo, TOCFL |
+| **Ordbogstilstand** | Engelske definitioner, bopomofo-udtale, TOCFL-badge |
+| **Klik-ordbog** | CC-CEDICT engelsk, 110.000 poster, TOCFL |
+| **Værktøjslinje** | Læs, oversæt, kopier |
+| **Tekstsøgning** | Søg kinesisk tekst |
+| **Sidepanel** | Indhold, miniaturebilleder, navigation |
+| **3 temaer** | Mørk, lys, sepia |
+| **Oversættelse** | Bing eller Google |
 
-> **Tip:** The PDF reader works with both local files and online PDFs. All Bopomofo processing happens locally in your browser.
+**Genveje:** ←/→ sider, +/- zoom, Ctrl/Cmd+F søg, Escape luk
+
+> **Bemærk:** Password- og scannede PDF'er uden tekstlag understøttes ikke.
+
+---
+
+## Tastaturgenveje
+
+| Genvej | Mac | Handling |
+|--------|-----|----------|
+| `Alt+Shift+B` | `Ctrl+Shift+B` | Bopomofo til/fra |
+| `Alt+Shift+S` | `Ctrl+Shift+S` | Læs markering |
+| `Alt+Shift+T` | `Ctrl+Shift+T` | Oversæt markering |
+
+> **Tip:** Tilpas på `chrome://extensions/shortcuts`.
 
 ---
 
 ## Indstillinger
 
 | Indstilling | Beskrivelse |
-|---|---|
-| **Aktivér Bopomofo** | Hovedafbryder |
-| **Hele side bopomofo** | Vis bopomofo for alle tegn |
-| **Bopomofo-stil** | Tonemærker eller uden toner |
-| **Sætningslæsehastighed** | Juster hastigheden for sætningslæsning |
-| **Hover-værktøjstip** | Vis værktøjstip ved musepåpegning |
+|-------------|-------------|
+| **Aktivér Bopomofo** | Hovedkontakt |
+| **Bopomofo hele siden** | Alle tegn (kan påvirke layout) |
+| **Bopomofo-stil** | Med/uden toner |
+| **Talehastighed** | Hastighed for markering |
+| **Hover-tilstand** | Ordbog, kun bopomofo eller fra |
+| **Oversættelsesmotor** | Bing eller Google |
+| **Målsprog** | Auto fra browser |
+| **PDF-detektion** | Auto-redirect PDF |
 
 ---
 
-## Open-source Dictionary Attribution
+## FAQ
 
-Bopomofo Reader bundles offline pronunciation and dictionary resources from open-source or community projects:
-
-- **Bopomofo conversion**: pinyin-pro and @pinyin-pro/data/modern power local Mandarin pronunciation conversion and word-level corrections; Bopomofo Reader converts pinyin syllables to Zhuyin/Bopomofo locally and applies Taiwan-pronunciation polyphonic corrections.
-- **Chinese-English dictionary**: CC-CEDICT provides English definitions and base dictionary entries.
-- **Multilingual definitions**: CFDICT (French), HanDeDict (German), and Wiktionary-derived datasets from kaikki.org provide Japanese, Korean, Vietnamese, and Chinese definition data.
-- **Script conversion**: OpenCC-js and the bundled local conversion module are used for Simplified/Traditional Chinese conversion where needed.
-
-All dictionary lookups run locally in your browser. Upstream projects retain their own copyright and license terms; see the Privacy Policy for more details.
+**Hvorfor ikke på nogle sider?** Sikkerhed: `chrome://`, browserindstillinger, Chrome Web Store.
+**Ukorrekt bopomofo?** Polyfone tegn kan have fejl. Vi forbedrer løbende.
+**Ingen lyd?** Tjek volumen og kinesiske talepakker.
+**Hele side påvirker layout?** Brug hover i stedet.
+**Oversættelse virker ikke?** Kræver internet. Prøv Google hvis Bing fejler.
 
 ---
 
-## Ofte stillede spørgsmål
+## Open source ordbog-attribution
 
-**Q: Hvorfor virker det ikke på nogle sider?**  
-A: Udvidelser kan ikke køre på chrome:// eller browserindstillinger.
+- **Bopomofo-konvertering**: pinyin-pro og @pinyin-pro/data/modern; lokal Zhuyin/Bopomofo-konvertering.
+- **Kinesisk-engelsk ordbog**: CC-CEDICT.
+- **Flersprogede definitioner**: CFDICT, HanDeDict, kaikki.org Wiktionary.
+- **Scriptkonvertering**: OpenCC-js.
 
-**Q: Ukorrekt bopomofo?**  
-A: Flerstavelsestegn kan have fejl; vi forbedrer løbende.
-
-**Q: Ingen lyd?**  
-A: Tjek volumen og sikr, at kinesiske stemmepakker er installeret.
+Alle ordbogsopslag kører lokalt. Se privatlivspolitik.
 
 ---
+
 ## Relaterede links
 
 - [Privatlivspolitik](../privacy-policy)
-- [Support](../support)
+- [Support og feedback](../support)
 
 ---

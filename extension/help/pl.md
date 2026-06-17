@@ -1,174 +1,205 @@
 ---
 layout: bare
-title: Bopomofo Reader - Podręcznik użytkownika
+title: Bopomofo Reader - Przewodnik
 lang: pl
 ---
 
-# Bopomofo Reader - Podręcznik użytkownika
+# Bopomofo Reader - Przewodnik
 
-> Wersja: v1.5.0
+> Wersja: v1.5.1
 
 ## Wprowadzenie
 
-Bopomofo Reader to rozszerzenie przeglądarki dla osób uczących się chińskiego. Korzysta z ulepszonego silnika bopomofo z nowoczesnym słownikiem chińskim i ponad 200 poprawkami dla słów wieloznacznych, aby dodawać adnotacje bopomofo do chińskich znaków na stronach internetowych.
+Bopomofo Reader to rozszerzenie przeglądarki dla uczących się chińskiego. Dzięki ulepszonym silnikowi bopomofo (ze słownikiem współczesnego chińskiego i ponad 200 korektami wieloznacznych znaków) dokładnie dodaje adnotacje pronunciacji bopomofo do chińskich znaków na stronach internetowych.
 
 ---
 
 ## Główne funkcje
 
-- **Adnotacja przy zaznaczaniu** — Zaznacz chiński tekst na stronach, aby wyświetlić bopomofo i przyciski odtwarzania
-- **Tryb bopomofo całej strony** — Jedno kliknięcie, aby dodać bopomofo do wszystkich znaków na stronie
-- **Tekst na mowę** — Kliknij przycisk głośnika, aby usłyszeć wymowę mandaryńską
-- **Czytanie zaznaczenia** — Zaznacz tekst, użyj pływającego przycisku lub menu kontekstowego do odczytania na głos
-- **Dymki po najechaniu** — Najedź kursorem na oznaczone znaki, aby zobaczyć bopomofo
-- **Różne style bopomofo** — Z tonami (hàn yǔ) i bez tonów (han yu)
-- **Interfejs wielojęzyczny** — Obsługuje 38 języków interfejsu
-- **Selection Speech with Karaoke Effect** — Select any Chinese text; a compact toolbar appears with speak and translate buttons; speech plays with real-time word-by-word highlighting (karaoke effect)
-- **Selection Translation** — Select any text, click the translate button to get instant translation via Bing or Google Translate, displayed in an inline bubble
-- **Hover Dictionary** — Hover over annotated characters to see Bopomofo, dictionary definitions from CC-CEDICT English dictionary with TOCFL levels (155K+ entries), and pronunciation buttons
-- **Keyboard Shortcuts** — Quick access via Alt+Shift+B (toggle), Alt+Shift+S (speak), Alt+Shift+T (translate)
+- **Adnotacja przez zaznaczenie** — Zaznacz chiński tekst na stronach, aby automatycznie wyświetlić bopomofo i przyciski mowy
+- **Tryb bopomofo całej strony** — Dodaj bopomofo do wszystkich chińskich znaków na stronie jednym klikniem
+- **Synteza mowy** — Kliknij przycisk głośnika, aby usłyszeć standardową pronunciację mandaryńską
+- **Odczyt zaznaczenia z efektem karaoke** — Zaznacz chiński tekst; pojawia się kompaktowy pasek z przyciskami odczytu i tłumaczenia; mowa podświetla słowa lub znaki w czasie rzeczywistym (efekt karaoke)
+- **Tłumaczenie zaznaczenia** — Zaznacz tekst, kliknij tłumacz dla natychmiastowego tłumaczenia przez Bing lub Google Translate w wbudowanej bańce
+- **Słownik przy najechaniu** — Najedź na adnotowane znaki, aby zobaczyć bopomofo, definicje ze słownika CC-CEDICT angielskiego (110 000 wpisów, poziomy TOCFL) i przyciski pronunciacji
+- **Czytnik PDF** — Wbudowany czytnik PDF automatycznie dodający adnotacje bopomofo do chińskiego tekstu w dokumentach PDF
+- **Wiele stylów bopomofo** — Z znakami tonów (hàn yǔ) lub bez tonów (han yu)
+- **Skróty klawiszowe** — Szybki dostęp do głównych funkcji przez konfigurowalne skróty
+- **Wielojęzyczny interfejs** — Obsługuje 38 języków interfejsu
 
 ---
 
-## Instrukcja obsługi
+## Jak używać
 
-### Krok 1: Instalacja
+### Krok 1: Zainstaluj rozszerzenie
 
-Zainstaluj **Bopomofo Reader** z [Chrome Web Store](https://chromewebstore.google.com/detail/bopomofo-reader/jkibgddokcnhedkhmleaohojhlnemmkg) lub załaduj w trybie deweloperskim.
+Zainstaluj **Bopomofo Reader** ze [Chrome Web Store](https://chromewebstore.google.com/detail/bopomofo-reader/jkibgddokcnhedkhmleaohojhlnemmkg) lub załaduj lokalnie w trybie deweloperskim.
 
-### Krok 2: Otwórz stronę
+### Krok 2: Otwórz stronę internetową
 
-Odwiedź dowolną stronę z chińską treścią.
+Odwiedź dowolną stronę z treścią chińską.
 
-### Krok 3: Zaznacz tekst lub przycisk pływający
+### Krok 3: Zaznacz tekst lub użyj przycisku pływającego
 
-Zaznacz tekst do adnotacji lub kliknij przycisk pływający dla trybu całej strony.
+Zaznacz chiński tekst do adnotacji lub kliknij pływający przycisk na dole po prawej, aby włączyć tryb bopomofo całej strony.
 
-### Krok 4: Wyświetl bopomofo
+### Krok 4: Zobacz bopomofo
 
-Najedź kursorem dla dymków, kliknij głośnik dla wymowy.
+Najedź na znaki, aby zobaczyć podpowiedzi bopomofo, kliknij ikonę głośnika, aby usłyszeć pronunciację.
 
-### Krok 5: Przeczytaj zaznaczenie
+### Krok 5: Odczytaj i przetłumacz zaznaczony tekst
 
-Zaznacz tekst, kliknij pływający przycisk 🔊 lub kliknij prawym przyciskiem „Przeczytaj zaznaczenie".
+Zaznacz chiński tekst myszą. Pojawia się kompaktowy pasek z dwoma przyciskami:
+- **🔊 Odczytaj** — Odczytuje zaznaczony tekst z podświetleniem typu karaoke
+- **🌐 Tłumacz** — Pokazuje wbudowaną bańkę tłumaczenia pod paskiem
 
----
+Możesz też kliknąć prawym przyciskiem i wybrać « Bopomofo Reader > Odczytaj zaznaczenie » lub « Bopomofo Reader > Przetłumacz zaznaczenie ».
 
-## Selection Speech & Karaoke
-
-Select any Chinese text and read it aloud with one click — perfect for learning sentence pronunciation.
-
-**Method 1: Selection Toolbar**
-Select Chinese text with your mouse. A compact toolbar appears near the selection with a 🔊 speak button and a 🌐 translate button. Click speak to play. Words highlight in real time (karaoke effect).
-
-**Method 2: Right-Click Menu**
-Select text, right-click and choose "Bopomofo Reader > Speak Selection".
-
-**Method 3: Keyboard Shortcut**
-Select text and press `Alt+Shift+S` (Mac: `Ctrl+Shift+S`).
+> **Wskazówka:** Kliknij ikonę rozszerzenia w pasku przeglądarki, aby otworzyć panel ustawień i dostosować styl bopomofo, prędkość mowy, usługę tłumaczenia itp.
 
 ---
 
-## Translation
+## Odczyt zaznaczenia i Karaoke
 
-Select any text on the page to get instant translations.
+Funkcja odczytu zaznaczenia pozwala odczytać chiński tekst jednym klikniem — idealna do nauki pronunciacji i ćwiczeń czytania.
 
-**Method 1: Selection Toolbar**
-Select text, then click the 🌐 translate button. A translation bubble appears with the result and a copy button.
+**Metoda 1: Pasek zaznaczenia**  
+Zaznacz chiński tekst myszą. Pojawia się kompaktowy pasek z 🔊 Odczytaj i 🌐 Tłumacz. Kliknij Odczytaj. Słowa lub znaki są podświetlane w czasie rzeczywistym (efekt karaoke).
 
-**Method 2: Right-Click Menu**
-Select text, right-click and choose "Bopomofo Reader > Translate Selection".
+**Metoda 2: Menu kontekstowe**  
+Zaznacz chiński tekst, kliknij prawym i wybierz « Bopomofo Reader > Odczytaj zaznaczenie ».
 
-**Method 3: Keyboard Shortcut**
-Select text and press `Alt+Shift+T` (Mac: `Ctrl+Shift+T`).
+**Metoda 3: Skrót klawiszowy**  
+Zaznacz tekst i naciśnij `Alt+Shift+S` (Mac: `Ctrl+Shift+S`).
 
-**Translation Engines:**
-- **Bing Translate** (default) — Powered by Microsoft Translator
+> **Wskazówka:** Efekt karaoke działa najlepiej, gdy przeglądarka obsługuje zdarzenia granic słów TTS. W przeciwnym razie rozszerzenie używa zapasowego mechanizmu czasowego.
+
+---
+
+## Tłumaczenie
+
+Zaznacz tekst na stronie i użyj funkcji tłumaczenia, aby uzyskać natychmiastowe tłumaczenia.
+
+**Metoda 1: Pasek zaznaczenia**  
+Zaznacz tekst, kliknij 🌐 Tłumacz. Pojawia się bańka z wynikiem i przyciskiem kopiowania.
+
+**Metoda 2: Menu kontekstowe**  
+Zaznacz tekst, kliknij prawym i wybierz « Bopomofo Reader > Przetłumacz zaznaczenie ».
+
+**Metoda 3: Skrót klawiszowy**  
+Zaznacz tekst i naciśnij `Alt+Shift+T` (Mac: `Ctrl+Shift+T`).
+
+**Usługi tłumaczenia:**
+- **Bing Translate** (domyślny) — Powered by Microsoft Translator
 - **Google Translate** — Powered by Google
 
-Both engines support **108 target languages**.
+Oba usługi obsługują **108 języków docelowych**.
+
+Możesz zmienić usługę tłumaczenia i język docelowy w ustawieniach rozszerzenia. Język docelowy jest automatycznie wykrywany z języka przeglądarki.
+
+> **Wskazówka:** Kliknij poza paskiem lub bańką, aby zamknąć.
 
 ---
 
-## Keyboard Shortcuts
+## Czytnik PDF
 
-| Shortcut | Mac Shortcut | Action |
-|----------|-------------|--------|
-| `Alt+Shift+B` | `Ctrl+Shift+B` | Toggle Bopomofo annotations on/off |
-| `Alt+Shift+S` | `Ctrl+Shift+S` | Speak selected text |
-| `Alt+Shift+T` | `Ctrl+Shift+T` | Translate selected text |
+Bopomofo Reader zawiera wbudowany czytnik PDF, który automatycznie dodaje adnotacje bopomofo do chińskiego tekstu w dokumentach PDF.
 
-> **Tip:** Customize shortcuts in Chrome at `chrome://extensions/shortcuts`.
+### Otwieranie PDF
 
-## Built-in PDF Reader
+- **Auto-przekierowanie**: Każdy PDF otwarty w przeglądarce jest automatycznie przekierowany do przeglądarki PDF Bopomofo Reader
+- **Przeciągnij i upuść**: Upuść lokalny plik PDF na przeglądarkę
+- **Wklej URL**: Wklej link PDF bezpośrednio do przeglądarki
+- **Z popupu**: Kliknij ikonę rozszerzenia, potem « Otwórz czytnik PDF »
 
-Bopomofo Reader v1.5.0 includes a powerful built-in PDF reader that automatically adds Bopomofo annotations to any PDF file.
+### Funkcje PDF
 
-### Opening PDFs
+| Funkcja | Opis |
+|---------|------|
+| **Wyszukiwanie w słowniku** | Kliknij chiński znak dla natychmiastowej definicji angielskiej, odczytu bopomofo i poziomu TOCFL |
+| **Tryb słownika** | Kliknij znak, aby zobaczyć definicje angielskie, pronunciację bopomofo i badge TOCFL |
+| **Słownik po kliknięciu** | Kliknij chiński tekst dla definicji (słownik CC-CEDICT angielski, 110 000 wpisów, poziomy TOCFL) i pronunciacji |
+| **Pasek zaznaczenia** | Zaznacz tekst, użyj paska do odczytu, tłumaczenia lub kopiowania |
+| **Wyszukiwanie tekstu** | Szukaj po chińskim tekście |
+| **Panel boczny** | Spis treści, miniatury stron i nawigacja |
+| **3 motywy** | Tryby czytania: ciemny, jasny i sepia |
+| **Tłumaczenie** | Zaznacz tekst i tłumacz przez Bing lub Google Translate |
 
-- **Automatic**: Any PDF opened in the browser is automatically redirected to the Bopomofo Reader PDF viewer
-- **From Popup**: Click the extension icon and choose "Open PDF Reader"
-- **Drag & Drop**: Drag a local PDF file into the reader
-- **Paste URL**: Paste any PDF link directly into the viewer
+### Skróty PDF
 
-### PDF Features
+| Klucz | Akcja |
+|-------|-------|
+| ← / → | Poprzednia / następna strona |
+| + / - | Powiększ / pomniejsz |
+| Ctrl+F / Cmd+F | Otwórz wyszukiwanie |
+| Escape | Zamknij wszystkie pływające panele |
 
-| Feature | Description |
-|---------|-------------|
-| **Dictionary Lookup** | Accurate Bopomofo annotation above each Chinese character, scaled with zoom |
-| **Dictionary Mode** | Tone marks, no tones, hover-only, or hidden |
-| **Click Dictionary** | Click any Chinese character to see dictionary definitions (CC-CEDICT English dictionary, 110K entries, TOCFL levels) |
-| **Selection Toolbar** | Select text, then use the toolbar to read aloud, translate, or copy |
-| **Sidebar** | Table of contents, page thumbnails, and Bopomofo search |
-| **3 Themes** | Dark, Light, and Sepia reading modes |
-| **Zoom Adaptive** | Bopomofo scales perfectly with zoom level, no overlap |
-| **Keyboard Shortcuts** | ←→ page navigation, +- zoom, Ctrl/Cmd+F search, Escape to dismiss popups |
+> **Uwaga:** PDF chronione hasłem i skanowane (tylko obraz) nie są obsługiwane z powodu braku warstwy tekstu dla adnotacji bopomofo.
 
-> **Tip:** The PDF reader works with both local files and online PDFs. All Bopomofo processing happens locally in your browser.
+---
+
+## Skróty klawiszowe
+
+| Skrót | Skrót Mac | Akcja |
+|-------|-----------|-------|
+| `Alt+Shift+B` | `Ctrl+Shift+B` | Włącz/wyłącz adnotacje bopomofo |
+| `Alt+Shift+S` | `Ctrl+Shift+S` | Odczytaj zaznaczony tekst |
+| `Alt+Shift+T` | `Ctrl+Shift+T` | Przetłumacz zaznaczony tekst |
+
+> **Wskazówka:** Skróty można dostosować w Chrome na `chrome://extensions/shortcuts`.
 
 ---
 
 ## Przewodnik ustawień
 
 | Ustawienie | Opis |
-|---|---|
-| **Włącz Bopomofo** | Przełącznik główny |
-| **Bopomofo całej strony** | Wyświetl bopomofo dla wszystkich znaków |
-| **Styl bopomofo** | Z tonami lub bez tonów |
-| **Szybkość czytania zdań** | Dostosuj szybkość czytania zdań |
-| **Dymki po najechaniu** | Wyświetlaj dymek przy najechaniu kursorem |
+|------------|------|
+| **Włącz Bopomofo** | Główny przełącznik adnotacji bopomofo |
+| **Bopomofo całej strony** | Pokazuje bopomofo dla wszystkich chińskich znaków (może wpływać na układ) |
+| **Styl bopomofo** | Wybór między znakami tonów lub bez tonów |
+| **Prędkość odczytu zdań** | Dostosuj prędkość odczytu zaznaczenia (pojedynczy znak nie jest dotknięty) |
+| **Tryb najechania** | Zachowanie najechania: Słownik (CC-CEDICT angielski z poziomami TOCFL), tylko bopomofo lub wyłączony |
+| **Usługa tłumaczenia** | Bing Translate lub Google Translate |
+| **Język docelowy** | Ustaw język docelowy tłumaczenia (automatycznie z języka przeglądarki) |
+| **Wykrywanie PDF** | Automatycznie przekieruj PDF do wbudowanego czytnika PDF |
 
 ---
 
 ## FAQ
 
 **P: Dlaczego nie działa na niektórych stronach?**  
-O: Rozszerzenia nie mogą działać na stronach chrome:// ani ustawień przeglądarki.
+O: Ze względów bezpieczeństwa rozszerzenia nie działają na specjalnych stronach jak `chrome://`, ustawienia przeglądarki lub Chrome Web Store.
 
-**P: Nieprecyzyjny bopomofo?**  
-O: Znaki wieloznaczne mogą zawierać błędy, stale poprawiamy.
+**P: Co jeśli bopomofo jest nieprawidłowe?**  
+O: Bopomofo dla wieloznacznych znaków może mieć błędy. Ciągle ulepszamy. Podziel się konkretnymi przypadkami.
 
-**P: Brak dźwięku?**  
-O: Sprawdź głośność, upewnij się, że zainstalowano chińskie pakiety głosowe.
+**P: Brak dźwięku w syntezie mowy?**  
+O: Sprawdź ustawienia głośności i upewnij się, że chińskie pakiety głosowe są zainstalowane. Obsługa mowy różni się między przeglądarkami i systemami.
+
+**P: Tryb całej strony wpływa na układ?**  
+O: Adnotacje bopomofo wymagają dodatkowej przestrzeni. Wyłącz tryb całej strony i użyj podpowiedzi przy najechaniu.
+
+**P: Tłumaczenie nie działa?**  
+O: Tłumaczenie wymaga połączenia internetowego. Jeśli Bing Translate zawodzi, spróbuj Google Translate w ustawieniach. Niektóre sieci mogą blokować usługi tłumaczenia.
 
 ---
 
-## Open-source Dictionary Attribution
+## Atrybucja słowników open source
 
-Bopomofo Reader bundles offline pronunciation and dictionary resources from open-source or community projects:
+Bopomofo Reader zawiera offline zasoby pronunciacji i słowników z projektów open source lub społecznościowych:
 
-- **Bopomofo conversion**: pinyin-pro and @pinyin-pro/data/modern power local Mandarin pronunciation conversion and word-level corrections; Bopomofo Reader converts pinyin syllables to Zhuyin/Bopomofo locally and applies Taiwan-pronunciation polyphonic corrections.
-- **Chinese-English dictionary**: CC-CEDICT provides English definitions and base dictionary entries.
-- **Multilingual definitions**: CFDICT (French), HanDeDict (German), and Wiktionary-derived datasets from kaikki.org provide Japanese, Korean, Vietnamese, and Chinese definition data.
-- **Script conversion**: OpenCC-js and the bundled local conversion module are used for Simplified/Traditional Chinese conversion where needed.
+- **Konwersja bopomofo**: pinyin-pro i @pinyin-pro/data/modern zapewniają lokalną konwersję pronunciacji mandaryńskiej i korekty na poziomie słów; Bopomofo Reader konwertuje sylaby pinyin lokalnie na Zhuyin/Bopomofo i stosuje korekty polifoniczne pronunciacji tajwańskiej.
+- **Słownik chińsko-angielski**: CC-CEDICT dostarcza definicje angielskie i bazowe wpisy słownika.
+- **Definicje wielojęzyczne**: CFDICT (francuski), HanDeDict (niemiecki) i dane Wiktionary z kaikki.org dla japońskiego, koreańskiego, wietnamskiego i chińskiego.
+- **Konwersja skryptu**: OpenCC-js i wbudowany lokalny moduł konwersji dla uproszczony/tradycyjny chiński w razie potrzeby.
 
-All dictionary lookups run locally in your browser. Upstream projects retain their own copyright and license terms; see the Privacy Policy for more details.
+Wszystkie wyszukiwania w słowniku działają lokalnie w przeglądarce. Projekty upstream zachowują własne prawa i licencje; szczegóły w Polityce prywatności.
 
 ---
 
 ## Powiązane linki
 
 - [Polityka prywatności](../privacy-policy)
-- [Wsparcie](../support)
+- [Wsparcie i opinie](../support)
 
 ---

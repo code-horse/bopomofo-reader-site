@@ -1,173 +1,205 @@
 ---
 layout: bare
-title: Розширення Bopomofo Reader - Посібник користувача
+title: Bopomofo Reader - Посібник
 lang: uk
 ---
 
-# Bopomofo Reader - Посібник користувача
+# Bopomofo Reader - Посібник
 
-> Версія: v1.5.0
+> Версія: v1.5.1
 
 ## Вступ
 
-Bopomofo Reader — це розширення браузера для тих, хто вивчає китайську мову. Використовує покращений піньїн-двигун із сучасним китайським словником та понад 200 виправленнями багатозначних слів для додавання піньїн-аннотацій до китайських ієрогліфів на веб-сторінках.
+Bopomofo Reader — розширення браузера для тих, кто вивчає китайську. Улучшений движок bopomofo (зі словником сучасної китайської та понад 200 виправлень поліфонічних ієрогліфів) точно додає анотації произношення bopomofo до китайських ієрогліфів на веб-страницах.
 
 ---
 
-## Основні можливості
+## Основні функції
 
-- **Анотування при виділенні** — Виділіть китайський текст на веб-сторінках для відображення піньїну та кнопок озвучення
-- **Режим піньїну для всієї сторінки** — Одним кліком додайте піньїн до всіх символів на сторінці
-- **Текст у мовлення** — Натисніть кнопку динаміка, щоб почути стандартну мандаринську вимову
-- **Озвучення виділення** — Виділіть текст, використовуйте плаваючу кнопку або контекстне меню для читання вголос
-- **Підказки при наведенні** — Наведіть курсор на анотовані символи, щоб побачити піньїн
-- **Кілька стилів піньїну** — З тоновими позначеннями (hàn yǔ) або без тонів (han yu)
-- **Багатомовний інтерфейс** — Підтримка 38 мов інтерфейсу
-- **Selection Speech with Karaoke Effect** — Select any Chinese text; a compact toolbar appears with speak and translate buttons; speech plays with real-time word-by-word highlighting (karaoke effect)
-- **Selection Translation** — Select any text, click the translate button to get instant translation via Bing or Google Translate, displayed in an inline bubble
-- **Hover Dictionary** — Hover over annotated characters to see Bopomofo, dictionary definitions from CC-CEDICT English dictionary with TOCFL levels (155K+ entries), and pronunciation buttons
-- **Keyboard Shortcuts** — Quick access via Alt+Shift+B (toggle), Alt+Shift+S (speak), Alt+Shift+T (translate)
-
----
-
-## Як користуватися
-
-### Крок 1: Встановлення
-
-Встановіть **Bopomofo Reader** з [Chrome Web Store](https://chromewebstore.google.com/detail/bopomofo-reader/jkibgddokcnhedkhmleaohojhlnemmkg) або завантажте в режимі розробника
-
-### Крок 2: Відкрийте сторінку
-
-Відвідайте будь-яку сторінку з китайським контентом
-
-### Крок 3: Виділення або плаваюча кнопка
-
-Виділіть текст або натисніть плаваючу кнопку для режиму всієї сторінки
-
-### Крок 4: Перегляд піньїну
-
-Наведіть курсор для підказок, натисніть на динамік для вимови
-
-### Крок 5: Читання виділення
-
-Виділіть текст, натисніть плаваючу кнопку 🔊 або правий клік „Озвучити виділене"
+- **Анотація виділеного тексту** — Виділіть китайський текст на сторінках для автоматичного відображення bopomofo та кнопок озвучення
+- **Режим bopomofo на всій сторінці** — Додайте bopomofo до всіх ієрогліфів на сторінці одним кліком
+- **Синтез речи** — Натисніть кнопку динаміка для стандартного мандаринського произношення
+- **Озвучення виділення з ефектом караоке** — Виділіть китайський текст; з'явиться компактна панель з кнопками озвучення та перекладу; речення підсвічує слова або ієрогліфи в реальному часі (ефект караоке)
+- **Переклад виділення** — Виділіть текст, натисніть перекласти для миттєвого перекладу через Bing або Google Translate у вбудованій бульбашці
+- **Словник при наведенні** — Наведіть на анотовані ієрогліфи для bopomofo, визначень зі словника CC-CEDICT англійського (110 000 записів, рівні TOCFL) та кнопок произношення
+- **PDF-ридер** — Вбудований PDF-ридер автоматично додає анотації bopomofo до китайського тексту в PDF
+- **Нескільки стилів bopomofo** — З тоновими знаками (hàn yǔ) або без тонів (han yu)
+- **Гарячі клавіші** — Быстрий доступ до основних функцій через налаштовувані комбінації
+- **Мультиязыковий інтерфейс** — Підтримка 38 языків інтерфейсу
 
 ---
 
-## Selection Speech & Karaoke
+## Як використовувати
 
-Select any Chinese text and read it aloud with one click — perfect for learning sentence pronunciation.
+### Крок 1: Установіть розширення
 
-**Method 1: Selection Toolbar**
-Select Chinese text with your mouse. A compact toolbar appears near the selection with a 🔊 speak button and a 🌐 translate button. Click speak to play. Words highlight in real time (karaoke effect).
+Установіть **Bopomofo Reader** з [Chrome Web Store](https://chromewebstore.google.com/detail/bopomofo-reader/jkibgddokcnhedkhmleaohojhlnemmkg) або завантажте локально в режимі розробника.
 
-**Method 2: Right-Click Menu**
-Select text, right-click and choose "Bopomofo Reader > Speak Selection".
+### Крок 2: Відкрийте веб-страницю
 
-**Method 3: Keyboard Shortcut**
-Select text and press `Alt+Shift+S` (Mac: `Ctrl+Shift+S`).
+Відвідайте будь-яку сторінку з китайським контентом.
+
+### Крок 3: Виділіть текст або використайте плаваючу кнопку
+
+Виділіть китайський текст для анотації або натисніть плаваючу кнопку внизу справа для режиму bopomofo на всій сторінці.
+
+### Крок 4: Перегляньте bopomofo
+
+Наведіть на ієрогліфи для підказок bopomofo, натисніть іконку динаміка для произношення.
+
+### Крок 5: Озвучити та перекласти виділений текст
+
+Виділіть китайський текст мишею. З'явиться компактна панель з двома кнопками:
+- **🔊 Озвучити** — Озвучує виділений текст з підсвіткою караоке
+- **🌐 Перекласти** — Показує вбудовану бульбашку перекладу під панеллю
+
+Також можна клацнути правою кнопкою та вибрати « Bopomofo Reader > Озвучити виділення » або « Bopomofo Reader > Перекласти виділення ».
+
+> **Порада:** Натисніть іконку розширення в панелі браузера для відкриття налаштувань та зміни стилю bopomofo, швидкості речи, сервісу перекладу та ін.
 
 ---
 
-## Translation
+## Озвучення виділення та Караоке
 
-Select any text on the page to get instant translations.
+Функція озвучення виділення дозволяє озвучити китайський текст одним кліком — ідеально для вивчення произношення та читання.
 
-**Method 1: Selection Toolbar**
-Select text, then click the 🌐 translate button. A translation bubble appears with the result and a copy button.
+**Метод 1: Панель виділення**  
+Виділіть китайський текст мишею. З'явиться компактна панель з 🔊 Озвучити та 🌐 Перекласти. Натисніть Озвучити. Слова або ієрогліфи підсвічуються в реальному часі (ефект караоке).
 
-**Method 2: Right-Click Menu**
-Select text, right-click and choose "Bopomofo Reader > Translate Selection".
+**Метод 2: Контекстне меню**  
+Виділіть китайський текст, клацніть правою кнопкою та виберіть « Bopomofo Reader > Озвучити виділення ».
 
-**Method 3: Keyboard Shortcut**
-Select text and press `Alt+Shift+T` (Mac: `Ctrl+Shift+T`).
+**Метод 3: Гаряча клавіша**  
+Виділіть текст та натисніть `Alt+Shift+S` (Mac: `Ctrl+Shift+S`).
 
-**Translation Engines:**
-- **Bing Translate** (default) — Powered by Microsoft Translator
+> **Порада:** Ефект караоке працює найкраще, коли браузер підтримує події границ слів TTS. Інакше розширення використовує резервний механізм по часу.
+
+---
+
+## Переклад
+
+Виділіть текст на сторінці та використайте функцію перекладу для миттєвих перекладів.
+
+**Метод 1: Панель виділення**  
+Виділіть текст, натисніть 🌐 Перекласти. З'явиться бульбашка з результатом та кнопкою копіювання.
+
+**Метод 2: Контекстне меню**  
+Виділіть текст, клацніть правою кнопкою та виберіть « Bopomofo Reader > Перекласти виділення ».
+
+**Метод 3: Гаряча клавіша**  
+Виділіть текст та натисніть `Alt+Shift+T` (Mac: `Ctrl+Shift+T`).
+
+**Сервіси перекладу:**
+- **Bing Translate** (за замовчуванням) — Powered by Microsoft Translator
 - **Google Translate** — Powered by Google
 
-Both engines support **108 target languages**.
+Обидва сервіси підтримують **108 языків перекладу**.
+
+Можна змінити сервіс та язык перекладу в налаштуваннях розширення. Язык перекладу автоматично визначається з языку браузера.
+
+> **Порада:** Клацніть поза панеллю або бульбашкою для закриття.
 
 ---
 
-## Keyboard Shortcuts
+## PDF-ридер
 
-| Shortcut | Mac Shortcut | Action |
-|----------|-------------|--------|
-| `Alt+Shift+B` | `Ctrl+Shift+B` | Toggle Bopomofo annotations on/off |
-| `Alt+Shift+S` | `Ctrl+Shift+S` | Speak selected text |
-| `Alt+Shift+T` | `Ctrl+Shift+T` | Translate selected text |
+Bopomofo Reader включає вбудований PDF-ридер, який автоматично додає анотації bopomofo до китайського тексту в PDF.
 
-> **Tip:** Customize shortcuts in Chrome at `chrome://extensions/shortcuts`.
+### Відкриття PDF
 
-## Built-in PDF Reader
+- **Авто-перенаправлення**: Будь-який PDF у браузері автоматично перенаправляється до PDF-вьюера Bopomofo Reader
+- **Перетягування**: Перетягніть локальний PDF на вьюер
+- **Вставити URL**: Вставте посилання PDF прямо у вьюер
+- **З popup**: Натисніть іконку розширення, потім « Відкрити PDF-ридер »
 
-Bopomofo Reader v1.5.0 includes a powerful built-in PDF reader that automatically adds Bopomofo annotations to any PDF file.
+### Функції PDF
 
-### Opening PDFs
+| Функція | Опис |
+|---------|------|
+| **Пошук у словнику** | Клік на ієрогліф для миттєвого англійського визначення, читання bopomofo та рівня TOCFL |
+| **Режим словника** | Клік на ієрогліф для англійських визначень, произношення bopomofo та значка TOCFL |
+| **Словник по кліку** | Клік на китайський текст для визначень (словник CC-CEDICT англійський, 110 000 записів, рівні TOCFL) та произношення |
+| **Панель виділення** | Виділіть текст, використайте панель для озвучення, перекладу або копіювання |
+| **Пошук тексту** | Пошук по китайському тексту |
+| **Бічна панель** | Зміст, мініатюри сторінок та навігація |
+| **3 теми** | Темний, світлий та сепія режими читання |
+| **Переклад** | Виділіть текст та перекладіть через Bing або Google Translate |
 
-- **Automatic**: Any PDF opened in the browser is automatically redirected to the Bopomofo Reader PDF viewer
-- **From Popup**: Click the extension icon and choose "Open PDF Reader"
-- **Drag & Drop**: Drag a local PDF file into the reader
-- **Paste URL**: Paste any PDF link directly into the viewer
+### Гарячі клавіші PDF
 
-### PDF Features
+| Клавіша | Дія |
+|---------|-----|
+| ← / → | Попередня / наступна сторінка |
+| + / - | Збільшити / зменшити |
+| Ctrl+F / Cmd+F | Відкрити пошук |
+| Escape | Закрити всі плаваючі панелі |
 
-| Feature | Description |
-|---------|-------------|
-| **Dictionary Lookup** | Accurate Bopomofo annotation above each Chinese character, scaled with zoom |
-| **Dictionary Mode** | Tone marks, no tones, hover-only, or hidden |
-| **Click Dictionary** | Click any Chinese character to see dictionary definitions (CC-CEDICT English dictionary, 110K entries, TOCFL levels) |
-| **Selection Toolbar** | Select text, then use the toolbar to read aloud, translate, or copy |
-| **Sidebar** | Table of contents, page thumbnails, and Bopomofo search |
-| **3 Themes** | Dark, Light, and Sepia reading modes |
-| **Zoom Adaptive** | Bopomofo scales perfectly with zoom level, no overlap |
-| **Keyboard Shortcuts** | ←→ page navigation, +- zoom, Ctrl/Cmd+F search, Escape to dismiss popups |
-
-> **Tip:** The PDF reader works with both local files and online PDFs. All Bopomofo processing happens locally in your browser.
+> **Примітка:** PDF із паролем та скановані (лише зображення) PDF не підтримуються через відсутність текстового слоя для анотацій bopomofo.
 
 ---
 
-## Посібник з налаштувань
+## Гарячі клавіші
+
+| Комбінація | Mac | Дія |
+|------------|-----|-----|
+| `Alt+Shift+B` | `Ctrl+Shift+B` | Вкл/викл анотації bopomofo |
+| `Alt+Shift+S` | `Ctrl+Shift+S` | Озвучити виділений текст |
+| `Alt+Shift+T` | `Ctrl+Shift+T` | Перекласти виділений текст |
+
+> **Порада:** Налаштуйте комбінації в Chrome на `chrome://extensions/shortcuts`.
+
+---
+
+## Налаштування
 
 | Налаштування | Опис |
-|---|---|
-| **Увімкнути Bopomofo** | Головний вимикач |
-| **Піньїн всієї сторінки** | Показує піньїн для всіх символів |
-| **Стиль піньїну** | З тоновими позначеннями або без тонів |
-| **Швидкість читання речення** | Налаштування швидкості читання |
-| **Підказки при наведенні** | Показувати підказку при наведенні курсора |
+|--------------|------|
+| **Включити Bopomofo** | Головний перемикач анотації bopomofo |
+| **Bopomofo на всій сторінці** | Показує bopomofo для всіх ієрогліфів (може впливати на верстку) |
+| **Стиль bopomofo** | Вибір між тоновими знаками або без тонів |
+| **Швидкість озвучення** | Налаштування швидкості озвучення виділення (одиночний ієрогліф не затрагивається) |
+| **Режим наведення** | Поведінка при наведенні: Словник (CC-CEDICT англійський з рівнями TOCFL), лише bopomofo або вимкнено |
+| **Сервіс перекладу** | Bing Translate або Google Translate |
+| **Язык перекладу** | Язык перекладу (автовизначення з браузера) |
+| **Виявлення PDF** | Автоматично перенаправляти PDF до вбудованого PDF-ридера |
 
 ---
 
-## Open-source Dictionary Attribution
-
-Bopomofo Reader bundles offline pronunciation and dictionary resources from open-source or community projects:
-
-- **Bopomofo conversion**: pinyin-pro and @pinyin-pro/data/modern power local Mandarin pronunciation conversion and word-level corrections; Bopomofo Reader converts pinyin syllables to Zhuyin/Bopomofo locally and applies Taiwan-pronunciation polyphonic corrections.
-- **Chinese-English dictionary**: CC-CEDICT provides English definitions and base dictionary entries.
-- **Multilingual definitions**: CFDICT (French), HanDeDict (German), and Wiktionary-derived datasets from kaikki.org provide Japanese, Korean, Vietnamese, and Chinese definition data.
-- **Script conversion**: OpenCC-js and the bundled local conversion module are used for Simplified/Traditional Chinese conversion where needed.
-
-All dictionary lookups run locally in your browser. Upstream projects retain their own copyright and license terms; see the Privacy Policy for more details.
-
----
-
-## Часті запитання
+## FAQ
 
 **П: Чому не працює на деяких сторінках?**  
-В: Розширення не можуть працювати на сторінках chrome:// або налаштувань браузера
+В: З міркувань безпеки розширення не працюють на спеціальних сторінках як `chrome://`, налаштування браузера або Chrome Web Store.
 
-**П: Неточний піньїн?**  
-В: Багатозначні символи можуть містити помилки; ми постійно вдосконалюємось
+**П: Що якщо bopomofo неточний?**  
+В: Bopomofo для поліфонічних ієрогліфів може містити помилки. Ми постійно покращуємо. Поділіться конкретними випадками.
 
-**П: Немає звуку?**  
-В: Перевірте гучність і переконайтесь, що встановлено китайські голосові пакети
+**П: Немає звуку в синтезі речи?**  
+В: Перевірте налаштування гучності та переконайтеся, що встановлені китайські голосові пакети. Підтримка речи відрізняється між браузерами та ОС.
+
+**П: Режим всієї сторінки впливає на верстку?**  
+В: Анотації bopomofo потребують додаткового місця. Вимкніть режим всієї сторінки та використайте підказки при наведенні.
+
+**П: Переклад не працює?**  
+В: Переклад потребує інтернету. Якщо Bing Translate не працює, спробуйте Google Translate в налаштуваннях. Деякі сети блокують сервіси перекладу.
 
 ---
-## Пов'язані посилання
+
+## Атрибуція словників open source
+
+Bopomofo Reader включає офлайн ресурси произношення та словників з open source або community проєктів:
+
+- **Конвертація bopomofo**: pinyin-pro та @pinyin-pro/data/modern забезпечують локальну конвертацію мандаринського произношення та словесні виправлення; Bopomofo Reader конвертує склади pinyin локально в Zhuyin/Bopomofo та применяє поліфонічні виправлення тайванського произношення.
+- **Китайсько-англійський словник**: CC-CEDICT надає англійські визначення та базові записи словника.
+- **Мультиязыкові визначення**: CFDICT (французький), HanDeDict (німецький) та дані Wiktionary з kaikki.org для японського, корейського, в'єтнамського та китайського.
+- **Конвертація скрипта**: OpenCC-js та вбудований локальний модуль конвертації для спрощеного/традиційного китайського при необхідності.
+
+Всі пошуки в словнику виконуються локально в браузері. Upstream проєкти зберігають свої права та ліцензії; див. Політику конфіденційності.
+
+---
+
+## Посилання
 
 - [Політика конфіденційності](../privacy-policy)
-- [Підтримка](../support)
+- [Підтримка та відгуки](../support)
 
 ---
