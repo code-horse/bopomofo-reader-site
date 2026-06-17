@@ -17,8 +17,8 @@ title: Privacy Policy — Bopomofo Reader Extension
 
 Bopomofo Reader Extension ("Bopomofo Reader", "the Extension") is designed with privacy-first principles. This Privacy Policy explains what data is processed, where it is processed, and when data may leave your browser.
 
-**Developer**: code-horse  
-**Contact**: 2008-horse@163.com
+**Developer**: 2008-horse  
+**Contact**: support@2008-horse.com
 
 ### 2. Information We Do NOT Collect
 
@@ -147,7 +147,7 @@ We may update this Privacy Policy from time to time. Any changes will be reflect
 
 If you have any questions about this Privacy Policy, please contact us at:
 
-- **Email**: 2008-horse@163.com
+- **Email**: support@2008-horse.com
 
 ---
 

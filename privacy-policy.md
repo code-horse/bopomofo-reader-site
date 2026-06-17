@@ -17,8 +17,8 @@ title: Privacy Policy - Bopomofo Reader
 
 Welcome to Bopomofo Reader ("we", "our", "us"). We are committed to protecting your privacy. This Privacy Policy explains how our mobile application ("Bopomofo Reader" or "the App") handles your information.
 
-**Developer**: code-horse  
-**Contact**: 2008-horse@163.com
+**Developer**: 2008-horse  
+**Contact**: support@2008-horse.com
 
 ### 2. Information We Do NOT Collect
 
@@ -166,4 +166,4 @@ We may update this Privacy Policy from time to time. Any changes will be reflect
 
 If you have any questions about this Privacy Policy, please contact us at:
 
-- **Email**: 2008-horse@163.com
+- **Email**: support@2008-horse.com

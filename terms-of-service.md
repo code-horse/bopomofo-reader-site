@@ -15,10 +15,10 @@ title: Terms of Service - Bopomofo Reader
 
 ### 1. Introduction
 
-These Terms of Service ("Terms") govern your use of the Bopomofo Reader mobile application ("the App") developed by code-horse ("we", "our", "us"). By downloading, installing, or using the App, you agree to be bound by these Terms.
+These Terms of Service ("Terms") govern your use of the Bopomofo Reader mobile application ("the App") developed by 2008-horse ("we", "our", "us"). By downloading, installing, or using the App, you agree to be bound by these Terms.
 
-**Developer**: code-horse  
-**Contact**: 2008-horse@163.com
+**Developer**: 2008-horse  
+**Contact**: support@2008-horse.com
 
 ### 2. App Description
 
@@ -96,7 +96,7 @@ Subscribing to Pro unlocks:
 
 ### 5. Intellectual Property
 
-The App and all its content, features, and functionality are owned by code-horse and are protected by applicable intellectual property laws. The dictionary data included in the App is derived from the CC-CEDICT project, licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+The App and all its content, features, and functionality are owned by 2008-horse and are protected by applicable intellectual property laws. The dictionary data included in the App is derived from the CC-CEDICT project, licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
 
 ### 6. User Content and Data
 
@@ -123,7 +123,7 @@ The App is provided "as is" and "as available" without warranties of any kind, w
 
 ### 9. Limitation of Liability
 
-To the maximum extent permitted by applicable law, code-horse shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or related to your use of the App, including but not limited to loss of data or interruption of service.
+To the maximum extent permitted by applicable law, 2008-horse shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or related to your use of the App, including but not limited to loss of data or interruption of service.
 
 ### 10. Changes to These Terms
 
@@ -137,4 +137,4 @@ These Terms shall be governed by and construed in accordance with applicable law
 
 If you have any questions about these Terms, please contact us at:
 
-- **Email**: 2008-horse@163.com
+- **Email**: support@2008-horse.com
