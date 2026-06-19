@@ -203,16 +203,3 @@ All dictionary lookups run locally in your browser. Upstream projects retain the
 - [Support & Feedback](../support)
 
 ---
-
-## Dictionary Data Sources & Licenses
-
-The multilingual definitions are built from the following open-source dictionary projects:
-
-| Source | Languages | License |
-|--------|-----------|---------|
-| [CC-CEDICT](https://www.mdbg.net/chinese/dictionary?page=cedict) | EN | CC-BY-SA 4.0 |
-| [Wiktionary](https://kaikki.org/dictionary/) (kaikki.org extract) | JA, KO, VI, RU, ES | CC-BY-SA 3.0 / GFDL |
-| [CFDICT](https://www.cross-lingual.com/) | FR | CC-BY-SA 4.0 |
-| [HanDeDict](https://handedict.zydeo.net/) | DE | CC-BY-SA 2.0 |
-
-All dictionary data is processed offline and bundled within the extension. No network requests are made for lookups. Original data is redistributed under the terms of the respective licenses listed above.
