@@ -6,7 +6,7 @@ lang: fi
 
 # Käyttöopas
 
-> Versio: v1.5.1
+> Versio: v1.6.0
 
 ## Johdanto
 

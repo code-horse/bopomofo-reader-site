@@ -6,7 +6,7 @@ lang: ca
 
 # Bopomofo Reader - Guia d'usuari
 
-> Versió: v1.5.1
+> Versió: v1.6.0
 
 ## Introducción
 

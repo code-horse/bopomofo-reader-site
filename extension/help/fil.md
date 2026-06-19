@@ -6,7 +6,7 @@ lang: fil
 
 # Bopomofo Reader - Gabay ng gumagamit
 
-> Bersyon: v1.5.1
+> Bersyon: v1.6.0
 
 ## Pengantar
 
